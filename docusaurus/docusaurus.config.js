@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/duotoneDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '互联网计算机中文开发者社区',
-  tagline: '将人类大部分的网络应用100%运行在区块链上',
+  title: '互联网计算机中文开发文档',
+  tagline: '互联网计算机（Internet Computer/IC）是一个去中心化的云计算平台，利用颠覆性的链钥密码学技术将全世界独立的数据中心以子网的方式链接成一个可以无限扩容的虚拟主机。网络应用以智能合约的形式被封存在子网上的容器里，通过数据中心的服务器获得带宽，存储空间和算力。IC是目前唯一可以运行网络前端而且100%部署在链上的基础设施平台，在以太坊为首的资产型区块链以外，开创了一种全新范式 - 通用型区块链，解锁了重构互联网的无限可能。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
