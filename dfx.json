@@ -8,7 +8,7 @@
     "ic123_frontend": {
       "type": "assets",
       "source": [
-        "src/ic123_frontend/assets"
+        "docusaurus/build"
       ],
       "dependencies": [
         "ic123_backend"
