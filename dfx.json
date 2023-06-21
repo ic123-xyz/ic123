@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "ic123_backend": {
+      "type": "motoko",
+      "main": "src/ic123_backend/main.mo"
+    },
+    "ic123_frontend": {
+      "type": "assets",
+      "source": [
+        "src/ic123_frontend/assets"
+      ],
+      "dependencies": [
+        "ic123_backend"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
