@@ -53,16 +53,19 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 
 
 ### 什么是节点供应商自我声明？它包括哪些内容？
-节点供应商自我声明是用来帮助 IC 社区决定是否接受节点供应商 NNS 提案的文件，它包括一个身份证明和一份声明（声明了节点供应商的良好意图）。您可以查看[节点供应商自我声明](https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration)以获取更多信息。
+节点供应商自我声明是用来帮助 IC 社区决定是否接受节点供应商 NNS 提案的文件，它包括一个身份证明和一份声明（声明节点供应商的良好意图）。您可以查看[节点供应商自我声明](https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration)以获取更多信息。
 
 ### 如何将节点供应商的自我声明添加到节点供应商自我声明页面？
 这个过程不需要 DFINITY 的参与，任何人都可以注册成为 [Internet Computer Wiki](https://wiki.internetcomputer.org/wiki/Main_Page) 的使用者并参与[修改页面](https://wiki.internetcomputer.org/wiki/Contributing_to_the_wiki)。  
 在实际操作中，申请者可能会邀请 [DFINITY 团队](mailto:vincent.zhang@dfinity.org)参与文档审查、以确保提供完整的文件，可以看做是确保节点供应商提供正确文档的预检。
 
 ### 当前的报酬模型是哪个版本？
-节点供应商回报模型 v2.1 的[提案](https://dashboard.internetcomputer.org/proposal/122281)已经通过，请参考 [v2.1 的回报模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)来计算您的收益。
+节点供应商报酬模型 v2.1 的[提案](https://dashboard.internetcomputer.org/proposal/122281)已经通过，请参考 [v2.1 的报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)来计算您的收益。
 
 ### 节点报酬模型会定期更新吗？
+任何人都可以发起节点供应商的报酬模型提案，而提案通过与否最终都由 NNS 投票决定。如果 NNS 决定采用该提案，则节点供应商报酬模型根据提案生效。  
+目前 DFINITY没有计划对 v2.1 报酬模型提出重大更改。目前DFINITY基金会只计划提出新的报酬模型，而该新模型仅适用于未来的节点。  
+所有报酬模型都有一个问题尚待回答，即4年后如何报酬模型会如何更改。
 
 ### 节点供应商以什么形式获得报酬？
 节点供应商以 ICP 的形式获得报酬，但是会以 XDR 来计算。这样节点供应商的报酬不会受到 ICP 价格波动的影响。
@@ -93,6 +96,7 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 根据不同的供应商，Gen-2 机器的价格从15k-25k美元不等。
 
 ### 现在 Gen-1 的节点何时会被淘汰？
+到目前为止，DFINITY 还没有计划提出相关的提案。但是基金会正在考虑为期满4年的节点发起修改报酬的提案，因为节点的成本支出已经摊销。之后节点是否决定继续运行则完全取决于节点供应商。
 
 ### 节点供应商能够将目前的 Gen-1 节点升级为 Gen-2 的节点吗？如果可以，这将对他们的报酬有什么影响？
 
@@ -108,7 +112,7 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 是的。DFINITY 基金会一般会在投票周期的后期对提案进行投票。
 
 ### 通常一个节点供应商可以提供多少个节点？
-推荐数量为 10-15，您应根据最新的 [v2.1 的节点回报模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)中的算法自行计算。
+推荐数量为 10-15，您应根据最新的 [v2.1 的节点报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)中的算法自行计算、以决定上线多少个节点。
 
 ### 通常一个国家或地区允许多少个节点？
 Gen-2 节点允许 50 个。
