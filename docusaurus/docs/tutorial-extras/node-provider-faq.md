@@ -1,0 +1,131 @@
+# 如何成为互联网计算机 (IC) 节点供应商
+
+## 资源
+上手教程
+https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding 
+
+报酬模型
+https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration
+
+硬件配置
+https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware 
+
+自我声明
+https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration 
+https://wiki.internetcomputer.org/wiki/NP_Self_Declarations 
+
+## 上手步骤
+
+***请确保已经仔细阅览以上文档。***
+
+以下是如何成为IC节点供应商的基本步骤：
+
+1. 创建[互联网身份](https://identity.ic0.app/)，并使用至少10个ICP抵押神经元，具体步骤请参考[此文档](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#2._Create_and_Manage_Neuron_via_NNS_Frontend_Dapp_and_Internet_Identity)。  
+这是发起NNS提案的最低要求，以成为节点供应商。
+
+2. 发起节点供应商[自我声明](https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration)  
+这个过程不需要DFINITY的参与，每个人都可以注册成为 [Internet Computer Wiki](https://wiki.internetcomputer.org/wiki/Main_Page) 的使用者并参与[修改页面](https://wiki.internetcomputer.org/wiki/Contributing_to_the_wiki)。  
+在实际操作中，申请者可能会邀请[DFINITY团队](mailto:vincent.zhang@dfinity.org)参与文档审查、以确保提供完整的文件。
+
+3. 发起NNS提案以[成为节点供应商](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#7._Register_your_Node_Provider_principal_to_the_network)  
+这个过程不需要DFINITY的参与。在实际操作中，申请者可能会邀请[DFINITY团队](mailto:vincent.zhang@dfinity.org)参与参与提案内容的审阅。
+
+4. 在“[新节点供应商提案](https://forum.dfinity.org/t/new-node-provider-proposals/16643/7)”下发布回帖  
+这是惯例，可以让更多人了解您的提案、提高通过率，例如[Pindar Tchnology Limited的提案](https://forum.dfinity.org/t/new-node-provider-proposals/16643/34)。
+
+5. 购买、配置所需设备  
+我们建议在第三步的提案通过后才开始设备采购，以避免提案没有通过而带来的经济损失。
+
+6. 发起NNS提案以[提交数据中心记录](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#8._Ensure_that_your_datacenter_is_registered_in_the_network)  
+IC会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/centers) 展现所有的数据中心以供用户查看。在提交数据中心记录之前，请确保到 [IC 数据中心](https://dashboard.internetcomputer.org/centers)查询您的数据中心是否已经注册。如果已经注册则可以跳过此步骤。
+
+7. 发起NNS提案以[提交节点操作员记录](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#9._Create_a_node_operator_record)  
+
+8. 上线节点  
+请根据链接所示步骤[上线节点](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#10._Onboard_nodes)，在上线过程当中碰到任何问题可以[加入Matrix群](https://wiki.internetcomputer.org/wiki/Node_Provider_Matrix/Element_channel)发起讨论。
+
+## Q&A
+
+### 申请成为节点供应商需要有法律实体吗？如果需要，对法律实体有地理位置的要求吗？
+
+
+### 能否在中国大陆部署节点？
+
+### 什么是节点自我声明？它包括哪些内容？
+
+
+### 如何将节点供应商的自我声明添加到节点供应商自我声明页面？
+A: 每个人都可以修改此页面。目前是DFINITY 帮助大多数节点供应商将自我声明添加到此页面，可以看做是确保节点供应商提供正确文档的预检。
+
+### 当前的报酬模型是哪个版本？
+
+### 节点报酬模型会定期更新吗？
+
+### 节点供应商以什么形式获得报酬？
+
+### 节点供应商何时获得报酬？
+节点供应商按月获得报酬，一般是从节点供应商的节点上线的下个月开始获得报酬。
+
+### 一个节点只是一台机器吗？
+是的。
+
+### 租赁的机器能否成为节点？
+
+### 挖矿机器能否成为节点？
+
+### 是否必须通过DFINITY购买机器？
+
+### 只有 Gen-2 的机器才能加入IC的网络吗？
+是的。
+
+### Gen-2 的机器必须支持AMD EPYC Milan CPU吗？
+是的，只支持 Milan (Zen3) 架构。
+
+### 节点机器上需要配置RAID吗？
+不需要。
+
+### Gen-2 机器的价格是多少？
+根据不同的供应商，价格从15k-25k美元不等。
+
+### 现在Gen-1的节点何时会被淘汰？
+
+### 节点供应商能够将目前的Gen-1节点升级为Gen-2的节点吗？如果可以，这将对他们的报酬有什么影响？
+
+### 会要求节点供应商按需将节点机器升级为新配置吗？
+
+### 可以将非验证配置的机器作为节点吗？
+只要符合Gen-2机器通用配置规范的要求，就可以将机器添加到 IC 网络中。不过因为未经验证配置的机器，它们可能不稳定。如果它们遇到问题不能正常工作，节点供应商将无法获得奖励。
+
+### NNS 提案中需要声明将要接入节点的数量吗？
+是的，在提案中需要声明节点数量。
+
+### DFINITY基金会是否会对节点供应商的NNS提案进行？
+是的。DFINITY基金会一般会在投票周期的后段进行投票。
+
+### 通常一个节点供应商可以提供多少个节点？
+推荐数量为 10-15，您应根据最新的报酬模型2.1中的算法自行计算。
+
+### 通常一个国家或地区允许多少个节点？
+Gen-2 节点允许 50 个。
+
+### 为什么要注册数据中心？
+
+### 如何判断数据中心是否已经注册？
+
+### 为什么要注册节点操作员？
+
+### 如何加入Matrix/Elemen节点供应商群聊？
+
+### 节点上线时，节点运营商是否需要配备了解熟悉ICP技术栈的devops工程师？
+
+### 节点上线时，是否可以选择加入某个子网？
+
+### 节点上线后，是否可以更换子网？
+
+### 节点上线后，升级是否需要人工介入？
+
+### 节点上线后，何时加入子网开始计算报酬？
+
+### 节点上线后，如遇故障、从IC网络断开，是否会影响收益？如果断开一定时间，是否会有惩罚？
+
+### 节点上线后，如何下线？是否有任何惩罚机制？
