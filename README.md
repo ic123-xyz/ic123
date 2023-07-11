@@ -50,12 +50,11 @@
 │   ├── Motoko基础课程3
 │   ├── Motoko基础课程4
 │   ├── Motoko基础课程5
-├── 开发者和社区资源
+├── 开发者资源
 │   ├── 开发者工具
 │   ├── 开发者补助 Developer Grant
 │   ├── 黑客松
 │   ├── 代币标准
-│   ├── ICP维基百科
 │   ├── 社区入口
 ├── 互联网身份和网络神经系统
 │   ├── 注册互联网身份 Internet Identity
@@ -76,7 +75,7 @@
 │   ├── 实时网络数据
 │   ├── 代币经济模型
 │   ├── 互联网计算机往事
-├── 生态和其他资源
+├── 其他生态资源
 │   ├── 英文官方网站大全
 │   ├── 节点运营商FAQ
 │   ├── ICP生态项目索引
@@ -96,6 +95,38 @@ v0.1.0_11.20230706
 ```
 
 版本号遵循 [Semantic Versioning](https://semver.org/) 标准，按照 MAJOR.MINOR.PATCH 的格式来命名。
+
+## 部署工作流
+
+1. 准备
+    - fork `main` branch `new-site`
+    - checkout 到 branch `new-site`
+2. 编辑
+    - 在branch `new-site` 里编辑文件
+3. Build & Deploy
+    - 进入 `docusaurus` 文件夹
+    - `yarn build`, 产生更新的 `build` 文件夹
+    - `npm run serve` to test the build locally at http://localhost:3000/
+    - 回到 `dfx` 根目录
+    - `dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
+4. Git
+    - 在 `dfx` 根目录的 `new-site` branch
+    - `git add .`
+    - `git commit -m "commit message"`
+    - `git log --pretty=oneline`
+    - `git tag -a vX.Y.Z_BN_YYYYMMDD commit-id`
+    - `git push --set-upstream origin new-site`
+    - `git push origin --tags`
+5. Submit PR
+    - Create a pull request for approver's review
+6. Merge
+    - Approver reviews the commit and merges branch `new-site` into branch `main` 
+    - `git branch -d new-site` to delete branch `new-site` on the local machine
+    - `git push origin -d new-site` to delete branch `new-site` on the remote server
+7. Recalibrate
+    - checkout to branch `main`
+    - `git pull` 
+
 
 ## 网站贡献者
 

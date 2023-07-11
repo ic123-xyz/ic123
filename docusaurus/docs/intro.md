@@ -2,46 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 互联网计算机文档导航
 
-Let's discover **Docusaurus in less than 5 minutes**. Mohaha!
+让我们开始体验最先进的区块链基础设施**互联网计算机**。莫哈哈！
 
-## Getting Started
+## 开发者
 
-Get started by **creating a new site**.
+Internet Computer Protocol / 互联网计算机协议的技术文档，实例演示，工具列表和开发教程
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Web3用户
 
-### What you'll need
+使用Internet Identity 互联网身份，质押ICP，参与社区投票，使用钱包，购买NFT
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 投资者
 
-## Generate a new site
+涵盖DeFi, 社交，人工智能，生产力工具，游戏，元宇宙各个垂直领域里的头部初创项目
 
-Generate a new Docusaurus site using the **classic template**.
+## 节点运营商
 
-The classic template will automatically be added to your project after you run the command:
+如何参与到互联网计算机网络的节点运营
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
