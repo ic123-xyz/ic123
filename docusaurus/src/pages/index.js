@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/getting-started/hello-world">
             ⏱️ 5分钟内部署你的第一个Web3应用
           </Link>
         </div>
