@@ -74,11 +74,41 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'newbieSidebar',
             position: 'left',
-            label: '文档',
+            label: '新手上路',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'devSidebar',
+            position: 'left',
+            label: '开发者教程',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'supportSidebar',
+            position: 'left',
+            label: '开发者资源',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'web3Sidebar',
+            position: 'left',
+            label: '解锁Web3',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'introSidebar',
+            position: 'left',
+            label: 'ICP介绍',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'ecoSidebar',
+            position: 'left',
+            label: '生态资源',
+          },
+          // {to: '/blog', label: '新闻', position: 'left'},
           {
             href: 'https://github.com/ic123-xyz/ic123',
             label: 'GitHub',
@@ -90,11 +120,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '引导',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '核心词汇',
+                to: 'docs/getting-started/ic-glossary',
+              },
+              {
+                label: '教程',
+                to: 'docs/dev-course/motoko-basic-1',
+              },
+              {
+                label: '注册互联网身份',
+                to: 'docs/ic-web3/register-internet-identity',
+              },
+              {
+                label: '明星项目',
+                to: 'docs/ecosystem-guide/awesome-ic',
               },
             ],
           },
@@ -106,30 +148,42 @@ const config = {
                 href: 'https://forum.dfinity.org/',
               },
               {
-                label: '社区新闻和动态',
-                href: 'https://mora.app/planet/cbdl2-cqaaa-aaaan-qdcxa-cai',
+                label: 'NNS社区投票',
+                href: 'https://dashboard.internetcomputer.org/governance',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/dfinity',
+                label: '社区意见反馈',
+                href: 'https://dx.internetcomputer.org/',
+              },
+              {
+                label: '社区Live',
+                href: 'https://internetcomputer.org/live-sessions?source=nav',
               },
             ],
           },
           {
-            title: 'More',
+            title: '动态',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Twitter',
+                href: 'https://twitter.com/dfinity',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/ic123-xyz/ic123',
+                label: '活动',
+                href: 'https://dfinity.org/events-and-news/',
+              },
+              {
+                label: 'Medium',
+                href: 'https://medium.com/dfinity',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://www.youtube.com/dfinity',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} IC123中文开发者社区, 100%部署在区块链上`,
+        copyright: `Copyright © ${new Date().getFullYear()} IC123中文开发者社区`,
       },
       prism: {
         theme: lightCodeTheme,
