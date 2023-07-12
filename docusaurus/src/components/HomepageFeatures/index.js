@@ -8,7 +8,7 @@ const FeatureList = [
     /* Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, */
     description: (
       <>
-        想知道Jan Camenisch, Ben Lynn, Jens Groth, Victor Shoup, Andreas Rossberg这些赫赫有名的科学家，密码学家，计算机专家过去四年都在做什么吗？
+        Jan Camenisch, Ben Lynn, Jens Groth, Victor Shoup, Andreas Rossberg 这些世界顶流的密码学家，计算机专家过去四年都在做什么？他们都在DFINITY，研发最具颠覆性的下一代区块链技术 - ICP。
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (
       <>
-        没写过Solidity？没有关系。熟悉Kubernetes和actor模式？欢迎了解一下IC的容器型智能合约，除了分布式账本，还可以提供数据储存和算力。以太坊的Gas费用对用户太贵？IC使用反向手续费模式，用户交易成本为0.0001 ICP。听说区块链无法横向扩容？看看世界顶尖的R&D团队如何用连锁密码学技术解决区块链行业不可能三角问题。
+        熟悉Kubernetes和actor模式？欢迎了解一下IC的容器型智能合约，除了分布式账本，还可以提供数据储存和算力。以太坊的Gas费用太贵？IC使用反向手续费模式，用户交易成本为0.04美分。
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (
       <>
-        数据，算力和账本的三合一，使得互联网计算机可以在几乎所有的垂直领域找到落地使用场景。在IC生态里已经涌现出上百个项目，在金融，社交，游戏，生产力工具，企业服务，人工智能，元宇宙各个赛道里利用Web3的独特技术优势挑战行业寡头。想成为一名视野宽广，格局宏大，腾挪自如的CTO么？只有IC可以满足你旺盛的好奇心和求知欲。
+        数据，算力和账本的三合一，使得ICP可以在几乎所有的垂直领域找到落地场景。生态里已经涌现出上百个项目，在金融，社交，游戏，生产力工具，企业服务，人工智能各个赛道里挑战行业寡头。
       </>
     ),
   },
@@ -43,7 +43,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
