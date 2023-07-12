@@ -74,11 +74,41 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'newbieSidebar',
             position: 'left',
-            label: '文档',
+            label: '新手上路',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'devSidebar',
+            position: 'left',
+            label: '开发者教程',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'supportSidebar',
+            position: 'left',
+            label: '开发者资源',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'web3Sidebar',
+            position: 'left',
+            label: '解锁Web3',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'introSidebar',
+            position: 'left',
+            label: 'ICP介绍',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'ecoSidebar',
+            position: 'left',
+            label: '生态资源',
+          },
+          // {to: '/blog', label: '新闻', position: 'left'},
           {
             href: 'https://github.com/ic123-xyz/ic123',
             label: 'GitHub',
