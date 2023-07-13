@@ -4,6 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    background: '#FBB03B',
     title: '追随业界大牛的脚印，加入最具颠覆新的行业技术前沿阵营',
     /* Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, */
     description: (
@@ -13,6 +14,7 @@ const FeatureList = [
     ),
   },
   {
+    background: '#ED1E79',
     title: '直接在区块链上部署网络应用前端，降低网络开发成本',
     /* Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default, */
     description: (
@@ -22,6 +24,7 @@ const FeatureList = [
     ),
   },
   {
+    background: '#29ABE2',
     title: '传统互联网开发经验无缝迁移，真正的Web3全栈式平台',
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (
@@ -31,6 +34,7 @@ const FeatureList = [
     ),
   },
   {
+    background: '#F15A24',
     title: '使用场景涵盖互联网所有垂直领域，解锁广阔职业发展空间',
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (
@@ -41,10 +45,10 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, background, title, description}) {
   return (
     <div className={clsx('col col--3')}>
-      <div className="text--center padding-horiz--md">
+      <div className="text--center padding-horiz--md" style={{background: background}}>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
