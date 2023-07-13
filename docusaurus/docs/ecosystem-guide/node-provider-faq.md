@@ -2,9 +2,12 @@
 sidebar_position: 2
 ---
 
-# 如何成为互联网计算机 (IC) 节点供应商
+# ICP节点供应商FAQ
 
 ## 资源
+
+:::info
+
 上手教程  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding 
 
@@ -17,6 +20,8 @@ https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware
 自我声明  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration  
 https://wiki.internetcomputer.org/wiki/NP_Self_Declarations 
+
+:::
 
 ## 上手步骤
 
@@ -57,77 +62,96 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 
 
 ### 什么是节点供应商自我声明？它包括哪些内容？
-节点供应商自我声明是用来帮助 IC 社区决定是否接受节点供应商 NNS 提案的文件，它包括一个身份证明和一份声明（声明节点供应商的良好意图）。您可以查看[节点供应商自我声明](https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration)以获取更多信息。
+
+>节点供应商自我声明是用来帮助 IC 社区决定是否接受节点供应商 NNS 提案的文件，它包括一个身份证明和一份声明（声明节点供应商的良好意图）。您可以查看[节点供应商自我声明](https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration)以获取更多信息。
 
 ### 如何将节点供应商的自我声明添加到节点供应商自我声明页面？
-这个过程不需要 DFINITY 的参与，任何人都可以注册成为 [Internet Computer Wiki](https://wiki.internetcomputer.org/wiki/Main_Page) 的使用者并参与[修改页面](https://wiki.internetcomputer.org/wiki/Contributing_to_the_wiki)。  
+
+>这个过程不需要 DFINITY 的参与，任何人都可以注册成为 [Internet Computer Wiki](https://wiki.internetcomputer.org/wiki/Main_Page) 的使用者并参与[修改页面](https://wiki.internetcomputer.org/wiki/Contributing_to_the_wiki)。  
 在实际操作中，申请者可能会邀请 [DFINITY 团队](mailto:vincent.zhang@dfinity.org)参与文档审查、以确保提供完整的文件，可以看做是确保节点供应商提供正确文档的预检。
 
 ### 当前的报酬模型是哪个版本？
-节点供应商报酬模型 v2.1 的[提案](https://dashboard.internetcomputer.org/proposal/122281)已经通过，请参考 [v2.1 的报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)来计算您的收益。
+
+>节点供应商报酬模型 v2.1 的[提案](https://dashboard.internetcomputer.org/proposal/122281)已经通过，请参考 [v2.1 的报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)来计算您的收益。
 
 ### 节点报酬模型会定期更新吗？
-任何人都可以发起节点供应商的报酬模型提案，而提案通过与否最终都由 NNS 投票决定。如果 NNS 决定采用该提案，则节点供应商报酬模型根据提案生效。  
+
+>任何人都可以发起节点供应商的报酬模型提案，而提案通过与否最终都由 NNS 投票决定。如果 NNS 决定采用该提案，则节点供应商报酬模型根据提案生效。  
 目前 DFINITY没有计划对 v2.1 报酬模型提出重大更改。目前DFINITY基金会只计划提出新的报酬模型，而该新模型仅适用于未来的节点。  
 所有报酬模型都有一个问题尚待回答，即4年后如何报酬模型会如何更改。
 
 ### 节点供应商以什么形式获得报酬？
-节点供应商以 ICP 的形式获得报酬，但是会以 XDR 来计算。这样节点供应商的报酬不会受到 ICP 价格波动的影响。
+
+>节点供应商以 ICP 的形式获得报酬，但是会以 XDR 来计算。这样节点供应商的报酬不会受到 ICP 价格波动的影响。
 
 ### 节点供应商何时获得报酬？
-节点供应商按月获得报酬，一般是从节点供应商的节点上线的下个月开始获得报酬。
+
+>节点供应商按月获得报酬，一般是从节点供应商的节点上线的下个月开始获得报酬。
 
 ### 一个节点只是一台机器吗？
-是的。一个节点就是 IC 网络中的单个服务器。
+> 是的。一个节点就是 IC 网络中的单个服务器。
 
 ### 租赁的机器能否成为节点？
 
 ### 挖矿机器能否成为节点？
 
 ### 是否必须通过 DFINITY 购买机器？
-不。您可以从任何供应商购买机器，只要机器符合 [Gen-2 节点机器的通用规格](https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware)。
+
+> 不。您可以从任何供应商购买机器，只要机器符合 [Gen-2 节点机器的通用规格](https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware)。
 
 ### 只有 Gen-2 的机器才能加入 IC 的网络吗？
-是的。IC 网络中不再支持添加 Gen-1 机器，只允许添加符合 [Gen-2 规格](https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware)的机器。
+
+>是的。IC 网络中不再支持添加 Gen-1 机器，只允许添加符合 [Gen-2 规格](https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware)的机器。
 
 ### Gen-2 的机器必须支持 AMD EPYC Milan CPU 吗？
-是的，只支持 Milan (Zen3) 架构。
+
+>是的，只支持 Milan (Zen3) 架构。
 
 ### 节点机器上需要配置 RAID 吗？
-不需要。IC 节点机器不需要配置 RAID，IC-OS 安装程序将验证是否有5个独立的 6.4TB NVMe SSD 并确保它们准备就绪。
+
+>不需要。IC 节点机器不需要配置 RAID，IC-OS 安装程序将验证是否有5个独立的 6.4TB NVMe SSD 并确保它们准备就绪。
 
 ### Gen-2 机器的价格是多少？
-根据不同的供应商，Gen-2 机器的价格从15k-25k美元不等。
+
+>根据不同的供应商，Gen-2 机器的价格从15k-25k美元不等。
 
 ### 现在 Gen-1 的节点何时会被淘汰？
-到目前为止，DFINITY 还没有计划提出相关的提案。但是基金会正在考虑为期满4年的节点发起修改报酬的提案，因为节点的成本支出已经摊销。之后节点是否决定继续运行则完全取决于节点供应商。
+
+>到目前为止，DFINITY 还没有计划提出相关的提案。但是基金会正在考虑为期满4年的节点发起修改报酬的提案，因为节点的成本支出已经摊销。之后节点是否决定继续运行则完全取决于节点供应商。
 
 ### 节点供应商能够将目前的 Gen-1 节点升级为 Gen-2 的节点吗？如果可以，这将对他们的报酬有什么影响？
 
 ### 会要求节点供应商按需将节点机器升级为新配置吗？
 
 ### 可以将非验证配置的机器作为节点吗？
-只要符合 Gen-2 机器通用配置规范的要求，就可以将机器添加到 IC 网络中。不过因为它们是未经验证的配置，它们可能不稳定。如果遇到问题不能正常工作，节点供应商将无法获得奖励。
+
+>只要符合 Gen-2 机器通用配置规范的要求，就可以将机器添加到 IC 网络中。不过因为它们是未经验证的配置，它们可能不稳定。如果遇到问题不能正常工作，节点供应商将无法获得奖励。
 
 ### NNS 提案中需要声明将要接入节点的数量吗？
-是的，在提案中需要声明节点数量。
+
+>是的，在提案中需要声明节点数量。
 
 ### DFINITY 基金会是否会对节点供应商的 NNS 提案进行？
-是的。DFINITY 基金会一般会在投票周期的后期对提案进行投票。
+
+>是的。DFINITY 基金会一般会在投票周期的后期对提案进行投票。
 
 ### 通常一个节点供应商可以提供多少个节点？
-推荐数量为 10-15，您应根据最新的 [v2.1 的节点报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)中的算法自行计算、以决定上线多少个节点。
+
+>推荐数量为 10-15，您应根据最新的 [v2.1 的节点报酬模型](https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration#Version_2.1_Remuneration_Model)中的算法自行计算、以决定上线多少个节点。
 
 ### 通常一个国家或地区允许多少个节点？
-Gen-2 节点允许 50 个。
+
+>Gen-2 节点允许 50 个。
 
 ### 为什么要注册数据中心？
 
 ### 如何判断数据中心是否已经注册？
-目前只有数据中心的坐标可以用来确定它是否已注册。但是有时数据中心的坐标可能不准确，DFINITY 正在讨论是否有更好的方法来实现这一点。
+
+>目前只有数据中心的坐标可以用来确定它是否已注册。但是有时数据中心的坐标可能不准确，DFINITY 正在讨论是否有更好的方法来实现这一点。
 
 ### 如何加入 Matrix/Element 节点供应商群聊？
-节点供应商的 Matrix/Element 群聊是一个开放给任何人的聊天渠道。请参照节点提供商 [Matrix/Element 群聊](https://wiki.internetcomputer.org/wiki/Node_Provider_Matrix/Element_channel)页面加入该群聊。
+
+>节点供应商的 Matrix/Element 群聊是一个开放的聊天渠道。请参照节点提供商 [Matrix/Element 群聊](https://wiki.internetcomputer.org/wiki/Node_Provider_Matrix/Element_channel) 页面加入该群聊。
 
 ### 节点上线时，节点运营商是否需要配备了解熟悉 ICP 技术栈的 devops 工程师？
 
