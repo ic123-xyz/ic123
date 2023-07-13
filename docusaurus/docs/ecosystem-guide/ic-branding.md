@@ -8,8 +8,9 @@ sidebar_position: 6
 
 欢迎社区的合作伙伴在跟DFINITY团队合作的时候使用IC的品牌资产：
 
-**https://dfinity.frontify.com/d/pD7yZhsmpqos/internet-computer**
-
+:::info
+https://dfinity.frontify.com/d/pD7yZhsmpqos/internet-computer
+:::
 
 - Internet Computer
 - ICP token

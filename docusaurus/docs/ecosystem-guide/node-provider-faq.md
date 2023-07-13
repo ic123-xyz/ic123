@@ -6,6 +6,8 @@ sidebar_position: 2
 
 ## 资源
 
+:::info
+
 上手教程  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding 
 
@@ -18,6 +20,8 @@ https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware
 自我声明  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration  
 https://wiki.internetcomputer.org/wiki/NP_Self_Declarations 
+
+:::
 
 ## 上手步骤
 
