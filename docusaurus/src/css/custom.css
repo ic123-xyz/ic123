@@ -21,13 +21,13 @@
 */
 
 :root {
-  --ifm-color-primary: #522785;
-  --ifm-color-primary-dark: #4a2378;
-  --ifm-color-primary-darker: #462171;
-  --ifm-color-primary-darkest: #391b5d;
-  --ifm-color-primary-light: #5a2b92;
-  --ifm-color-primary-lighter: #5e2d99;
-  --ifm-color-primary-lightest: #6b33ad;
+  --ifm-color-primary: #2a606d;
+  --ifm-color-primary-dark: #265662;
+  --ifm-color-primary-darker: #24525d;
+  --ifm-color-primary-darkest: #1d434c;
+  --ifm-color-primary-light: #2e6a78;
+  --ifm-color-primary-lighter: #306e7d;
+  --ifm-color-primary-lightest: #377d8e;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
