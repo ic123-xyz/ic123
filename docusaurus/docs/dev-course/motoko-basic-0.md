@@ -15,13 +15,13 @@ Paul录制了一个6分钟的介绍，来阐述这个课程的体制的结构。
 
 B站链接：
 
-<iframe src="//player.bilibili.com/player.html?aid=573471927&bvid=BV1zz4y177od&cid=1196201784&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=573471927&bvid=BV1zz4y177od&cid=1196201784&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 油管链接:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p7B2fWUp9I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## 技术问题？
+## 提问？
 
 在区块链行业管理纷杂的社交媒体是是个不小的挑战，DFINITY亚太团队一直在探索实验，但说实话还没有找到特别高效的渠道。如果有技术问题，可以在三个地方得到比较快速的来自DFINITY技术团队的响应。我们希望所有的技术问题都在公开的平台上进行，这样可以让更多的开发者受益。我们尽量避免在1:1的单线私人频道里回答技术问题 - 这样的效率太低了。
 
@@ -50,7 +50,7 @@ https://twitter.com/i/communities/1679302895571988481
 
 :::
 
-### 中英文
+### 中英文皆可
 
 就在`ic123.xyz`的Github通过*issue*的方式来提问。这个Github有两个repo, 用`forum` repo
 
