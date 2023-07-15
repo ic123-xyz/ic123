@@ -166,7 +166,7 @@ const config = {
             items: [
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/dfinity',
+                href: 'https://twitter.com/i/communities/1679302895571988481',
               },
               {
                 label: '活动',
