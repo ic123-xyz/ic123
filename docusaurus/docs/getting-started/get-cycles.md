@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # 获取 cycles
 
+## 概述
+
+为了使互联网计算机可持续发展，开发人员需要支付其容器所消耗的资源费用，而 cycles 则用于支付这些资源费用。接下来介绍几种获得 cycles 的方式。
+
 ## 如何获得免费 cycles
 
 这里将解释如何使用 cycles 水龙头获取您的第一笔 20T 免费 cycles，以用于在主网上部署您的 dapp。
@@ -97,3 +101,7 @@ dfx wallet --network ic balance
 ### 总结
 
 至此您已经准备好在 IC 上托管网站或按照我们的 dapp 教程进行操作，您可以在[这里](https://internetcomputer.org/docs/current/tutorials/)找到相关教程。
+
+## 如何将 ICP 代币转换为 cycles
+
+![coming_soon](/docusaurus/static/img/coming_soon.png)
