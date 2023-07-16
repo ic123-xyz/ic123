@@ -143,7 +143,7 @@ dfx canister call hello_backend greet everyone
 
 关于 cycles 的重要注意事项：
 
-- [免费 cycles 水龙头](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet)会为新开发人员提供20万亿 cycles。
+- [免费 cycles 水龙头](./get-cycles.md#如何获得免费-cycles)会为新开发人员提供20万亿 cycles。
 - 部署一个容器需要1000亿 cycles，但为了给容器加载足够的循环，IC SDK 默认会新创建的容器注入3万亿 cycles（这是一个可更改的参数）。
 - 您可以在这里查看[计算和存储费用](https://internetcomputer.org/docs/current/developer-docs/gas-cost)。
 
@@ -151,7 +151,7 @@ dfx canister call hello_backend greet everyone
 
 您可以任选如下几个方式来设置 cycles 钱包：
 
-- 您可以通过[免费 cycles 水龙头](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet)获得免费的 cycles，该水龙头为新开发人员提供20万亿 cycles。该指南将引导您在兑换免费 cycles 券时创建钱包，这也是本教程中我们将使用的选项。如果这是您第一次进入 IC 生态系统，我们建议您选择此选项。
+- 您可以通过[免费 cycles 水龙头](./get-cycles.md#如何获得免费-cycles)获得免费的 cycles，该水龙头为新开发人员提供20万亿 cycles。该指南将引导您在兑换免费 cycles 券时创建钱包，这也是本教程中我们将使用的选项。如果这是您第一次进入 IC 生态系统，我们建议您选择此选项。
 
 您还可以使用以下任一方式设置 cycles 钱包：
 
@@ -162,9 +162,7 @@ dfx canister call hello_backend greet everyone
 
 ### 通过免费 cycles 水龙头获取 cycles
 
-在本教程中，您可以从 cycles 水龙头获取 `Hello` dapp所需的免费 cycles。按照以下说明操作：
-
-- 获取您的[免费 cycles](https://internetcomputer.org/docs/current/developer-docs/setup/cycles/cycles-faucet)。**请注意，该水龙头只能使用一次**。
+在[如何获取免费 cycles 教程](./get-cycles.md#如何获得免费-cycles)中，您可以从 cycles 水龙头获取 `Hello` dapp 所需的免费 cycles。**请注意，该水龙头只能使用一次**。
 
 #### 检查 cycles 余额
 

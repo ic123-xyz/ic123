@@ -8,6 +8,8 @@ sidebar_position: 3
 
 这里将解释如何使用 cycles 水龙头获取您的第一笔 20T 免费 cycles，以用于在主网上部署您的 dapp。
 
+**请注意，cycles 水龙头只能使用一次**。
+
 ### 要求
 
 请按照[此指南](./install-dfx.md)安装 IC SDK。
@@ -18,7 +20,7 @@ sidebar_position: 3
 
 #### 加入 DFINITY 官方 dev Discord 服务器
 
-首先请访问 https://faucet.dfinity.org
+首先请访问 https://faucet.dfinity.org 页面。
 
 ![cycle_faucet_website](./img/cycle_faucet_website.png)
 
