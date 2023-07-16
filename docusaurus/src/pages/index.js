@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started/hello-world">
-            ⏱️ 5分钟内部署你的第一个Web3应用
+            to="/docs/dev-course/motoko-basic-0">
+            学习用Motoko语言编写最先进的Web3智能合约
           </Link>
         </div>
       </div>
