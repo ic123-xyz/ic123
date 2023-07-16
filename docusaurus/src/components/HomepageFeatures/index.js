@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    background: '#A8E6CF',
+    background: '#FFD3B6',
     title: '追随业界大牛的脚印，加入最具颠覆新的行业技术前沿阵营',
     /* Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, */
     description: (
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    background: '#FFD3B6',
+    background: '#FFAAA5',
     title: '传统互联网开发经验无缝迁移，真正的Web3全栈式平台',
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (
@@ -34,7 +34,7 @@ const FeatureList = [
     ),
   },
   {
-    background: '#FFAAA5',
+    background: '#A8E6CF',
     title: '使用场景涵盖互联网所有垂直领域，解锁广阔职业发展空间',
     /* Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, */
     description: (

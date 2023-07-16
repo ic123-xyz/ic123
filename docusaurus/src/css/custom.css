@@ -53,3 +53,27 @@
   --ifm-color-primary-lighter: #fcc269;
   --ifm-color-primary-lightest: #fdd596;
 }
+
+/* https://blog.webdevsimplified.com/2020-12/responsive-css-video/ */
+.video-container {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, 0.5625) * 100%);
+  height: 0;
+  width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
