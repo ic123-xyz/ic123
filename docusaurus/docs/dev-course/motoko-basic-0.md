@@ -21,11 +21,13 @@ Paul录制了一个6分钟的介绍，来阐述这个课程的体制的结构。
 <Tabs>
   <TabItem value="B站" label="B站" default>
     <div class="video-container">
-        <iframe src="//player.bilibili.com/player.html?aid=573471927&bvid=BV1zz4y177od&cid=1196201784&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+      <iframe src="//player.bilibili.com/player.html?aid=573471927&bvid=BV1zz4y177od&cid=1196201784&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
     </div>
   </TabItem>
   <TabItem value="Youtube" label="Youtube">
-    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/p7B2fWUp9I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/p7B2fWUp9I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+    </div>
   </TabItem>
 </Tabs>
 
