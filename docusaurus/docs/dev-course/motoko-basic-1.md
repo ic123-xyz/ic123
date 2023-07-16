@@ -46,7 +46,7 @@ https://twitter.com/i/communities/1679302895571988481
 
 ### 中英文皆可
 
-就在`ic123.xyz`的Github通过*issue*的方式来提问。这个Github有两个repo, 用`forum` repo
+就在`ic123.xyz`的Github通过*issue*的方式来提问。这个Github有两个repo, 用`forum` repo。
 
 :::info
 
