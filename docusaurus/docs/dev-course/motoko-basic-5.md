@@ -6,6 +6,8 @@ sidebar_position: 6
 
 ## B站
 
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=256765853&bvid=BV17Y411F76G&cid=727635062&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ## Youtube
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5guZdSGWO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
