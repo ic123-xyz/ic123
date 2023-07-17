@@ -1,17 +1,10 @@
 {
   "version": 1,
   "canisters": {
-    "ic123_backend": {
-      "type": "motoko",
-      "main": "src/ic123_backend/main.mo"
-    },
     "ic123_frontend": {
       "type": "assets",
       "source": [
         "docusaurus/build"
-      ],
-      "dependencies": [
-        "ic123_backend"
       ]
     }
   },
