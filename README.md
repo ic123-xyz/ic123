@@ -103,30 +103,30 @@ v0.1.0_11.20230706
     - checkout 到 branch `new-site`
 2. 编辑
     - 在branch `new-site` 里编辑文件
-3. Build & Deploy
+3. 在**docusaurus**里build & deploy
     - 进入 `docusaurus` 文件夹
     - `yarn build`, 产生更新的 `build` 文件夹
     - `npm run serve` to test the build locally at http://localhost:3000/
-    - 回到 `dfx` 根目录
-    - `dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
 4. Git
     - 在 `dfx` 根目录的 `new-site` branch
     - `git add .`
     - `git commit -m "commit message"`
-    - `git log --pretty=oneline`
-    - `git tag -a vX.Y.Z_BN_YYYYMMDD commit-id`
     - `git push --set-upstream origin new-site`
-    - `git push origin --tags`
 5. Submit PR
-    - Create a pull request for approver's review
+    - Create a [pull request](https://github.com/ic123-xyz/ic123/pulls) for approver's review
 6. Merge
     - Approver reviews the commit and merges branch `new-site` into branch `main` 
     - `git branch -d new-site` to delete branch `new-site` on the local machine
     - `git push origin -d new-site` to delete branch `new-site` on the remote server
 7. Recalibrate
     - checkout to branch `main`
-    - `git pull` 
-
+    - `git pull` 来更新本地仓库的文件
+8. 在**dfx**里build & deploy
+    - 回到 `dfx` 根目录，确保在`main` branch里
+    - 另开一个Terminal窗口，`dfx start`
+    - 在原来的窗口，`dfx deploy`，将网站的文件部署在本地的canister上
+    - 在浏览器里查看网站的部署是否有错误，http://bd3sg-teaaa-aaaaa-qaaba-cai.localhost:4943/
+    - 如果没问题，`dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
 
 ## 网站贡献者
 
