@@ -69,6 +69,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/icp-on-chain-badge-2-1.png',
+      metadata: [{name: 'keywords', content: 'ICP, IC, 互联网计算机, DFINITY, Internet Computer Protocol, Web3, Motoko, crypto, blockchain, 区块链, blockchain singularity'}],
       navbar: {
         title: 'IC123',
         logo: {
