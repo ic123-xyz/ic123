@@ -195,6 +195,14 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        id: 'mark_us',
+        content:
+          '如果你喜欢这个网站，请星标<a target="_blank" href="https://github.com/ic123-xyz/ic123"><b>Github</b></a>并加入我们在推特上的<a target="_blank" href="https://twitter.com/i/communities/1679302895571988481"><b>ICP China</b></a>社区',
+        backgroundColor: '#04D9C4',
+        textColor: '#000000',
+        isCloseable: false, 
+      },
     }),
 };
 
