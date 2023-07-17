@@ -5,9 +5,6 @@
       "type": "assets",
       "source": [
         "docusaurus/build"
-      ],
-      "dependencies": [
-        "ic123_backend"
       ]
     }
   },
