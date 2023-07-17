@@ -91,3 +91,15 @@
   width: 100%;
   height: 100%;
 }
+
+[data-theme='dark'] .hero__subtitle {
+  color: #ffffff
+}
+
+[data-theme='dark'] .hero__title {
+  color: #ffffff
+}
+
+[data-theme='dark'] .padding-horiz--md {
+  color: #000000
+}
