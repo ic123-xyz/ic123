@@ -129,7 +129,19 @@ v0.1.0_11.20230706
     - 在浏览器里查看网站的部署是否有错误，http://bd3sg-teaaa-aaaaa-qaaba-cai.localhost:4943/
     - 如果没问题，`dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
 
+## 网站赞助者
+
+[ic123.xyz](https://ic123.xyz) 是一个100%部署在ICP区块链上的网站，除了域名受到[ICANN](https://www.icann.org/)管控以外，不依赖任何中心化的服务器或者CDN服务。网站数据存在于容器 `bp6lc-ziaaa-aaaag-abqyq-cai` 的内存里。这个容器需要持续的算力和存储空间才能保持工作，在ICP的世界里，这就需要用到ICP原生的稳定币**cycles**。如果你觉得这个网站有帮助，不妨用[Tip Jar](https://tipjar.rocks)这个[Paul](https://github.com/ninegua)开发的开源程序来给 ic123.xyz 的容器充值，保证容器`bp6lc`的cycles始终充盈。
+
+https://k25co-pqaaa-aaaab-aaakq-cai.ic0.app/
+
+只要社区觉得这个网站有价值，愿意持续不断地往容器里充值cycles，这个网站可以永远存在下去，哪怕原先的开发者离开了这个项目，不再主动地往容器里充值。在IC上，创始人可以跟产品分开。好的产品永远是属于社区的，可以拥有自己独立的发展轨迹，不受制于创始团队的局限性。
+
+这才是真正的Web3。
+
 ## 网站贡献者
+
+**ic123**这个网站由DFINITY工程师和来自IC社区的开发者一起协作完成。我们欢迎更多的朋友加入我们的阵营，跟我们一起来扩展这个网站，丰富她的内容，降低开发者加入IC社区的门槛。[WTF Academy](https://github.com/WTFAcademy) 已经树立了一个很好的榜样。希望在不久的将来，下面这张图能看到越来越多的开发者头像。
 
 <a href="https://github.com/ic123-xyz/ic123/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ic123-xyz/ic123" />
