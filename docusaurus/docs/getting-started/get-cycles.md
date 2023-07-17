@@ -104,4 +104,4 @@ dfx wallet --network ic balance
 
 ## 如何将 ICP 代币转换为 cycles
 
-![coming_soon](/docusaurus/static/img/coming_soon.png)
+![coming_soon](@site/static/img/coming_soon.png)
