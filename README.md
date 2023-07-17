@@ -105,6 +105,7 @@ v0.1.0_11.20230706
     - 在branch `new-site` 里编辑文件
 3. Build & Deploy
     - 进入 `docusaurus` 文件夹
+    - 运行 `npm install`
     - `yarn build`, 产生更新的 `build` 文件夹
     - `npm run serve` to test the build locally at http://localhost:3000/
     - 回到 `dfx` 根目录
@@ -114,7 +115,6 @@ v0.1.0_11.20230706
     - `git add .`
     - `git commit -m "commit message"`
     - `git log --pretty=oneline`
-    - `git tag -a vX.Y.Z_BN_YYYYMMDD commit-id`
     - `git push --set-upstream origin new-site`
     - `git push origin --tags`
 5. Submit PR
