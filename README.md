@@ -105,6 +105,7 @@ v0.1.0_11.20230706
     - 在branch `new-site` 里编辑文件
 3. 在**docusaurus**里build & deploy
     - 进入 `docusaurus` 文件夹
+    - 运行 `npm install` 安装所需的packages
     - `yarn build`, 产生更新的 `build` 文件夹
     - `npm run serve` to test the build locally at http://localhost:3000/
 4. Git
