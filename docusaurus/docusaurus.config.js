@@ -184,6 +184,12 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} IC123中文开发者社区`,
+        logo: {
+          alt: '100% hosted on-chain ICP badge',
+          src: 'img/icp-on-chain-badge-horizontal.png',
+          width: 300,
+          height: 36,
+        },
       },
       prism: {
         theme: lightCodeTheme,
