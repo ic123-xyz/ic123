@@ -131,12 +131,12 @@ const config = {
                 to: 'docs/dev-course/motoko-basic-1',
               },
               {
-                label: '注册互联网身份',
-                to: 'docs/ic-web3/register-internet-identity',
+                label: '五分钟体验Hello World',
+                to: 'docs/getting-started/hello-world',
               },
               {
-                label: '明星项目',
-                to: 'docs/ecosystem-guide/awesome-ic',
+                label: '白皮书',
+                to: 'docs/intro-ic/white-paper',
               },
             ],
           },
