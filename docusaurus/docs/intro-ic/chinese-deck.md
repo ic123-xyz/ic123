@@ -12,9 +12,16 @@ sidebar_position: 1
 
 ## 浏览器直接看
 
+<!--
 <div class="video-container">
     <object data={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default} type="application/pdf" width="100%" height="auto">
     </object>
+</div>
+-->
+
+<div class="video-container">
+    <iframe src={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default} scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
+    </iframe>
 </div>
 
 ## 下载到本地客户端
