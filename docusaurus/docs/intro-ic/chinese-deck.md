@@ -8,8 +8,8 @@ sidebar_position: 1
 
 - 日期：2023年7月19日
 - 地点：成都武侯区天府国际金融中心南塔22楼
-- 主办单位: By DAO x DFINITY
-- 活动名称：Web3明牌GameFi - ICP的生态布局
+- 主办单位: [By DAO](https://twitter.com/BYDAO_CN) x[DFINITY](https://twitter.com/dfinity)
+- 活动名称：[Web3明牌GameFi - ICP的生态布局](https://twitter.com/BYDAO_CN/status/1679761120456998912)
 
 ## 演讲人介绍
 
@@ -17,6 +17,7 @@ sidebar_position: 1
 
 ## 直接阅读（仅支持桌面版浏览器）
 
+（请耐心等待1-2分钟，让PDF文件可以完成下载）
 <!--
 <div class="video-container">
     <iframe src={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default} scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
@@ -25,7 +26,7 @@ sidebar_position: 1
 -->
 
 <div class="video-container">
-    <iframe src="https://ic123.xyz/assets/files/20230617_Tintin_Meetup-5868fb0048e4706566368a6d6bb37985.pdf" scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
+    <iframe src="https://ic123.xyz/assets/files/20230719_ByDAO_Chengdu_Meetup-182e410d288bb696da630b92ad2be85e.pdf" scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
     </iframe>
 </div>
 
