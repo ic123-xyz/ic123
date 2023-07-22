@@ -13,10 +13,10 @@ sidebar_position: 1
 ## 浏览器直接看
 
 <div class="video-container">
-    <object data={require("./assets/20230617_Tintin_Meetup.pdf").default} type="application/pdf" width="100%" height="auto">
+    <object data={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default} type="application/pdf" width="100%" height="auto">
     </object>
 </div>
 
 ## 下载到本地客户端
 
-下载PDF文件<a href={require("./assets/20230617_Tintin_Meetup.pdf").default}>《愿乘风破万里浪，重塑下代互联网》</a>到本地。
+下载PDF文件<a target="\_blank" href={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default}>《愿乘风破万里浪，重塑下代互联网》</a>到本地。
