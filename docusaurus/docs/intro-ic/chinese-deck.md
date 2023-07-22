@@ -19,8 +19,15 @@ sidebar_position: 1
 </div>
 -->
 
+<!--
 <div class="video-container">
     <iframe src={require("@site/static/asset/20230617_Tintin_Meetup.pdf").default} scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
+    </iframe>
+</div>
+-->
+
+<div class="video-container">
+    <iframe src="https://ic123.xyz/assets/files/20230617_Tintin_Meetup-5868fb0048e4706566368a6d6bb37985.pdf" scrolling="no" frameborder="no" allowfullscreen="true" with="100%" height="auto">
     </iframe>
 </div>
 
