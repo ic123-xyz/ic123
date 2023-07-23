@@ -1,17 +1,23 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+herbert:
+  name: Herbert Yang
+  title: GM of Asia @DFINITY
+  url: https://herbertyang.xyz
+  image_url: https://avatars.githubusercontent.com/u/2075118?v=4
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+paul:
+  name: Paul Liu
+  title: Staff Engineer @DFINITY
+  url: https://www.thev.net/
+  image_url: https://avatars.githubusercontent.com/u/1549364?v=4
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
+vincent:
+  name: Vincent Zhang
+  title: Head of IC Game Engine @DFINITY
   url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  image_url: https://avatars.githubusercontent.com/u/5909911?v=4
+
+beeling:
+  name: Beeling Chua
+  title: Asia Community Lead
+  url: https://www.linkedin.com/in/beeling-chua-90820a53/
+  image_url: https://media.licdn.com/dms/image/C5103AQFQPWCzIp75Ng/profile-displayphoto-shrink_200_200/0/1516655782223?e=1695859200&v=beta&t=P2JaXGwB0-zGlzp3OpJ12T31OCdgeMufv7jYn2CCem4
