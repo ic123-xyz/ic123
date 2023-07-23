@@ -127,7 +127,7 @@ const config = {
             position: 'left',
             label: '生态资源',
           },
-          // {to: '/blog', label: '新闻', position: 'left'},
+          {to: '/blog', label: '新闻', position: 'left'},
           {
             href: 'https://github.com/ic123-xyz/ic123',
             label: 'GitHub',

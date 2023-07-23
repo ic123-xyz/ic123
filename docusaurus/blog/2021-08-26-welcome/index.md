@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: [herbert, paul]
 tags: [facebook, hello, docusaurus]
 ---
 
