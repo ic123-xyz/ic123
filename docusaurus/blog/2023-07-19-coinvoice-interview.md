@@ -1,8 +1,9 @@
 ---
 slug: coinvoice-interview-on-icp
-title: '专访ICP: 回应质疑，进驻香港，ICP生态启航'
+title: '专访ICP: 回应质疑，进驻香港，生态启航'
 authors: herbert
-tags: [icp, Hong Kong]
+tags: [Hong Kong]
+image: "@site/static/imge/icp-social-card-gradient.png"
 ---
 
 科技媒体 CoinVoice 就业界关心的关于ICP的几个问题采访 [DFINITY](https://twitter.com/dfinity) 基金会亚太区总经理 [Herbert Yang](https://twitter.com/herbertyang)
