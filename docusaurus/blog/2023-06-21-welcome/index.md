@@ -1,8 +1,8 @@
 ---
 slug: welcome
-title: Welcome
-authors: [herbert, paul]
-tags: [facebook, hello, docusaurus]
+title: 欢迎来到ic123.xyz!
+authors: [herbert, paul, vincent, beeling]
+tags: [dfinity, icp]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).

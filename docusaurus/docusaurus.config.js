@@ -56,10 +56,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogTitle: '互联网计算机ICP中文社区新闻', 
+          blogDescription: '来自ICP生态的社区新闻，产品进展，开发者动态',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ic123-xyz/ic123/tree/main/docusaurus',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
