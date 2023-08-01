@@ -146,6 +146,17 @@ v0.1.0_11.20230706
     - 确保测试网站在`localhost:4943` 运行无误
     - `dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
 
+## 容器管理信息
+
+- IC主网上的容器ID, [bp6lc-ziaaa-aaaag-abqyq-cai](https://dashboard.internetcomputer.org/canister/bp6lc-ziaaa-aaaag-abqyq-cai)
+- Controllers
+    - `s3j4t-7pxq4-knnes-s2rtu-3e6po-ypj2a-gm42c-trzgt-ibtrq-gh3cn-iqe`, Herbert on MacBook Pro M1 Chip
+    - `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe`, Herbert on Mac Mini
+    - `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae`, Herbert on MacBook Pro DFINITY
+    - `uom2z-lqsqq-qbn4p-nts4l-2xjfl-oeivu-oso42-4t4jh-54ikd-ewnvi-tqe`, Vincent
+    - `e3mmv-5qaaa-aaaah-aadma-cai`, [黑洞容器](https://github.com/ninegua/ic-blackhole)
+
+
 ## 网站赞助者
 
 [ic123.xyz](https://ic123.xyz) 是一个100%部署在ICP区块链上的网站，除了域名受到[ICANN](https://www.icann.org/)管控以外，不依赖任何中心化的服务器或者CDN服务。网站数据存在于容器 `bp6lc-ziaaa-aaaag-abqyq-cai` 的内存里。这个容器需要持续的算力和存储空间才能保持工作，在ICP的世界里，这就需要用到ICP原生的稳定币**cycles**。如果你觉得这个网站有帮助，不妨用[Tip Jar](https://tipjar.rocks)这个[Paul](https://github.com/ninegua)开发的开源程序来给 ic123.xyz 的容器充值，保证容器`bp6lc`的cycles始终充盈。
