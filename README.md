@@ -142,9 +142,20 @@ v0.1.0_11.20230706
     - 往上一级回到 `dfx` 根目录，确保仍然在`main` branch里
     - 另开一个Terminal窗口，`dfx start`
     - 在原来的窗口，`dfx deploy`，将网站的文件部署在本地的canister上
-    - 在浏览器里查看网站的部署是否有错误，http://bd3sg-teaaa-aaaaa-qaaba-cai.localhost:4943/
+    - 在浏览器里查看网站的部署是否有错误，http://canister-id-on-local-machine.localhost:4943/ (不同电脑在本地产生的canister id不一样)
     - 确保测试网站在`localhost:4943` 运行无误
     - `dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
+
+## 容器管理信息
+
+- IC主网上的容器ID, [bp6lc-ziaaa-aaaag-abqyq-cai](https://dashboard.internetcomputer.org/canister/bp6lc-ziaaa-aaaag-abqyq-cai)
+- Controllers
+    - `s3j4t-7pxq4-knnes-s2rtu-3e6po-ypj2a-gm42c-trzgt-ibtrq-gh3cn-iqe`, Herbert on MacBook Pro M1 Chip
+    - `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe`, Herbert on Mac Mini
+    - `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae`, Herbert on MacBook Pro DFINITY
+    - `uom2z-lqsqq-qbn4p-nts4l-2xjfl-oeivu-oso42-4t4jh-54ikd-ewnvi-tqe`, Vincent
+    - `e3mmv-5qaaa-aaaah-aadma-cai`, [黑洞容器](https://github.com/ninegua/ic-blackhole)
+
 
 ## 网站赞助者
 
