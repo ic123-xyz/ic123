@@ -1,0 +1,35 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Prepare
+      run: |
+        sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+        echo "${{secrets.WEIHAILU}}" > identity.pem
+        chmod 400 identity.pem
+        mkdir -p ~/.config/dfx/identity/default
+        mv identity.pem ~/.config/dfx/identity/default/identity.pem
+        dfx identity list
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+    - name: Build
+      run: |
+        cd docusaurus
+        npm install
+        yarn build
+        cd ..
+    - name: Deploy
+      run: |
+        rm canister_ids.json
+        echo '{ "ic123_frontend": { "ic": "${{ vars.STAGING_CANISTER_ID }}" } }' > canister_ids.json
+        dfx start --background --clean
+        dfx deploy --network=ic
