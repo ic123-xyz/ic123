@@ -142,7 +142,7 @@ v0.1.0_11.20230706
     - 往上一级回到 `dfx` 根目录，确保仍然在`main` branch里
     - 另开一个Terminal窗口，`dfx start`
     - 在原来的窗口，`dfx deploy`，将网站的文件部署在本地的canister上
-    - 在浏览器里查看网站的部署是否有错误，http://bd3sg-teaaa-aaaaa-qaaba-cai.localhost:4943/
+    - 在浏览器里查看网站的部署是否有错误，http://canister-id-on-local-machine.localhost:4943/ (不同电脑在本地产生的canister id不一样)
     - 确保测试网站在`localhost:4943` 运行无误
     - `dfx deploy --network=ic --no-wallet`, 部署文件到IC上的容器
 
