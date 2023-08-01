@@ -148,14 +148,14 @@ v0.1.0_11.20230706
 
 ## 容器管理信息
 
-- IC主网上的容器ID, [bp6lc-ziaaa-aaaag-abqyq-cai](https://dashboard.internetcomputer.org/canister/bp6lc-ziaaa-aaaag-abqyq-cai)
-- Controllers
-    - `s3j4t-7pxq4-knnes-s2rtu-3e6po-ypj2a-gm42c-trzgt-ibtrq-gh3cn-iqe`, Herbert on MacBook Pro M1 Chip
-    - `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe`, Herbert on Mac Mini
-    - `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae`, Herbert on MacBook Pro DFINITY
-    - `uom2z-lqsqq-qbn4p-nts4l-2xjfl-oeivu-oso42-4t4jh-54ikd-ewnvi-tqe`, Vincent
-    - `e3mmv-5qaaa-aaaah-aadma-cai`, [黑洞容器](https://github.com/ninegua/ic-blackhole)
-
+| Controllers | Production 容器 [bp6lc](https://dashboard.internetcomputer.org/canister/bp6lc-ziaaa-aaaag-abqyq-cai) | Staging 容器 [skf3i](https://dashboard.internetcomputer.org/canister/skf3i-5qaaa-aaaag-abt6a-cai) |
+| --- | :---: | :---: |
+| 钱包容器 [iyr2m-aiaaa-aaaag-aaa2q-cai](https://dashboard.internetcomputer.org/canister/iyr2m-aiaaa-aaaag-aaa2q-cai)  | ✅ | ✅ |
+| [黑洞容器](https://github.com/ninegua/ic-blackhole) [e3mmv-5qaaa-aaaah-aadma-cai](https://dashboard.internetcomputer.org/canister/e3mmv-5qaaa-aaaah-aadma-cai) | ✅| ✅ |
+| Principal - Herbert on MBP M1 - `s3j4t-7pxq4-knnes-s2rtu-3e6po-ypj2a-gm42c-trzgt-ibtrq-gh3cn-iqe` | ✅ | ✅| 
+| Principal - Herbert on MacMini - `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe`| ✅ | ✅ |
+| Principal - Vincent - `uom2z-lqsqq-qbn4p-nts4l-2xjfl-oeivu-oso42-4t4jh-54ikd-ewnvi-tqe` | ✅ | ✅ |
+| Principal - Herbert on MBP DFN - `yxaiy-ge4x3-xwdqi-r5kim-46lbl-52ulu-46sx7-hzhev-mrsqr-mvygl-eae` | ✅ | ❌ |
 
 ## 网站赞助者
 
