@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 ---
 
 import herbertPic from './img/herbert_avatar.jpg';
