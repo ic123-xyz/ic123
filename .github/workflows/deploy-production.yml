@@ -32,3 +32,5 @@ jobs:
         echo '{ "ic123_frontend": { "ic": "${{ vars.PRODUCTION_CANISTER_ID }}" } }' > canister_ids.json
         dfx start --background --clean
         dfx deploy --network=ic
+    - name: Summarize
+      run: echo 'https://${{ vars.PRODUCTION_CANISTER_ID }}.icp0.io' >> $GITHUB_STEP_SUMMARY
