@@ -16,11 +16,13 @@ import TeamContact from '../contact.md';
   </TabItem>
   <TabItem value="Youtube" label="Youtube">
     <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/WB34v6j7GQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/MAerOKHFkew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </TabItem>
 </Tabs>
 
 ## 讲义
+
+下载讲义PDF文件(0.7MB)<a target="\_blank" href={require("@site/static/asset/icp_course_03.pdf").default}>《ICP开发者入门课程第三讲·讲义》</a>到本地。
 
 <TeamContact />
