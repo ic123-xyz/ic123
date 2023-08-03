@@ -23,4 +23,6 @@ import TeamContact from '../contact.md';
 
 ## 讲义
 
+下载讲义PDF文件(1.6MB)<a target="\_blank" href={require("@site/static/asset/icp_course_01.pdf").default}>《ICP开发者入门课程第一讲·讲义》</a>到本地。
+
 <TeamContact />
