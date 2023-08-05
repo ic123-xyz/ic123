@@ -5,7 +5,7 @@ authors:
     -   name: BY DAO
         url: https://twitter.com/BYDAO_CN
         image_url: https://pbs.twimg.com/profile_images/1666062807308312578/ArSQTVLX_400x400.jpg
-image: "./bydao-poster.jpg"
+image: "bydao-poster.jpg"
 tags: [chengdu, meetup, bydao]
 ---
 

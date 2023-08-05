@@ -3,7 +3,7 @@ slug: welcome
 title: 欢迎来到ic123.xyz!
 authors: [herbert, paul, vincent, beeling]
 tags: [dfinity]
-image: './dfinity-shanghai.jpg'
+image: 'dfinity-shanghai.jpg'
 ---
 
 为什么我们要做 ic123.xyz 这样一个网站？她的愿景和规划是什么？ICP社区如何参与一起共建？
@@ -23,7 +23,6 @@ image: './dfinity-shanghai.jpg'
 如果你觉得还有什么内容应该被加入这个网站，请在[论坛讨论区](https://github.com/orgs/ic123-xyz/discussions)给我们留言。非常感谢！
 
 如果你觉得这个网站有帮助，欢迎在右上角添加星标，持续关注她的升级和扩展。
-
 
 ## 网站架构
 

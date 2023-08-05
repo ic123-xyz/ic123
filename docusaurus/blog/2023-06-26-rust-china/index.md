@@ -7,7 +7,7 @@ authors:
         title: Initiator & Core @Scroll
         url: https://github.com/Junweif2
         image_url: https://avatars.githubusercontent.com/u/42843075?v=4
-image: "./rust-china-booth.jpg"
+image: "rust-china-booth.jpg"
 tags: [rust, meetup, shanghai, tintin]
 ---
 
