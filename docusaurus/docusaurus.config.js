@@ -123,6 +123,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'appSidebar',
+            position: 'left',
+            label: '应用指南',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'ecoSidebar',
             position: 'left',
             label: '生态资源',
