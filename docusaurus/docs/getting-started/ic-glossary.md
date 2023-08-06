@@ -6,7 +6,7 @@ sidebar_position: 7
 
 ## A
 
-### account: 账号
+### account: 账号 {#account}
 **帐号**是分类[账本容器](#ledger-canister-账本容器)中的条目组合，它是一种智能合约，模仿了常规银行帐户的行为，用 [ICP](#icp) 作为度量单位。账号由[主体](#principal-主体)拥有，其所有权不会随时间而改变。每个账号都有一个用 ICP 度量的正[余额](#balance-余额)，精确到小数点后8位。
 
 ### address: 地址
