@@ -5,12 +5,9 @@ authors:
     -   name: BY DAO
         url: https://twitter.com/BYDAO_CN
         image_url: https://pbs.twimg.com/profile_images/1666062807308312578/ArSQTVLX_400x400.jpg
+image: "./bydao-poster.jpg"
 tags: [chengdu, meetup, bydao]
 ---
-
-<head>
-    <meta name="twitter:image" content="./bydao-poster.jpg" />
-</head>
 
 DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开发者活动。
 
