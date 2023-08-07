@@ -9,6 +9,13 @@ image: "./bydao-poster.jpg"
 tags: [chengdu, meetup, bydao]
 ---
 
+<head>
+    <meta property="twitter:domain" content="ic123.xyz" />
+    <meta property="twitter:url" content="https://ic123.xyz" />
+    <meta name="twitter:title" content="DFINITY 联合 BY DAO 成都区块峰会" />
+    <meta name="twitter:description" content="DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开发者活动" />
+</head>
+
 DFINITY官方团队第一次在成都跟当地社区 By DAO 一起举办 ICP 开发者活动。
 
 <!--truncate-->
