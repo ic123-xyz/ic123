@@ -9,7 +9,7 @@ keywords: [icp, Openchat, SocialFi, chat, ckBTC, Discord, Slack, decentralized]
 
 ## Openchat是什么？
 
-+ [Openchat](https://oc.app/)是基于Internet Computer区块链的端到端的全功能聊天平台
++ [Openchat](https://oc.app/?ref=unz26-uyaaa-aaaaf-aaswq-cai)是基于Internet Computer区块链的端到端的全功能聊天平台
     + 100%链上：所有用户及群组数据都100%存储在链上
     + DAO控制：产品路线图只能由DAO决定和批准
     + 开源：所有代码都进行开源，任何人都可以验证代码的真实性
@@ -53,7 +53,7 @@ keywords: [icp, Openchat, SocialFi, chat, ckBTC, Discord, Slack, decentralized]
 
 ## 如何使用Openchat
 
-+ 访问网页https://oc.app/ 点击Launch App即可，无需安装其他任何软件，即可运行（要求浏览器
++ 访问网页[Openchat](https://oc.app/?ref=unz26-uyaaa-aaaaf-aaswq-cai) 点击Launch App即可，无需安装其他任何软件，即可运行（要求浏览器
 + 注册用户
   + Openchat目前仅支持Internet Identity(简称II)登录，如果你没有注册过，请参考[注册互联网身份](https://ic123.xyz/docs/ic-web3/register-internet-identity)
     + 有了II，即可在本设备登录Openchat
@@ -73,55 +73,23 @@ keywords: [icp, Openchat, SocialFi, chat, ckBTC, Discord, Slack, decentralized]
       + 通过发送文字，图片，表情等信息进行社交互动
   + 创建群聊
     + 点击导航栏的群聊
-    ![创建群聊](./img/create-group.png)
+      + ![创建群聊](./img/create-group.png)
     + 在消息列表栏的Option选项里点击创建群聊
-     ![创建群聊](./img/create-group-setting.png)
+      + ![创建群聊](./img/create-group-setting.png)
     + 填写群聊名称，设置群规，访问控制等
     + 点击创建群聊即可
   + 创建社区
-  ![转换社区](./img/convert-community.png)
+    + ![转换社区](./img/convert-community.png)
     + 当你创建群聊后，点击点击群聊互动栏的Option选项，选择"Convert to Community"即可将现有群转换成社区
 + 创建Openchat桌面图标（iOS)
   + 打开手机Safari浏览器
-  + 访问[Openchat](https://oc.app/)
+    + 访问[Openchat](https://oc.app/)
   + 点击底部分享按钮
-  ![点击分享](./img/create-openchat-step.png)
+    + ![点击分享](./img/create-openchat-step.png)
   + 命名图标名称后即可在桌面从创建Openchat访问图标，如同其他APP一样使用
 + 启动/关闭通知
   + 通过开启和关闭通知来自定义通知信息,避免群聊的信息过载 
-![开启/关闭通知](./img/mute-notification.png)
+    + ![开启/关闭通知](./img/mute-notification.png)
   + 可以通过在手机里设置打开Openchat的通知来获取系统级消息通知
-![开启iOS通知](./img/open-openchat-ios-notification.png)
-  :::info
+    + ![开启iOS通知](./img/open-openchat-ios-notification.png)
 
-有用信息
-
-:::
-
-:::note
-
-注意事项
-
-:::
-
-:::tip
-
-使用贴士
-
-:::
-
-:::caution
-
-需要小心的地方
-
-:::
-
-:::danger
-
-危险区域！
-
-:::
-
-
-
-![img](@site/static/img/coming_soon.png)
