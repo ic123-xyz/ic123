@@ -2,7 +2,15 @@ name: Deploy to Staging
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - 'canister_ids.json'
+      - 'cmd-change-domain'
+      - 'dns-setup'
+      - '.github/workflows/deploy-production.yml'
 
 jobs:
   build:
