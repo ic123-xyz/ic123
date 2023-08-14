@@ -1,0 +1,39 @@
+复合查询：多容器 Dapp 的水平扩展
+
+互联网计算机即将推出一项备受期待的功能：复合查询！此功能允许容器在处理查询时调用其他容器，复合查询（以前称为容器间查询调用）是构建可组合和可扩展的 dapp 的关键。
+
+在此功能推出之前，开发人员必须在 dapp 的浏览器端编写复杂的 JavaScript 编排代码，以便从多个容器查询数据。
+
+现在，客户端代码（例如 JavaScript 库）可以查询单个容器，进而查询其他容器，除了改善用户可见的延迟之外，这还允许开发人员保持客户端代码简单并支持开发人员无法访问所有客户端库的用例。
+
+复合查询对于使用多个容器来分片数据和平衡负载的 dapp 至关重要，虽然复合查询已经使开发人员能够水平扩展他们的 dapp 并简化客户端代码，但它们有一定的局限性。
+
+当前版本要求 dapp 的容器位于同一子网中，另一个临时限制是复合查询不能在复制模式下执行，这意味着它们不能从更新方法调用，也不能作为更新执行，我们计划在未来取消这些限制，并允许跨子网查询调用以及复制执行。
+
+有关如何使用复合查询调用的示例可以在分区键值存储示例中找到，其中数据存储在多个后端容器中。
+
+在此，浏览器中的 JavaScript 代码对前端容器进行单个复合查询调用，前端容器依次查询一个或多个后端容器，并将结果返回给客户端。
+
+有关更多技术信息，请参阅文档：
+
+internetcomputer.org/docs/current/developer-docs/integrations/composite-query
+
+我们渴望看到开发人员在工作中使用复合查询创建令人惊叹的新事物，随着我们改进此功能，请继续关注未来的更新，我们将添加功能，例如跨不同网络的调用和复制执行，以使复合查询更加强大。
+
+编码快乐！
+
+在 internetcomputer.org 上了解有关 IC 的更多信息并关注开发者社区 Twitter（@DFINITYDev）。
+
+了解更多
+
+技术文档：
+
+internetcomputer.org/docs/current/developer-docs/integrations/composite-query
+
+技术博客文章：
+
+internetcomputer.org/blog/features/composite-query
+
+动议提案：
+
+dashboard.internetcomputer.org/proposal/87599
