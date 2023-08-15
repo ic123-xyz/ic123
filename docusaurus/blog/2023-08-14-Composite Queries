@@ -1,4 +1,4 @@
-复合查询：多容器 Dapp 的水平扩展
+# 复合查询：多容器 Dapp 的水平扩展
 
 互联网计算机即将推出一项备受期待的功能：复合查询！此功能允许容器在处理查询时调用其他容器，复合查询（以前称为容器间查询调用）是构建可组合和可扩展的 dapp 的关键。
 
@@ -14,26 +14,10 @@
 
 在此，浏览器中的 JavaScript 代码对前端容器进行单个复合查询调用，前端容器依次查询一个或多个后端容器，并将结果返回给客户端。
 
-有关更多技术信息，请参阅文档：
-
-internetcomputer.org/docs/current/developer-docs/integrations/composite-query
+有关更多技术信息，请参阅文档。
 
 我们渴望看到开发人员在工作中使用复合查询创建令人惊叹的新事物，随着我们改进此功能，请继续关注未来的更新，我们将添加功能，例如跨不同网络的调用和复制执行，以使复合查询更加强大。
 
 编码快乐！
 
 在 internetcomputer.org 上了解有关 IC 的更多信息并关注开发者社区 Twitter（@DFINITYDev）。
-
-了解更多
-
-技术文档：
-
-internetcomputer.org/docs/current/developer-docs/integrations/composite-query
-
-技术博客文章：
-
-internetcomputer.org/blog/features/composite-query
-
-动议提案：
-
-dashboard.internetcomputer.org/proposal/87599
