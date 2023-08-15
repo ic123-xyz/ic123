@@ -18,6 +18,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Prepare
       run: |
         sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
