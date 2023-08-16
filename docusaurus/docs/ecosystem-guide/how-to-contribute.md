@@ -112,7 +112,7 @@ Fork 操作就是在您的 GitHub 账号下，创建一个 [ic123](https://githu
 
 ### 同步 Fork
 
-当 [ic123](https://github.com/ic123-xyz/ic123) 处于开发过程中，它的改动会比较频繁。这也意味着您 Fork 的仓库可能与 ic123 并不同步，这里建议当您想添加内容、并发起一个 PR 之前，可以同步 ic123，以减少冲突的可能性。同步的方法如下图所示。
+当 [ic123](https://github.com/ic123-xyz/ic123) 处于开发过程中，它的改动会比较频繁，这也意味着您 Fork 的仓库可能与 ic123 并不同步。这里建议当您想添加内容、并发起一个 PR 之前，可以先同步 ic123，以减少冲突的可能性。同步的方法如下图所示。
 
 ![sync-1](./img/contribute-sync-1.png)
 
@@ -125,4 +125,4 @@ Markdown 是一种轻量级标记语言，本身并不复杂。关于如何编�
 2. [Markdown 菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
 
 ### 
-支持 Markdown 文件的编辑器也很多，比如 [Obsidian](https://obsidian.md/)、面向程序员的 [Visual Studio Code](https://code.visualstudio.com/) 等，可以参考[该文档](https://www.markdownguide.org/getting-started/#notes) 来选择您熟悉的工具进行编辑。
+支持 Markdown 文件的编辑器也很多，比如 [Obsidian](https://obsidian.md/)、面向程序员的 [Visual Studio Code](https://code.visualstudio.com/) 等，可以参考[该文档](https://www.markdownguide.org/getting-started/#notes)来选择您熟悉的工具进行编辑。
