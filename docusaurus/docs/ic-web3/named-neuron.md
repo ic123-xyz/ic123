@@ -10,8 +10,8 @@ sidebar_position: 6
 - 致力于为IC的长期发展做出贡献
 - 承诺审慎的为NNS治理提案进行投票
 
-## 撰写一份声明发到Dfinity论坛
-强烈建议在发送命名神经元提案之前，撰写一篇文章发表在[Dfinity论坛](https://forum.dfinity.org/)，并对相应提问进行积极的回复，以便让社区能够提前了解你的背景。
+## 撰写一份声明发到DFINITY论坛
+强烈建议在发送命名神经元提案之前，撰写一篇文章发表在[DFINITY论坛](https://forum.dfinity.org/)，并对相应提问进行积极的回复，以便让社区能够提前了解你的背景。
 参考文章请参看：
 - DAO
 [8YearGangDAO](https://forum.dfinity.org/t/named-neuron-proposal-8yeargangdao/15288)
