@@ -1,4 +1,13 @@
-#复合查询：多容器 Dapp 的水平扩展
+---
+slug: composite-queries-for-multi-canister-dapps
+title: '多容器 Dapp 的横向扩展'
+authors: michael
+tags: [canister, scaling]
+---
+
+互联网计算机即将推出一项备受期待的功能：复合查询！此功能允许容器在处理查询时调用其他容器。
+
+<!--truncate-->
 
 互联网计算机即将推出一项备受期待的功能：复合查询！此功能允许容器在处理查询时调用其他容器，复合查询（以前称为容器间查询调用）是构建可组合和可扩展的 dapp 的关键。
 
@@ -20,4 +29,8 @@
 
 编码快乐！
 
-在 internetcomputer.org 上了解有关 IC 的更多信息并关注开发者社区 Twitter（@DFINITYDev）。
+在 [internetcomputer.org](http://internetcomputer.org/) 上了解有关 IC 的更多信息并关注[DFINITY开发者](https://twitter.com/DFINITYDev)。
+
+---
+
+原文链接：https://medium.com/dfinity/composite-queries-horizontal-scaling-for-multi-canister-dapps-e766e62bdea9

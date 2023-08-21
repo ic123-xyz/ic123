@@ -1,4 +1,13 @@
-# 互联网计算机已添加到 Ledger Live！
+---
+slug: icp-joined-ledger-live
+title: '互联网计算机已添加到 Ledger Live！'
+authors: michael
+tags: [ledger]
+---
+
+互联网计算机（ICP）帐户已在您的 Ledger Nano S Plus 和 Nano X 上可用，这意味着您可以使用硬件设备保护您的 ICP 令牌。
+
+<!--truncate-->
 
 我们很高兴地宣布，旨在实现互联网去中心化的区块链协议互联网计算机（ICP）刚刚加入 Ledger Live，您现在可以在 Ledger Live 中创建 ICP 帐户，并从您的帐户接收和发送 ICP 代币。
 
@@ -33,3 +42,7 @@ Ledger Live 拥有超过 150 万活跃用户，使您能够购买、出售、交
 借助 Ledger Live 应用程序，您还可以在“发现”部分访问不断扩展的 DApp 列表，并且您的私钥会在 Ledger 设备上自动受到保护。
 
 如果您还没有 Ledger 设备，请查看以下文章以了解哪种 Ledger 设备适合您的需求，或查看我们的比较页面进行并排比较，您还可以通过我们的博客随时了解我们的最新公告和思想领袖出版物。
+
+---
+
+原文链接： https://www.ledger.com/blog/internet-computer-added-to-ledger-live
