@@ -11,7 +11,7 @@ image: "rust-china-booth.jpg"
 tags: [rust, meetup, shanghai, tintin]
 ---
 
-DFINITY基金会和IC社区在第三届中国Rust开发者大会期间的活动见闻
+DFINITY基金会和IC社区在第三届中国Rust开发者大会期间的活动见闻。
 
 <!--truncate-->
 

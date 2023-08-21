@@ -58,6 +58,7 @@ const config = {
           showReadingTime: true,
           blogTitle: '互联网计算机ICP中文社区新闻', 
           blogDescription: '来自ICP生态的社区新闻，产品进展，开发者动态',
+          blogSidebarCount: 10,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
