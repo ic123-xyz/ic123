@@ -1,8 +1,4 @@
----
-sidebar_position: 7
----
-
-# 非程序员如何参与 ic123
+# 非程序员如何贡献文章
 
 本文档的目的在于简化非程序员参与 [ic123](https://github.com/ic123-xyz/ic123) 的流程。
 
