@@ -1,5 +1,5 @@
 # ICP = Web 3.0
-# **关于作者**
+## 关于作者
 
 Advisor @[Moledao](https://twitter.com/moledao_io) @[Web3Geeks](https://twitter.com/eternal1997L), prev Tech Lead @[Bybit](https://twitter.com/Bybit_Official)
 
@@ -11,7 +11,7 @@ IC Research DAO：[@neutronstardao](https://twitter.com/neutronstardao)
 
 欢迎交流
 
-# TL;DR
+## TL;DR
 
 _注：本文为作者个人在现阶段的观点，一些思考可能存在事实上的错误和观点上的偏见，仅作为交流之用，期待来自其他同学的指正。_
 
@@ -439,7 +439,7 @@ Fast forwarding的优点是可以**让新加入的节点快速地获取到当前
 
 ![](https://images.mirror-media.xyz/publication-images/NGzR_v08hmmwWQ-3_N50g.png?height=401&width=1200)
 
-### 总结 / Summary
+## 总结 / Summary
 
 -   ICP 就像地球一样，Chainkey 技术就像地球内核，它与 ICP 的关系类似于 TCP/IP 协议与整个互联网行业的关系，每一个 Subnet 就像亚非拉大陆一样，当然 Subnet 也可以是太平洋/大西洋，在大陆和海洋中有不同的建筑和区域（Replica 和 Node），每一个区域和建筑上可以种植物（Canister），也有不同的动物快乐地生活着；
     
