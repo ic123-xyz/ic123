@@ -1,15 +1,9 @@
----
-sidebar_position: 5
----
-
 # 推广互联网计算机
 
 我们希望通过精华内容的创建，沉淀和汇集，让 [ic123.xyz](https://ic123.xyz) 成为集合开发者，社区建设者，投资者的大本营，降低开发者和用户进入互联网计算机生态的门槛。欢迎大家在社交媒体（微信，Telegram，微博，Signal）上粘贴以下这段话，分享给对IC感兴趣的同道中人和朋友。
 
 :::tip
-
 对话框的右上角有粘贴按键，可以实现一键粘贴
-
 :::
 
 ```bash
@@ -21,9 +15,9 @@ https://ic123.xyz
 
 这个网站里，有不少内容已经更新了，譬如：
 
-- 五分钟体验Hello World, https://ic123.xyz/docs/getting-started/hello-world
+- 为什么说 ICP = Web3 ? http://ic123.xyz/docs/intro-ic/why_icp_equals_web3
 
-- DFINITY基金会和互联网计算机的介绍，https://ic123.xyz/docs/intro-ic/chinese-deck
+- 五分钟体验Hello World, https://ic123.xyz/docs/getting-started/hello-world
 
 - Paul老师的Motoko入门线上课程，https://ic123.xyz/docs/dev-course/motoko-basic-0
 
@@ -40,6 +34,8 @@ https://github.com/ic123-xyz/ic123
 （可以先星标，持续关注ic123.xyz的进展）
 
 https://ic123.xyz 这个网站除了域名受到ICAAN的管控，整个前端都是部署在ICP主网上，不需要依赖任何中心化的服务器或者CDN。全世界能做到这个的技术平台，只有ICP一家。希望对大家有所启发。
+
+我们也欢迎各位IC爱好者围观我们在IC生态头部爆款OpenChat应用上的ic123.xyz工作组，https://oc.app/favourite/group/yvpxf-lqaaa-aaaar-asbga-cai/?ref=inda5-hyaaa-aaaaf-aaioq-cai 。
 
 欢迎提交PR！ic123.xyz团队会尽快审核代码并merge。欢迎关注互联网计算机的发展！ :)
 ```
