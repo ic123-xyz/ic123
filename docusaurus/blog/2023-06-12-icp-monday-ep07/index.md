@@ -3,7 +3,7 @@ slug: icp-dev-forum-ep07
 title: ICP开发者研讨会EP07
 authors: [herbert, vincent, beeling]
 image: "./img/look-stars.png"
-tags: [icp monday, sns]
+tags: [icp monday, sns, feedback board]
 ---
 
 94名 ICP 爱好者参加了第七次开发者研讨会。 DFINITY 亚太团队分享了近期社区活动，和关于 Feedback Board, SNS, IC 中英文关键词对照表方面的进展。

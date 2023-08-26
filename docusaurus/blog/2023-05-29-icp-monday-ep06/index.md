@@ -1,6 +1,6 @@
 ---
 slug: icp-dev-forum-ep06
-title: ICP开发者研讨会EP06
+title: ICP开发者研讨会EP06 - AMA on Community Grants Program
 authors: [herbert, vincent, beeling]
 image: "./img/cyber-city.jpg"
 tags: [icp monday, sns, internet identity, community grants]
