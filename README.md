@@ -83,19 +83,6 @@
 │   ├── 部署个性化域名
 ```
 
-## 版本控制
-
-本网站使用tag的标准为：`v` + 版本号 + `_` + Build Number + `_` + 部署日期 (YYYYMMDD)
-
-```bash
-v0.1.0_08.20230701
-v0.1.0_09.20230702
-v0.1.0_10.20230704
-v0.1.0_11.20230706
-```
-
-版本号遵循 [Semantic Versioning](https://semver.org/) 标准，按照 MAJOR.MINOR.PATCH 的格式来命名。
-
 ## 部署工作流
 
 三个角色，代码贡献者，代码审核者，代码管理员，之间如何配合的工作流。
@@ -110,6 +97,7 @@ v0.1.0_11.20230706
 3. 在**docusaurus**里build & deploy
     - 进入 `docusaurus` 文件夹
     - 运行 `npm install` 安装所需的packages
+    - `npm run start`，来实时查看改动后的网页效果
     - `npm run build`, 产生更新的 `build` 文件夹
     - `npm run serve` to test the build locally at http://localhost:3000/
     - 确保测试网站在localhost上运行无误
@@ -130,6 +118,7 @@ v0.1.0_11.20230706
     - 在Github repo相应的PR下留言
 
 ### 代码管理员
+
 7.  批准
     - 根据审核的情况，如果对代码满意，approve merge request，把 `new-site` merged进入 `main`
     - Github将自动从remote上删掉 `new-site`这个branch
@@ -148,9 +137,9 @@ v0.1.0_11.20230706
 
 ## 容器管理信息
 
-| Controllers | Production 容器 [bp6lc](https://dashboard.internetcomputer.org/canister/bp6lc-ziaaa-aaaag-abqyq-cai) | Staging 容器 [skf3i](https://dashboard.internetcomputer.org/canister/skf3i-5qaaa-aaaag-abt6a-cai) |
+| Controllers | Production 容器 [bp6lc](https://bp6lc-ziaaa-aaaag-abqyq-cai.icp0.io/) | Staging 容器 [skf3i](https://skf3i-5qaaa-aaaag-abt6a-cai.icp0.io/) |
 | --- | :---: | :---: |
-| 钱包容器 [iyr2m-aiaaa-aaaag-aaa2q-cai](https://dashboard.internetcomputer.org/canister/iyr2m-aiaaa-aaaag-aaa2q-cai)  | ✅ | ✅ |
+| 钱包容器 [iyr2m-aiaaa-aaaag-aaa2q-cai](https://skf3i-5qaaa-aaaag-abt6a-cai.icp0.io/)  | ✅ | ✅ |
 | [黑洞容器](https://github.com/ninegua/ic-blackhole) [e3mmv-5qaaa-aaaah-aadma-cai](https://dashboard.internetcomputer.org/canister/e3mmv-5qaaa-aaaah-aadma-cai) | ✅| ✅ |
 | Principal - Herbert on MBP M1 - `s3j4t-7pxq4-knnes-s2rtu-3e6po-ypj2a-gm42c-trzgt-ibtrq-gh3cn-iqe` | ✅ | ✅| 
 | Principal - Herbert on MacMini - `lwhis-d5gpt-zbgse-qdivc-jmt5p-smhdq-h2dbt-vbh7x-h4g4d-tyg2x-zqe`| ✅ | ✅ |
