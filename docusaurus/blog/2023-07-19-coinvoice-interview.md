@@ -2,7 +2,7 @@
 slug: coinvoice-interview-on-icp
 title: '专访ICP: 回应质疑，进驻香港，生态启航'
 authors: herbert
-tags: [Hong Kong]
+tags: [hong kong]
 image: "@site/static/img/icp-social-card-gradient.png"
 ---
 
