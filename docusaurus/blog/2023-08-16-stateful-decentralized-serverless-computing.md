@@ -1,3 +1,10 @@
+---
+slug: ic-offers-stateful-decentralized-serverless-computing
+title: '互联网计算机：提供有状态的去中心化无服务器计算的区块链'
+authors: michael
+tags: [Serverless, Decentralization, Cloud Computing]
+---
+
 # 互联网计算机：提供有状态的去中心化无服务器计算的区块链
 
 在这篇文章中，我们描述了互联网计算机区块链如何提供无服务器计算功能以及两个重要的额外好处：去中心化和有状态。
