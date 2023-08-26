@@ -1,3 +1,10 @@
+---
+slug: ic-offers-stateful-decentralized-serverless-computing
+title: '互联网计算机：提供有状态的去中心化无服务器计算的区块链'
+authors: michael
+tags: [Serverless, Decentralization, Cloud Computing]
+---
+
 # 互联网计算机：提供有状态的去中心化无服务器计算的区块链
 
 在这篇文章中，我们描述了互联网计算机区块链如何提供无服务器计算功能以及两个重要的额外好处：去中心化和有状态。
@@ -48,7 +55,7 @@
 
 这是非常令人鼓舞的，这表明，尽管还有很长的路要走，但与传统的集中式云相比，互联网计算机在性能方面正在获得牵引力，如需了解更多详细信息，我们鼓励您查看我们最近在著名的 USENIX ATC 会议上发表的同行评审文章：
 
-usenix.org/system/files/atc23-arutyunyan.pdf
+https://www.usenix.org/system/files/atc23-arutyunyan.pdf
 
 # 提高性能
 
@@ -62,7 +69,6 @@ DFINITY 工程师和研究人员将继续寻找和探索增强和改善互联网
 
 # 在互联网计算机上运行企业试点
 
-# 
 
 原文链接：https://medium.com/dfinity/the-internet-computer-a-blockchain-that-offers-stateful-decentralized-serverless-computing-cdbbfdca4b7e
 
