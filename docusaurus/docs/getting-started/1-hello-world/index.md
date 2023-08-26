@@ -16,7 +16,7 @@
 
 ## 第一步: 安装 IC SDK
 
-本教程将会使用 IC SDK，目前是由 DFINITY 基金会维护。请参照[如何安装 IC SDK](./install-dfx.md) 安装 IC SDK。
+本教程将会使用 IC SDK，目前是由 DFINITY 基金会维护。请参照[如何安装 IC SDK](https://ic123.xyz/docs/getting-started/install-dfx) 安装 IC SDK。
 
 安装完成后，IC SDK 将提供一些工具供您使用。其中之一是 `dfx` 命令，您将在本教程中多次看到。
 
@@ -139,7 +139,7 @@ dfx canister call hello_backend greet everyone
 
 关于 cycles 的重要注意事项：
 
-- [免费 cycles 水龙头](./get-cycles.md#如何获得免费-cycles)会为新开发人员提供20万亿 cycles。
+- [免费 cycles 水龙头](https://ic123.xyz/docs/getting-started/get-cycles#如何获得免费-cycles)会为新开发人员提供20万亿 cycles。
 - 部署一个容器需要1000亿 cycles，但为了给容器加载足够的循环，IC SDK 默认会新创建的容器注入3万亿 cycles（这是一个可更改的参数）。
 - 您可以在这里查看[计算和存储费用](https://internetcomputer.org/docs/current/developer-docs/gas-cost)。
 
@@ -147,7 +147,7 @@ dfx canister call hello_backend greet everyone
 
 您可以任选如下几个方式来设置 cycles 钱包：
 
-- 您可以通过[免费 cycles 水龙头](./get-cycles.md#如何获得免费-cycles)获得免费的 cycles，该水龙头为新开发人员提供20万亿 cycles。该指南将引导您在兑换免费 cycles 券时创建钱包，这也是本教程中我们将使用的选项。如果这是您第一次进入 IC 生态系统，我们建议您选择此选项。
+- 您可以通过[免费 cycles 水龙头](https://ic123.xyz/docs/getting-started/get-cycles#如何获得免费-cycles)获得免费的 cycles，该水龙头为新开发人员提供20万亿 cycles。该指南将引导您在兑换免费 cycles 券时创建钱包，这也是本教程中我们将使用的选项。如果这是您第一次进入 IC 生态系统，我们建议您选择此选项。
 
 您还可以使用以下任一方式设置 cycles 钱包：
 
@@ -158,7 +158,7 @@ dfx canister call hello_backend greet everyone
 
 ### 通过免费 cycles 水龙头获取 cycles
 
-在[如何获取免费 cycles 教程](./get-cycles.md#如何获得免费-cycles)中，您可以从 cycles 水龙头获取 `Hello` dapp 所需的免费 cycles。**请注意，该水龙头只能使用一次**。
+在[如何获取免费 cycles 教程](https://ic123.xyz/docs/getting-started/get-cycles#如何获得免费-cycles)中，您可以从 cycles 水龙头获取 `Hello` dapp 所需的免费 cycles。**请注意，该水龙头只能使用一次**。
 
 #### 检查 cycles 余额
 
@@ -257,7 +257,7 @@ URLs:
 
 在 dapp 加载之前，浏览器会显示一条消息：Installing "Internet Computer Validating Service Worker"。
 
-该 [service worker](ic-glossary.md#service-worker) 来自 ICP 网络，用于确保用户所看到的 Web 应用程序是正确的、未被篡改的前端。一旦加载完成，您的浏览器将缓存该 service worker，您的 Web 应用程序也将加载得更快。
+该 [service worker](https://ic123.xyz/docs/getting-started/ic-glossary#service-worker) 来自 ICP 网络，用于确保用户所看到的 Web 应用程序是正确的、未被篡改的前端。一旦加载完成，您的浏览器将缓存该 service worker，您的 Web 应用程序也将加载得更快。
 
 ## 总结
 

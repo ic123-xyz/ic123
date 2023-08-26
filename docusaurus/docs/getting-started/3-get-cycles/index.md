@@ -12,7 +12,7 @@
 
 ### 要求
 
-请按照[此指南](./install-dfx.md)安装 IC SDK。
+请按照[此指南](https://ic123.xyz/docs/getting-started/install-dfx)安装 IC SDK。
 
 ### 第一步：获取 cycles 优惠券
 
