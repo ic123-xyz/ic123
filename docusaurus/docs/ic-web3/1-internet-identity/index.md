@@ -20,13 +20,13 @@ https://identity.ic0.app
 
 点击下图页面中“Create New”按钮，开始创建新的II身份
 
-![II注册1](./img/ii2.jpg)
-
-<div style={{textAlign: 'center'}}>< img src="http://localhost:3000/assets/images/add1_1-36734aaf70bbfca3987501548a8b0236.jpg"/></div>
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii2.jpg'/></div>
 
 ***第三步: 创建安全密钥***
 点击下图中“Create Passkey”按钮创建安全密钥。
-![ii创建密钥提示](./img/ii3.jpg)
+
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii3.jpg'/></div>
+
 
 此处需要根据不同硬件执行不同的操作，以下根据不同设备进行说明。
 
@@ -37,7 +37,7 @@ Windows设备，通常可以使用Windows Hello功能创建万能密钥。
 
 当选择使用pin码创建时，将会弹出如下对话框。
 
-![pin](./img/winhellopin.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winhellopin.jpg'/></div>
 
 输入PIN码（windows登录时的pin码），即可创建万能密钥
 
@@ -51,13 +51,13 @@ Windows设备，通常可以使用Windows Hello功能创建万能密钥。
 
 如果您拥有yubikey，可以再弹出的Windows Hello对话框中选择使用“安全密钥”，通过yubikey创建密钥。
 
-![yubikey](./img/winyubikey.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey.jpg'/></div>
 
-![yubikey](./img/winyubikey2.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey2.jpg'/></div>
 
-![yubikey](./img/winyubikey3.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey3.jpg'/></div>
 
-![yubikey](./img/winyubikey4.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey4.jpg'/></div>
 
 完成触摸后，将进行下一步。
 
@@ -67,7 +67,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 此处点击选择“在此设备上使用屏幕锁定”（不同硬件系统提示可能略有不同，此处笔者使用的是三星S20Ultra手机。）
 
-![选择认证方式](./img/ii4.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii4.jpg'/></div>
 
 进行指纹识别/面容识别后，即可创建密钥。
 
@@ -79,13 +79,13 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 这个页面主要用于判断是否为机器人操作，请输入正确的验证码。需要特别注意的是，验证码区分大小写。
 
-![人机验证](./img/ii5.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii5.jpg'/></div>
 
 ***第五步: 记录互联网身份号***
 
 这个页面提示你记下最新创建的属于你的互联网身份号，它将作为互联网身份标识，在其它设备登录时使用，请务必保存。点击copy按钮，可以自动将互联网身份号保存在设备黏贴板中。
 
-![互联网身份编号](./img/ii6.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii6.jpg'/></div>
 
 ***完成***
 
@@ -93,7 +93,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 恢复短语能够让我们在多个设备上登录本次创建的互联网身份，也是在丢失或更换硬件设备后，找回互联网身份的最终途径，推荐在创建完互联网身份后的第一时间，创建恢复短语。
 
-![完成](./img/ii7.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii7.jpg'/></div>
 
 ## 创建恢复短语
 
@@ -101,11 +101,11 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 如果仍然停留在之前界面，点击页面上方条幅中“Create”按钮，可以开始创建恢复短语。
 
-![recovery](./img/ii7.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii7.jpg'/></div>
 
 如果已经退出，再次通过该设备登录账号后，系统将会提示你创建恢复短语，如下界面，点击“Create Recovery Phrase”，开始创建恢复短语。
 
-![recovery](./img/recovery1.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/recovery1.jpg'/></div>
 
 ***第二步: 开始创建恢复短语***
 
@@ -114,19 +114,19 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 ⚠️ 警告 ⚠️
 >任何人，如果知道了这个助记词，就可以获取这个身份地址相关联的应用和数据。最好用一支笔把助字抄在一张纸上，然后把这张纸保存在一个只有你可以接触到的地方，譬如，保险柜。如果条件允许，尽量不要让这个助记词出现在除了这个界面以外的任何互联网平台上。最安全的信息保管方式，就是不要让它接触到互联网。
 
-![recovery](./img/recovery2.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/recovery2.jpg'/></div>
 
 ***第三步：验证恢复短语***
 
 此处需要验证刚才存储的恢复短语，以确保存储的短语准确无误。在下图中，填写对应的短语。并点击“Finish”。
 
-![recovery](./img/recovery3.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/recovery3.jpg'/></div>
 
 ***完成***
 
 再次来到这个页面，顶部提示创建恢复短语的条幅已不再显示。此时，你已完成恢复短语的创建。再次提醒，请务必妥善保管您的恢复短语。现在你已经可以安全的畅游整个IC网络了。
 
-![完成恢复短语](./img/ii8.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii8.jpg'/></div>
 
 ## 添加设备
 
@@ -138,13 +138,14 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 在管理界面中滑动到Passkeys区域，点击“Add new Passkey”按钮
 
-![完成恢复短语](./img/add1.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/add1.jpg'/></div>
+
 
 ***第二步: 在新设备中打开添加链接***
 
 点击“Add new Passkey”后将会跳转至如下界面：
 
-![完成恢复短语](./img/add2.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/add2.jpg'/></div>
 
 在设备B中通过chrome浏览器（请不要使用微信直接打开链接）打开上图中的链接。
 
@@ -156,16 +157,19 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 此时，设备B中会跳转至如下界面，请记下“Verification Code”
 
-![完成恢复短语](./img/add4.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/add4.jpg'/></div>
+
 
 在设备A中，将会跳转至如下界面,请输入在设备B中记录的“Verification Code”，并点击“Verify PassKey”按钮继续
 
-![完成恢复短语](./img/add3.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/add3.jpg'/></div>
+
 
 ***完成***
 完成后将跳转至如下界面，点击继续后，实现新设备绑定。
 
-![完成恢复短语](./img/add5.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/add5.jpg'/></div>
+
 
 ## 重命名设备
 
@@ -173,11 +177,11 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 在管理界面中滑动到Passkeys区域，点击页面中想要更改的安全密钥右侧“...”按钮，在弹出的菜单中选择“rename”，修改昵称。
 
-![修改昵称](./img/rename1.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/rename1.jpg'/></div>
 
 输入你想要修改的昵称，并点击“Next”。完成安全密钥的重命名。
 
-![修改昵称](./img/rename2.jpg)
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/rename2.jpg'/></div>
 
 ## 删除设备
 
@@ -185,8 +189,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 在管理界面中滑动到Passkeys区域，点击页面中想要更改的安全密钥右侧“...”按钮，在弹出的菜单中选择“Remove”，删除密钥。
 
-![删除密钥](./img/rename1.jpg)
-
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/rename1.jpg'/></div>
 
 
 ## FAQ
