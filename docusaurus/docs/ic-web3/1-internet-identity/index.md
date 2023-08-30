@@ -47,9 +47,9 @@ Windows 设备，通常可以使用 Windows Hello 功能创建万能密钥。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winhello.png'/></div>
 
-- **使用 Yubikey**
+- **使用 YubiKey**
 
-如果您拥有 Yubikey，可以再弹出的 Windows Hello 对话框中选择使用“安全密钥”，通过 Yubikey 创建密钥。
+如果您拥有 YubiKey，可以再弹出的 Windows Hello 对话框中选择使用“安全密钥”，通过 YubiKey 创建密钥。
 
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey.jpg'/></div>
@@ -58,15 +58,15 @@ Windows 设备，通常可以使用 Windows Hello 功能创建万能密钥。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey2.jpg'/></div>
 
-当看到这个提示时，插入 Yubikey（如果已经插入，则系统不会弹出这一步窗口）。
+当看到这个提示时，插入 YubiKey（如果已经插入，则系统不会弹出这一步窗口）。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/yubikey.png'/></div>
 
-插入 Yubikey 后，自动进入下一步如图：
+插入 YubiKey 后，自动进入下一步如图：
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey3.jpg'/></div>
 
-输入 Yubikey 的 PIN 码，此 PIN 码为 Yubikey 自身的PIN码，不是 Windows 的 PIN 码。
+输入 YubiKey 的 PIN 码，此 PIN 码为 YubiKey 自身的PIN码，不是 Windows 的 PIN 码。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey4.jpg'/></div>
 
