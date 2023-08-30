@@ -10,20 +10,20 @@ II注册主要通过Chrome浏览器进行，不同的硬件设备能工提供的
 
 ***第一步: 打开互联网身份Dapp***
 
-在Chrome浏览器（务必在Chrome浏览器中打开！不要再微信中或者其他浏览器中打开，以免出现各种奇怪问题。）中输入以下地址：
+在 Chrome 浏览器（务必在 Chrome 浏览器中打开！不要再微信中或者其他浏览器中打开，以免出现各种奇怪问题。）中输入以下地址：
 https://identity.ic0.app 
 
-第一次访问这个网页（包括任何构建在IC上的网页），会看到安装Loading the Service Worker的提示。这是正常系统操作，稍候几秒安转完成后，就会看到网页。
+第一次访问这个网页（包括任何构建在 IC 上的网页），会看到安装 Loading the Service Worker 的提示。这是正常系统操作，稍候几秒安转完成后，就会看到网页。
 
 
 ***第二步： 创建一个新的II身份***
 
-点击下图页面中“Create New”按钮，开始创建新的II身份
+点击下图页面中 “Create New” 按钮，开始创建新的II身份
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii2.jpg'/></div>
 
 ***第三步: 创建安全密钥***
-点击下图中“Create Passkey”按钮创建安全密钥。
+点击下图中 “Create Passkey” 按钮创建安全密钥。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii3.jpg'/></div>
 
@@ -31,41 +31,52 @@ https://identity.ic0.app
 此处需要根据不同硬件执行不同的操作，以下根据不同设备进行说明。
 
 ### Windows设备
-Windows设备，通常可以使用Windows Hello功能创建万能密钥。
+Windows 设备，通常可以使用 Windows Hello 功能创建万能密钥。
 
-- **使用pin码创建**
+- **使用 PIN 码创建**
 
-当选择使用pin码创建时，将会弹出如下对话框。
+当选择使用 PIN 码创建时，将会弹出如下对话框。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winhellopin.jpg'/></div>
 
-输入PIN码（windows登录时的pin码），即可创建万能密钥
+输入 PIN 码（Windows登录时的 PIN 码），即可创建万能密钥
 
 - **使用面容识别**
 
-如果使用的是带有面容识别硬件的windows系统（通常会出现在带有面容识别登录的windows笔记本设备中），会优先提示使用面容识别，进行登录。
+如果使用的是带有面容识别硬件的 Windows 系统（通常会出现在带有面容识别登录的 Windows 笔记本设备中），会优先提示使用面容识别，进行登录。
 
-!此处缺图!!
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/winhello.png'/></div>
 
-- **使用yubikey**
+- **使用 Yubikey**
 
-如果您拥有yubikey，可以再弹出的Windows Hello对话框中选择使用“安全密钥”，通过yubikey创建密钥。
+如果您拥有 Yubikey，可以再弹出的 Windows Hello 对话框中选择使用“安全密钥”，通过 Yubikey 创建密钥。
+
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey.jpg'/></div>
 
+点击确定，进入下一步。
+
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey2.jpg'/></div>
 
+当看到这个提示时，插入 Yubikey（如果已经插入，则系统不会弹出这一步窗口）。
+
+<div style={{textAlign: 'center'}}><img src='/img/internet-identity/yubikey.png'/></div>
+
+插入 Yubikey 后，自动进入下一步如图：
+
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey3.jpg'/></div>
+
+输入 Yubikey 的 PIN 码，此 PIN 码为 Yubikey 自身的PIN码，不是 Windows 的 PIN 码。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/winyubikey4.jpg'/></div>
 
 完成触摸后，将进行下一步。
 
-### Android设备
+### Android 设备
 
-Android设备，可以使用手机自带的安全认证功能创建密钥。（如指纹、面部识别）
+Android 设备，可以使用手机自带的安全认证功能创建密钥。（如指纹、面部识别）
 
-此处点击选择“在此设备上使用屏幕锁定”（不同硬件系统提示可能略有不同，此处笔者使用的是三星S20Ultra手机。）
+此处点击选择“在此设备上使用屏幕锁定”（不同硬件系统提示可能略有不同，此处笔者使用的是三星 S20 Ultra 手机。）
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii4.jpg'/></div>
 
@@ -83,7 +94,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 ***第五步: 记录互联网身份号***
 
-这个页面提示你记下最新创建的属于你的互联网身份号，它将作为互联网身份标识，在其它设备登录时使用，请务必保存。点击copy按钮，可以自动将互联网身份号保存在设备黏贴板中。
+这个页面提示你记下最新创建的属于你的互联网身份号，它将作为互联网身份标识，在其它设备登录时使用，请务必保存。点击"copy"按钮，可以自动将互联网身份号保存在设备黏贴板中。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii6.jpg'/></div>
 
@@ -124,7 +135,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 ***完成***
 
-再次来到这个页面，顶部提示创建恢复短语的条幅已不再显示。此时，你已完成恢复短语的创建。再次提醒，请务必妥善保管您的恢复短语。现在你已经可以安全的畅游整个IC网络了。
+再次来到这个页面，顶部提示创建恢复短语的条幅已不再显示。此时，你已完成恢复短语的创建。再次提醒，请务必妥善保管您的恢复短语。现在你已经可以安全的畅游整个 IC 网络了。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/ii8.jpg'/></div>
 
@@ -136,7 +147,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 ***第一步: 开始添加设备***
 
-在管理界面中滑动到Passkeys区域，点击“Add new Passkey”按钮
+在管理界面中滑动到 Passkeys 区域，点击“Add new Passkey”按钮
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/add1.jpg'/></div>
 
@@ -147,20 +158,20 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/add2.jpg'/></div>
 
-在设备B中通过chrome浏览器（请不要使用微信直接打开链接）打开上图中的链接。
+在设备B中通过 Chrome 浏览器（请不要使用微信直接打开链接）打开上图中的链接。
 
->tips:可以通过手机扫码（手机自带的扫码功能，而非微信或支付宝提供的扫码工具），选择chrome浏览器打开链接。
+>tips:可以通过手机扫码（手机自带的扫码功能，而非微信或支付宝提供的扫码工具），选择 Chrome 浏览器打开链接。
 
 在设备B中打开链接后，会提示创建安全密钥，请参考注册互联网身份章节中“第三步：创建安全密钥”步骤，完成密钥创建。
 
 ***第三步: 输入验证码确认添加***
 
-此时，设备B中会跳转至如下界面，请记下“Verification Code”
+此时，设备B 中会跳转至如下界面，请记下“Verification Code”
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/add4.jpg'/></div>
 
 
-在设备A中，将会跳转至如下界面,请输入在设备B中记录的“Verification Code”，并点击“Verify PassKey”按钮继续
+在设备A 中，将会跳转至如下界面,请输入在设备B中记录的“Verification Code”，并点击“Verify PassKey”按钮继续
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/add3.jpg'/></div>
 
@@ -187,7 +198,7 @@ Android设备，可以使用手机自带的安全认证功能创建密钥。（�
 
 如果更换了自己的硬件设备，或者丢失了硬件设备，请最快速度通过其它已经认证的设备登录互联网身份页面，并删除丢失或弃用的硬件安全密钥。因为得到设备的人有可能可以通过该设备获得你互联网身份的管理权限。
 
-在管理界面中滑动到Passkeys区域，点击页面中想要更改的安全密钥右侧“...”按钮，在弹出的菜单中选择“Remove”，删除密钥。
+在管理界面中滑动到 Passkeys 区域，点击页面中想要更改的安全密钥右侧“...”按钮，在弹出的菜单中选择“Remove”，删除密钥。
 
 <div style={{textAlign: 'center'}}><img src='/img/internet-identity/rename1.jpg'/></div>
 
