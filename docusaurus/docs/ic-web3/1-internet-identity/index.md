@@ -1,3 +1,9 @@
+---
+# Display h2 to h4 headings
+toc_min_heading_level: 2
+toc_max_heading_level: 4
+---
+
 # 注册互联网身份 {#how-to-register}
 
 ## 介绍 {#introduction}
