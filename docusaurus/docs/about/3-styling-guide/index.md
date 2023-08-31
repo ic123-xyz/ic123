@@ -133,3 +133,47 @@ Docusaurus 的架构中，会被社区内容贡献者用到的文件夹有两个
 2. 文章的标题在 `index.md` 文件第一行用 `#` 标明，然后就可以进入 `##` 的正文结构了。不需要 `front matter`，也不需要 `<!--truncate-->`。
 3. 文章的作者将直接在网页下方显示（包括时间戳），按照最后递交 PR ，被 merge 了的 commit 作者为准。
 4. 整篇文章在 commit 的时候，最重要的是 `my-dear-icp` 部分，因为它决定了文章的 URL 以及后续的 SEO (搜索引擎的搜索效率)。文章的其他部分都可以在初始 commit 之后继续更改而不影响文章在互联网和社交媒体上的有效传播。
+
+## Markdown 文本编辑功能
+
+下面介绍一些在 Docusaurus 中常用的 Markdown 文本编辑功能。
+
+### 如何生成英文内链 {#enlish-heading-id}
+
+Docusaurus 默认会为中文标题生成中文的标题 ID，这样会使得生成类似如下所示的链接。
+
+`https://ic123.xyz/docs/about/styling-guide/#%E9%80%9A%E7%94%A8 `
+
+这样的链接可读性并不好，如果您觉得您的标题可能会被单独链接，推荐使用自定义的标题 ID，如下所示。
+
+`### account: 账号 {#account}`
+
+这样 Docusaurus 会为您生成如下所示的链接。
+
+`https://ic123.xyz/docs/getting-started/ic-glossary/#account`
+
+具体代码请参考 [GitHub](https://github.com/ic123-xyz/ic123/blob/main/docusaurus/docs/getting-started/4-ic-glossary/index.md?plain=1#L5) 。
+
+更多信息，请参考 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/toc#heading-ids)。
+
+请注意：
+1. 不要使用重复的标题 ID，会产生冲突。
+2. 该功能 GitHub 并不支持，所以您在 GitHub 的预览页面该功能并不会启用。
+
+### 如何修改目录层级 {#headings-of-toc}
+
+Docusaurus 默认会在文档右侧的目录栏包含三级、及三级以上的标题。如果您需要支持到四级、甚至四级以上的目录结构，请按一下方式配置。
+
+在您的文档的前文使用 `toc_min_heading_level` 和 `toc_max_heading_level` 来定义目录所包含的最小和最大标题级别，如下所示。
+
+```
+---
+# 显示 h2 到 h5 标题
+toc_min_heading_level: 2
+toc_max_heading_level: 5
+---
+```
+
+具体的示例请参考[注册互联网身份](https://ic123.xyz/docs/ic-web3/internet-identity/)。对应的代码示例请参考 [GitHub](https://github.com/ic123-xyz/ic123/blob/main/docusaurus/docs/ic-web3/1-internet-identity/index.md?plain=1#L1)。
+
+更多信息，请参考 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/toc#table-of-contents-heading-level)。
