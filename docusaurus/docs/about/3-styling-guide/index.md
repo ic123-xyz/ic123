@@ -156,7 +156,9 @@ Docusaurus 默认会为中文标题生成中文的标题 ID，这样会使得生
 
 更多信息，请参考 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/toc#heading-ids)。
 
-请注意，该功能 GitHub 并不支持，所以您在 GitHub 的预览页面该功能并不会启用。
+请注意：
+1. 不要使用重复的标题 ID，会产生冲突。
+2. 该功能 GitHub 并不支持，所以您在 GitHub 的预览页面该功能并不会启用。
 
 ### 如何修改目录层级 {#headings-of-toc}
 
