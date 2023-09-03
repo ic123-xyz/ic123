@@ -2,11 +2,13 @@
 
 这是 NNS 创建 SNS DAO 来管理 Seers dApp 的提案。
 
-# 概括
+<!--truncate-->
+
+## 概括
 
 这是 NNS 创建 SNS DAO 来管理 Seers dApp 的提案。
 
-# 目的
+## 目的
 
 Seers 是一个 Web3、完全链上的社交网络，建立在互联网计算机的突破性技术之上。
 
@@ -14,7 +16,7 @@ Seers 是一个 Web3、完全链上的社交网络，建立在互联网计算机
 
 但这仅仅是开始，我们设想 Seers 发展成为一个类似于 Elon Musk 的 “X” 的充满活力的平台，有可能重新定义全球互动和交易。
 
-# Seers 的成就和去中心化的未来
+## Seers 的成就和去中心化的未来
 
 在过去的一年里，Seers 进行了广泛的产品市场契合度实验，涵盖 300 个预测市场并吸引了 3,000 名用户，此外，我们的社区已创建了 10,000 多个帖子，反映了积极的参与；
 
@@ -32,7 +34,7 @@ SNS DAO 持有 SEER 代币和 ICP 的宝库，可用于资助平台的持续开�
 
 immediate-guilty-135.notion.site/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b
 
-# 拟议的代币分配
+## 拟议的代币分配
 
 代币供应总量：1 亿个 SEER 代币
 
@@ -46,7 +48,7 @@ immediate-guilty-135.notion.site/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7
 
 账本交易费用：0.001 SEER 代币
 
-# 治理
+## 治理
 
 每个去中心化销售参与者（包括 NF）将收到一篮子代币，该篮子由 5 个等值 SEER 神经元组成，溶解延迟分别为 0、6、12、18 和 24 个月；
 
@@ -63,7 +65,7 @@ Seers 的治理参数建议初步设置为：
 年龄奖金的最大年龄：6 个月
 最大年龄奖金：1.25x
 
-# 去中心化销售
+## 去中心化销售
 
 代币总供应量的 25% 建议通过 SNS 去中心化销售进行分配，如果该提案获得通过，销售将在指定的延迟后开始，并预计在销售开始后 11 天结束。
 
@@ -80,7 +82,7 @@ Seers 的治理参数建议初步设置为：
 
 销售对任何人开放，可以通过 NNS 前端的启动板（nns.ic0.app）或使用 quill 在命令行上参与！
 
-# The dApp
+## The dApp
 
 Seers dApp 由一组容器智能合约组成，由 Seers SNS 根容器控制的顶级容器：
 
@@ -92,6 +94,6 @@ Seers dApp 由一组容器智能合约组成，由 Seers SNS 根容器控制的�
 
 wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal
 
-# 
+## 
 
 原文链接：https://dashboard.internetcomputer.org/proposal/124258
