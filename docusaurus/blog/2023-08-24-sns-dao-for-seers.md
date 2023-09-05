@@ -1,12 +1,7 @@
 ---
 slug: sns-dao-for-seers
 title: Seers 开启 NNS 去中心化销售
-authors: 
-    -   michael
-    -   name: Michael Yang
-        title: ICP Community Member
-        url: https://www.linkedin.com/in/michael-yang-a95b7891/
-        image_url: https://ice.frostsky.com/2023/08/16/e406d5a1d34e5ef322726f8f10e9cbb4.jpeg
+authors: michael
 tags: [sns, nns, seers]
 ---
 
@@ -104,6 +99,6 @@ Seers dApp 由一组容器智能合约组成，由 Seers SNS 根容器控制的�
 
 wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal
 
-## 
+---
 
 原文链接：https://dashboard.internetcomputer.org/proposal/124258
