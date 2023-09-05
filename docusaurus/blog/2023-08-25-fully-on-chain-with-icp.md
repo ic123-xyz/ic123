@@ -117,7 +117,7 @@ https://internetcomputer.org/ecosystem
 开源项目存储库（建议许可证：Apache 2.0 或 MIT 许可证）
 容器 ID
 README
-示例：github.com/dfinity/grant-rfps/blob/main/repo-checklist.md#blue_book-create-an-informative-readme
+示例：https://github.com/dfinity/grant-rfps/blob/main/repo-checklist.md#blue_book-create-an-informative-readme
 视频（约 5 分钟）
 应包括项目和功能的概述
 必须包括工作应用程序的演示
