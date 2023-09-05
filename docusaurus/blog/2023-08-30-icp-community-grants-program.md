@@ -1,12 +1,7 @@
 ---
 slug: icp-community-grants-program
-title: ICP 社区资助计划常见问答
-authors: 
-    -   michael
-    -   name: Michael Yang
-        title: ICP Community Member
-        url: https://www.linkedin.com/in/michael-yang-a95b7891/
-        image_url: https://ice.frostsky.com/2023/08/16/e406d5a1d34e5ef322726f8f10e9cbb4.jpeg
+title: 'ICP 社区资助计划常见问答'
+authors: michael
 tags: [icp, dfinity, web3]
 ---
 
