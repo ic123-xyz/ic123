@@ -108,7 +108,7 @@ ICP 的核心功能使其成为下一代去中心化 Web3 游戏应用程序的�
 
 查看互联网计算机生态系统以获取灵感：
 
-internetcomputer.org/ecosystem
+https://internetcomputer.org/ecosystem
 
 ## 提交什么
 
@@ -126,7 +126,7 @@ README
 
 了解有关 DFINITY 开发者资助计划的更多信息：
 
-dfinity.org/grants
+https://dfinity.org/grants
 
 ## 奖品
 
