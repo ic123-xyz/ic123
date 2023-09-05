@@ -192,7 +192,7 @@ IC 超能力：您如何充分利用互联网计算机的超能力？
 
 注册链接：
 
-awesomeicp.devpost.com
+https://awesomeicp.devpost.com
 
 备注：对本次黑客松感兴趣的亚洲团队可以联系 DFINITY 亚太区团队的 Beeling（微信 ID：bee9073），他们会提供技术支持和申请过程中的各种指导及帮助。
 
