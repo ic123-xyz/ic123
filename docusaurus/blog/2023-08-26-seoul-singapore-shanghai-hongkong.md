@@ -1,8 +1,18 @@
-# 9 月份 ICP 首尔、新加坡、上海及香港线下活动一览
+---
+slug: seoul-singapore-shanghai-hongkong
+title: 9 月份 ICP 首尔、新加坡、上海及香港线下活动一览
+authors: 
+    -   michael
+    -   name: Michael Yang
+        title: ICP Community Member
+        url: https://www.linkedin.com/in/michael-yang-a95b7891/
+        image_url: https://ice.frostsky.com/2023/08/16/e406d5a1d34e5ef322726f8f10e9cbb4.jpeg
+tags: [icp, kbw, token2049]
+---
 
 我们期待在这四个城市与您见面！
 
-<!--truncate-->
+ <!--truncate-->
 
 ## 首尔
 
