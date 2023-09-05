@@ -104,6 +104,6 @@ Seers dApp 由一组容器智能合约组成，由 Seers SNS 根容器控制的�
 
 wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal
 
- <!--truncate-->
+--
 
 原文链接：https://dashboard.internetcomputer.org/proposal/124258
