@@ -2,7 +2,7 @@
 slug: fully-on-chain-with-icp
 title: Fully On-Chain with ICP 黑客松开启招募
 authors: michael
-tags: [icp, socialfi, rwa]
+tags: [socialfi, gamefi, rwa]
 ---
 
 通过 ICP 黑客马拉松解锁完全链上的创新，总奖金 23,000 美元 + ICP 开发者补助金 40,000 美元。
