@@ -2,12 +2,12 @@
 slug: icp-community-grants-program
 title: 'ICP 社区资助计划常见问答'
 authors: michael
-tags: [icp, dfinity, web3]
+tags: [community, grant, web3]
 ---
 
 呼吁所有有才华的个人和团队加入区块链奇点运动，DFINITY 基金会鼓励更广泛的 Web3 社区中的每个人申请资助并在行业中产生重大影响。
 
- <!--truncate-->
+<!--truncate-->
 
 随着 DFINITY 基金会变得比以往任何时候都更强大的 ICP 生态系统，社区资助计划也在不断发展，通过这个重振计划，DFINITY 基金会的目标是为那些推动 ICP 生态系统和整个行业扩张的人们提供支持，DFINITY 基金会将支持明星团队和有想法和计划的人，以实现真正的改变！
 

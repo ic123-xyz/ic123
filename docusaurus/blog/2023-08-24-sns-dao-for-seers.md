@@ -7,7 +7,7 @@ tags: [sns, nns, seers]
 
 这是 NNS 创建 SNS DAO 来管理 Seers dApp 的提案。
 
- <!--truncate-->
+<!--truncate-->
 
 ## 概括
 
