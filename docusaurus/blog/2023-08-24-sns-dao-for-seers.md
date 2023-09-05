@@ -37,7 +37,7 @@ SNS DAO 持有 SEER 代币和 ICP 的宝库，可用于资助平台的持续开�
 
 有关 Seers 项目和 SNS 的更多信息，请阅读此处的白皮书：
 
-immediate-guilty-135.notion.site/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b
+https://immediate-guilty-135.notion.site/Seers-Web3-Social-Network-25fa0f505b0141cabb5d7d68a11f572b
 
 ## 拟议的代币分配
 
@@ -97,7 +97,7 @@ Seers dApp 由一组容器智能合约组成，由 Seers SNS 根容器控制的�
 
 通过检查初始化的 Seers SNS 容器，可以验证上述所有详细信息，更详细的说明请参见此处：
 
-wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal
+https://wiki.internetcomputer.org/wiki/How-to:_Verify_SNS_decentralization_swap_proposal
 
 ---
 
