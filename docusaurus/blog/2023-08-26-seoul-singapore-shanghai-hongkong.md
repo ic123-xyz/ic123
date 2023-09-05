@@ -7,7 +7,7 @@ tags: [icp, kbw, token2049]
 
 我们期待在这四个城市与您见面！
 
- <!--truncate-->
+<!--truncate-->
 
 ## 首尔
 

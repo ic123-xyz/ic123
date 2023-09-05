@@ -7,7 +7,7 @@ tags: [icp, socialfi, rwa]
 
 通过 ICP 黑客马拉松解锁完全链上的创新，总奖金 23,000 美元 + ICP 开发者补助金 40,000 美元。
 
- <!--truncate-->
+<!--truncate-->
 
 ## 通过 ICP 黑客马拉松解锁完全链上的创新！ 
 
