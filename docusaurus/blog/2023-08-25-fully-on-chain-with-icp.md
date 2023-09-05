@@ -1,12 +1,7 @@
 ---
 slug: fully-on-chain-with-icp
 title: Fully On-Chain with ICP 黑客松开启招募
-authors: 
-    -   michael
-    -   name: Michael Yang
-        title: ICP Community Member
-        url: https://www.linkedin.com/in/michael-yang-a95b7891/
-        image_url: https://ice.frostsky.com/2023/08/16/e406d5a1d34e5ef322726f8f10e9cbb4.jpeg
+authors: michael
 tags: [icp, socialfi, rwa]
 ---
 
@@ -201,6 +196,6 @@ awesomeicp.devpost.com
 
 备注：对本次黑客松感兴趣的亚洲团队可以联系 DFINITY 亚太区团队的 Beeling（微信 ID：bee9073），他们会提供技术支持和申请过程中的各种指导及帮助。
 
-## 
+---
 
 原文链接：https://awesomeicp.devpost.com
