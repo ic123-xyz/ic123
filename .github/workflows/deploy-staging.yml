@@ -22,7 +22,7 @@ jobs:
         fetch-depth: 0
     - name: Prepare
       run: |
-        sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+        DFX_VERSION=0.14.3 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
         echo "${{secrets.WEIHAILU}}" > identity.pem
         chmod 400 identity.pem
         mkdir -p ~/.config/dfx/identity/default
