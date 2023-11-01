@@ -1,6 +1,6 @@
 # ICP节点供应商FAQ
 
-## 资源
+## 资源 {#resources}
 
 :::info
 
@@ -19,7 +19,7 @@ https://wiki.internetcomputer.org/wiki/NP_Self_Declarations
 
 :::
 
-## 上手步骤
+## 上手步骤 {#steps}
 
 ***请确保已经仔细阅览以上文档。***
 
@@ -108,6 +108,13 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 ### 节点机器上需要配置 RAID 吗？
 
 >不需要。IC 节点机器不需要配置 RAID，IC-OS 安装程序将验证是否有5个独立的 6.4TB NVMe SSD 并确保它们准备就绪。
+
+### 如何本地检测机器是否满足 Gen-2 节点的配置要求？
+>DFINITY基金会提供了[脚本](https://github.com/dfinity/ic/tree/bab6c4415bfc314221e58d7f5d8da5477783b998/ic-os/scripts/hw_validation)可以在目标机器上运行、用以检测机器配置。
+
+### 节点机器的网络带宽要求是多少？
+
+>节点机器的网络带宽要求是300Mbps。您可以在节点网络配置的[最终检查列表](https://wiki.internetcomputer.org/wiki/Node_Provider_Networking_Guide#Final_Checklist)中查询更多信息。
 
 ### Gen-2 机器的价格是多少？
 
