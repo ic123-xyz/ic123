@@ -14,6 +14,8 @@ GitHub Actions 是一种持续集成和持续交付 (CI/CD) 平台，可用于�
 dfx identity new <identity-name> --storage-mode=plaintext
 ```
 
+您可以在 `~/.config/dfx/identity/<identity-name>/identity.pem` 找到您刚创建的身份对应的 PEM 文件。
+
 ### 添加控制者 {#add-controller}
 
 您需要将生成的身份添加为您的容器的控制者，当需要更新 Wasm 代码的时候会用到。可参考如下脚本：
