@@ -26,7 +26,7 @@ dfx canister update-settings --add-controller <principal-id> <canister-id> --net
 
 ### 权限授权 {#grant-permission}
 
-如果您的容器是 Asset Canister 类型，您需要将 `Commit` 权限授权给生成的身份用以更新、部署 Asset Canister。
+如果您的容器是 [Asset Canister](https://internetcomputer.org/docs/current/references/asset-canister) 类型，您需要将 `Commit` 权限授权给生成的身份用以更新、部署 Asset Canister。
 
 您可以用以下的脚本来检查授权情况：
 
@@ -63,27 +63,31 @@ dfx canister call <canister-name/canister-id> grant_permission '(record {to_prin
 ## Github 工作流描述 {#workflow-description}
 
 在 ic123 代码仓库中，包含[两个工作流](https://github.com/ic123-xyz/ic123/tree/main/.github/workflows)：
-1. deploy-staging.yml 是用来部署到 staging 环境，当 main 分支有 push 时会自动触发。
-2. deploy-production.yml 是用来部署到 production 环境，需要手动触发。
+1. `deploy-staging.yml` 是用来部署到 staging 环境，当 main 分支有 push 时会自动触发。
+2. `deploy-production.yml` 是用来部署到 production 环境，需要手动触发。
 
 下面以 [deploy-staging.yml](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml) 为例介绍流程。
 
 ### 触发条件 {#trigger}
 
-[这一步](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml#L4)配置了 Action 的触发条件，当往 main 分支 push 时会触发该 Action。
+这一步配置了 Action 的触发条件，当往 main 分支 push 时会触发该 Action，同时也允许手动触发。
 
 ```
 on:
   push:
     branches:
       - main
+  ...
+  workflow_dispatch:
 ```
 
 ### 准备 {#prepare}
 
-[这一步](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml#L23)主要是安装 `dfx`，准备默认身份。
+这一步主要是安装 `dfx`，准备默认身份。
 
 ```
+    - name: Prepare
+      run: |
         DFX_VERSION=0.14.3 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
         echo "${{secrets.WEIHAILU}}" > identity.pem
         chmod 400 identity.pem
@@ -96,9 +100,11 @@ on:
 
 ### 构建 {#build}
 
-[这一步](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml#L34)就是通过 Docusaurus 构建文档。
+这一步就是通过 `Docusaurus` 构建文档。
 
 ```
+    - name: Build
+      run: |
         cd docusaurus
         npm install
         npm run build
@@ -107,23 +113,30 @@ on:
 
 ### 部署 {#deploy}
 
-[这一步](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml#L40)将在[添加容器 ID 变量](#add-variable)步骤添加的容器 ID 写入 `canister_ids.json` 文件，并部署。
+这一步将在[添加容器 ID 变量](#add-variable)步骤添加的容器 ID 写入 `canister_ids.json` 文件，并部署。
 
 ```
+    - name: Deploy
+      run: |
         rm canister_ids.json
         echo '{ "ic123_frontend": { "ic": "${{ vars.STAGING_CANISTER_ID }}" } }' > canister_ids.json
         dfx start --background --clean
         dfx deploy --network=ic
 ```
 
-请注意，您需要将 `STAGING_CANISTER_ID` 换成您自己的容器 ID。
+请注意，您需要将 `STAGING_CANISTER_ID` 替换成您自己的容器 ID，同时将 `ic123_frontend` 替换成您自己的容器名字（您可以在您 IC 工程的 `dfx.json` 文件中找到容器名称）。
 
 ### 总结 {#summarize}
 
-[这一步](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-staging.yml#L46)输入部署的容器链接，方便查看，例如 https://github.com/ic123-xyz/ic123/actions/runs/6864352446。
+这一步输出部署的容器链接，方便查看，例如 https://github.com/ic123-xyz/ic123/actions/runs/6864352446。
+
+```
+    - name: Summarize
+      run: echo 'https://${{ vars.STAGING_CANISTER_ID }}.icp0.io' >> $GITHUB_STEP_SUMMARY
+```
 
 
-另外 [deploy-production.yml](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-production.yml) 与 deploy-staging.yml 基本相似，不同之处在于触发条件为手动，如下所示：
+另外 [deploy-production.yml](https://github.com/ic123-xyz/ic123/blob/main/.github/workflows/deploy-production.yml) 与 deploy-staging.yml 基本相似，不同之处在于仅支持手动触发，如下所示：
 
 ```
 on: 
