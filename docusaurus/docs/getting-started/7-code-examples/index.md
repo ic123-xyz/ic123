@@ -12,4 +12,8 @@ IC 提供了很多范例供开发者参考。以下所有的示例都开源，�
 
 [门限 ECDSA 签名](./1-threshold-ecdsa/index.md)示例提供了一个最小的容器智能合约、用于展示[门限 ECDSA](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa/) 的相关接口。
 
+## BTC 集成 {#btc-integration}
+
+[BTC 集成](./2-btc-integration/index.md)示例提供了一个可以在 IC 上发送和接收比特币的容器智能合约，该示例内部调用了 IC 的 [门限 ECDSA 接口](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-ecdsa_public_key) 和 [比特币接口](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-bitcoin-api)。
+
 ## To be continued
