@@ -1,55 +1,24 @@
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+## 有问题么？
 
-## 提问？
+欢迎大家随时向我们提出任何技术问题。[我们会尽力尽快回应](https://ic123.xyz/docs/dev-resources/dev-grants/#communicate)。
 
-如果有技术问题，可以在三个地方得到比较快速的来自DFINITY技术团队的响应。我们希望所有的技术问题都在公开的平台上进行，这样可以让更多的开发者受益。我们尽量避免在1:1的单线私人频道里回答技术问题 - 这样的效率太低了。
+1. 上网比较方便的，在 **`ICP China`** 的 Twitter Community，用中文发帖提问
 
-```mdx-code-block
-<Tabs>
-  <TabItem value="中文" label="中文" default>
-```
+  :::info
+  
+  https://twitter.com/i/communities/1679302895571988481
+  :::
 
-`ICP China` 的Twitter Community，可以直接用中文发帖提问。我们会回复。
+2. 有经验的开发者在 DFINITY 基金会运营的开发者论坛上用**英文**提问
 
-:::info
+  :::info
+  https://forum.dfinity.org/ ，可以 cue 我们：[Ben](https://forum.dfinity.org/u/benji/summary)，[Paul](https://forum.dfinity.org/u/PaulLiu/summary)，[Vincent](https://forum.dfinity.org/u/vincentzhang/summary) ，[Herbert](https://forum.dfinity.org/u/zire/summary)。
+  :::
 
-https://twitter.com/i/communities/1679302895571988481
+3. 深度 ICP 用户可以在 [OpenChat](https://oc.app/?ref=inda5-hyaaa-aaaaf-aaioq-cai) 上的 `ic123.xyz 工作组` 里提问题
 
-:::
+  :::info
+  https://oc.app/group/yvpxf-lqaaa-aaaar-asbga-cai/?ref=inda5-hyaaa-aaaaf-aaioq-cai
+  :::
 
-```mdx-code-block
-  </TabItem>
-  <TabItem value="英文" label="英文">
-```
-在DFINITY基金会运营的开发者论坛上提问，会有对应的技术团队来回复。如果你想确保DFINITY的华人团队可以看到你的帖子，cue一下这几位的论坛ID。
-
-- Ben, `@benji`
-- Paul, `@PaulLiu`
-- Vincent, `@vincentzhang` 
-- Herbert, `@zire`
-
-:::info
-
-https://forum.dfinity.org/
-
-:::
-
-```mdx-code-block
-  </TabItem>
-  <TabItem value="中英文皆可" label="中英文皆可">
-```
-
-就在`ic123.xyz`的Github通过*issue*的方式来提问。这个Github有两个repo, 用`forum` repo。
-
-:::info
-
-https://github.com/ic123-xyz/forum
-
-:::
-
-```mdx-code-block
-  </TabItem>
-</Tabs>
-```
-
+  [欢迎您申请 DFINITY 基金会的 Developer Grant 项目](https://ic123.xyz/docs/dev-resources/dev-grants/), ，加入互联网计算机的大家庭！

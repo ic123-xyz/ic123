@@ -2,8 +2,6 @@
 sidebar_position: 5
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 import TeamContact from '../contact.md';
 
 # Motoko基础教程第四讲

@@ -1,3 +1,5 @@
+import TeamContact from '../../contact.md';
+
 # 使用 dfx
 
 命令行工具 `dfx` 是用于创建、部署和管理互联网计算机 (IC) 平台上的去中心化应用的主要工具，用来管理身份、账本、cycles 钱包、以及容器等。`dfx` 包含有二十多个子命令，每个子命令又拥有不同的子命令，使得 `dfx` 的功能非常强大的同时也很庞大。
@@ -604,3 +606,5 @@ dfx canister call qvhir-riaaa-aaaan-qekqa-cai greet --network ic
 ## 总结
 
 除了本文列举的关于身份、账本、cycles 钱包、容器相关的命令，`dfx` 命令还有更多的子命令，目前就不在一一列举，后续如果有需要可以根据大家反馈继续增加，也欢迎大家参与贡献。
+
+<TeamContact />

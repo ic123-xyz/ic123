@@ -1,3 +1,5 @@
+import TeamContact from '../../contact.md';
+
 # 获取 cycles
 
 ## 概述
@@ -98,6 +100,5 @@ dfx wallet --network ic balance
 
 至此您已经准备好在 IC 上托管网站或按照我们的 dapp 教程进行操作，您可以在[这里](https://internetcomputer.org/docs/current/tutorials/)找到相关教程。
 
-## 如何将 ICP 代币转换为 cycles
+<TeamContact />
 
-![coming_soon](@site/static/img/coming_soon.png)

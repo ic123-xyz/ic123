@@ -1,3 +1,5 @@
+import TeamContact from '../../../contact.md';
+
 # 门限 ECDSA 签名
 
 ## 概览 {#overview}
@@ -212,3 +214,5 @@ URLs:
 - 使用私有 ECDSA 密钥签名，而容器本身不持有 ECDSA 密钥。
 - 请求公钥。
 - 验证签名。
+
+<TeamContact />

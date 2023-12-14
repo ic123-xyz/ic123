@@ -1,3 +1,5 @@
+import TeamContact from '../../contact.md';
+
 # 如何安装 IC SDK
 
 ## 概览
@@ -135,3 +137,5 @@ DFX_VERSION=0.12.1 sh -ci "$(curl -sSL https://internetcomputer.org/install.sh)"
 ```
 ~/.cache/dfinity/uninstall.sh && sh -ci "$(curl -sSL https://internetcomputer.org/install.sh)"
 ```
+
+<TeamContact />

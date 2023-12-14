@@ -5,6 +5,8 @@ description: 如何申请DFINITY基金会的developer grants，以及申请过�
 keywords: [DFINITY, ICP, IC, 互联网计算机, grants, developer grants, developer]
 ---
 
+import TeamContact from '../../contact.md';
+
 ![dev grants](./img/dfinity-grants.jpg)
 
 ## 介绍 {#intro}
@@ -343,3 +345,5 @@ DFINITY 基金会擅长的是搭建互联网最底层最抽象的技术协议。
 >     乘风破浪会有时，直挂云帆济沧海
 
 加油吧，乘风的少年们！
+
+<TeamContact />

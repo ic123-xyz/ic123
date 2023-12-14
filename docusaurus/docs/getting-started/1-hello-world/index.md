@@ -1,3 +1,5 @@
+import TeamContact from '../../contact.md';
+
 # 五分钟体验 IC 上的 Hello World
 
 ## 概览
@@ -268,3 +270,5 @@ URLs:
 - Cycles 是驱动 dapps 所需的能量。
 - 可以从 cycles 水龙头获取免费 cycles。
 - 免费 cycles 可以用于为其他 dapps 提供动力。
+
+<TeamContact />
