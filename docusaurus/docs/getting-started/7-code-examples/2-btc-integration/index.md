@@ -1,3 +1,5 @@
+import TeamContact from '../../../contact.md';
+
 # BTC 集成
 
 ## 概览 {#overview}
@@ -163,3 +165,5 @@ dfx canister --network=ic call basic_bitcoin send '(record { destination_address
 - 使用比特币水龙头获取一些测试网比特币； 
 - 检查容器比特币地址的测试网比特币余额；
 - 使用容器将测试网比特币发送到另一个比特币地址。
+
+<TeamContact />

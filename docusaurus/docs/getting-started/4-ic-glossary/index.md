@@ -1,3 +1,5 @@
+import TeamContact from '../../contact.md';
+
 # 互联网计算机（IC）核心词汇表
 
 ## A
@@ -306,3 +308,5 @@ IC **注册表**管理在 [NNS](#network-nervous-system) 上维护的系统元�
 
 ### WebAssembly
 **WebAssembly**（缩写为 Wasm ）是一种基于堆栈的虚拟机的二进制指令格式。
+
+<TeamContact />
