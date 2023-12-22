@@ -1,4 +1,13 @@
+---
+title: Submit NNS Proposals
+image: './img/submit.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, NNS, proposal]
+---
+
 # 递交社区提案
+
+![proposal](./img/submit.jpg)
 
 这篇文章介绍了使用一些命令行工具, 通过神经元来Neuron提交 NNS 动议提案的一种方法。
 

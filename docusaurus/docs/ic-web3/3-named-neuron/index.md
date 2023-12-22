@@ -1,4 +1,14 @@
+---
+title: Named Neuron
+image: './img/follow.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, neuron ]
+---
+
 # 申请成为命名神经元
+
+![named neuron](./img/follow.jpg)
+
 命名神经元的广泛性是IC通向去中心化治理的必由之路，也是IC流动民主的体现，IC鼓励生态的项目方，DAO组织，个人申请命名神经元，这些命名神经元将在未来NNS治理过程中起到关键效应，是民主与集中的最佳平衡。
 
 ## 想清楚为什么要成为命名神经元

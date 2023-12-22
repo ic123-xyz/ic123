@@ -1,6 +1,16 @@
+---
+title: Media Assets
+image: './img/media.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, media, 媒体资粮, PR]
+draft: false
+---
+
 import herbertPic from './img/herbert_avatar.jpg';
 
 # 媒体资料
+
+![media](./img/media.jpg)
 
 :::tip
 

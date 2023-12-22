@@ -2,9 +2,15 @@
 # Display h2 to h4 headings
 toc_min_heading_level: 2
 toc_max_heading_level: 4
+title: Internet Identity
+image: './img/astronaut.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, Identity, Internet Identity, DID ]
 ---
 
 # 注册互联网身份 {#how-to-register}
+
+![identity](./img/astronaut.jpg)
 
 ## 介绍 {#introduction}
 

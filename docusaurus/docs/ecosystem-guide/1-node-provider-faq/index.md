@@ -1,4 +1,15 @@
+---
+title: ICP节点供应商FAQ
+image: './img/nodes.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, node operator]
+draft: false
+---
+
+
 # ICP节点供应商FAQ
+
+![node operator](./img/nodes.jpg)
 
 ## 资源 {#resources}
 
