@@ -1,4 +1,13 @@
+---
+title: Staking ICP
+image: './img/staking.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, staking, 质押]
+---
+
 # 质押ICP
+
+![staking](./img/staking.jpg)
 
 ## 概览
 利益相关者可获得投票权，并可通过购买 ICP 代币获得投票奖励。
