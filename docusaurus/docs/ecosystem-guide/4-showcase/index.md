@@ -1,4 +1,15 @@
+---
+title: Showcase
+image: './img/showcase.jpg'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, showcase]
+draft: true
+---
+
+
 # 如何展示和宣传 IC 项目
+
+![showcase](./img/showcase.jpg)
 
 [IC 生态代表项目看板](https://internetcomputer.org/ecosystem) 是一个与 ICP (互联网计算机协议) 相关的优秀项目和资源的精选列表，由 DFINITY 团队维护和更新。这个页面通常是对 ICP 感兴趣的投资者和开发者的起点，他们可以从这里开始深入了解 IC 生态在各个垂直领域已经涌现出的具有代表性的项目。
 
