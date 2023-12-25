@@ -14,6 +14,22 @@ export default function BlogSidebarDesktop({sidebar}) {
           description: 'The ARIA label for recent posts in the blog sidebar',
         })}>
         <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
+          {'Categories'}
+        </div>
+        <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
+          {sidebar.categories.map((item) => (
+            <li key={item.permalink} className={styles.sidebarItem}>
+              <Link
+                isNavLink
+                to={item.permalink}
+                className={styles.sidebarItemLink}
+                activeClassName={styles.sidebarItemLinkActive}>
+                {item.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
           {sidebar.title}
         </div>
         <ul className={clsx(styles.sidebarItemList, 'clean-list')}>
