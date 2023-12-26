@@ -1,4 +1,13 @@
-# 代码示例
+---
+title: 代码示例
+image: './img/matrix.png'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, code examples]
+---
+
+# ICP 代码示例
+
+![matrix](./img/matrix.png)
 
 IC 提供了很多范例供开发者参考。以下所有的示例都开源，并且持续更新中。
 
