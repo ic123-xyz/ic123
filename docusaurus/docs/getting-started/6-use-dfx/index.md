@@ -1,6 +1,15 @@
+---
+title: dfx 常用指令
+image: './img/dfx.png'
+description: ''
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dfx, sdk]
+---
+
 import TeamContact from '../../contact.md';
 
-# 使用 dfx
+# DFX 常用指令
+
+![DFX](./img/dfx.png)
 
 命令行工具 `dfx` 是用于创建、部署和管理互联网计算机 (IC) 平台上的去中心化应用的主要工具，用来管理身份、账本、cycles 钱包、以及容器等。`dfx` 包含有二十多个子命令，每个子命令又拥有不同的子命令，使得 `dfx` 的功能非常强大的同时也很庞大。
 
