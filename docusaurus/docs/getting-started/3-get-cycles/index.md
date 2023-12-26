@@ -37,7 +37,7 @@ import TeamContact from '../../contact.md';
 在该频道中，发送一个获取 cycles 优惠券的消息：
 
 ```
-Hello, I'd like to request a cycles coupon. Thank you.
+/request
 ```
 
 #### DFINITY 团队将与您联系
