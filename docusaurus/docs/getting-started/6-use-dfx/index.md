@@ -800,17 +800,76 @@ dfx deploy --with-cycles 8000000000000 --network ic
 
 ## 其他 {#miscellaneous}
 
-### help {#dfx-help}
+### 帮助 {#dfx-help}
 
-### upgrade {#dfx-upgrade}
+您可以使用 `dfx help` 命令来查看 dfx 及其子命令的使用方法。它的基本用法如下：
+
+```
+dfx help [subcommand]
+```
+
+常用的参数有：
+- `subcommand`  
+  用来指定您想要查看的子命令。
+
+下面是一个示例，用来查看 dfx 命令的用法。
+
+```
+dfx help
+```
+
+而下面的命令则可以查看子命令 new 的具体用法。
+
+```
+dfx help new
+```
+
+### 升级 {#dfx-upgrade}
+
+您可以使用 `dfx upgrade` 命令升级在本地计算机上运行的 SDK 组件。此命令会检查您当前安装的 SDK 版本与 manifest.json 文件中指定的最新公开版本之间的差异。如果在本地检测到旧版本的 SDK，则 `dfx upgrade` 命令会自动从 CDN 获取最新版本。
+
+它的基本用法如下：
+
+```
+dfx upgrade [flag] [option]
+```
+
+常用的参数有：
+- `--current-version <version>`  
+  用来指定当前版本，此选项使您可以使用命令行传递的版本覆盖当前标识为最新的版本。
+
+下面是一个示例，用来更新您的 SDK 版本。
+
+```
+dfx upgrade
+```
 
 ### ping {#dfx-ping}
 
-### info {#dfx-info}
+使用 `dfx ping` 命令可以检查与 IC 主网或测试网络的连接。
 
+请注意：
+- 如果要测试与本地服务器的连接，您只能从工程目录下运行此命令。
+- 如果您要测试与 IC 主网的连接，您可以从任何目录运行 `dfx ping ic` 命令。
+
+它的基本用法如下：
+
+```
+dfx ping [provider] [flag]
+```
+
+常用的参数有：
+- `provider`  
+  用来指定需要测试的网络。
+
+下面是一个示例，用来测试与 IC 主网的连接。
+
+```
+dfx ping ic
+```
 
 ## 总结
 
-除了本文列举的关于身份、账本、cycles 钱包、容器相关的命令，`dfx` 命令还有更多的子命令，目前就不在一一列举，后续如果有需要可以根据大家反馈继续增加，也欢迎大家参与贡献。
+除了本文列举的关于身份、账本、cycles 钱包、容器以及开发相关的命令，`dfx` 命令还有更多的子命令，目前就不在一一列举，后续如果有需要可以根据大家反馈继续增加，也欢迎大家参与贡献。
 
 <TeamContact />
