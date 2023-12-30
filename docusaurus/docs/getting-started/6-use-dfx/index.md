@@ -826,7 +826,7 @@ dfx help new
 
 ### 升级 {#dfx-upgrade}
 
-您可以使用 `dfx upgrade` 命令升级在本地计算机上运行的 SDK 组件。此命令会检查您当前安装的 SDK 版本与 manifest.json 文件中指定的最新公开版本之间的差异。如果在本地检测到旧版本的 SDK，则 `dfx upgrade` 命令会自动从 CDN 获取最新版本。
+您可以使用 `dfx upgrade` 命令升级在本地计算机上运行的 SDK 组件。此命令会检查您当前安装的 SDK 版本与 [manifest.json](https://sdk.dfinity.org/manifest.json) 文件中指定的最新公开版本之间的差异。如果在本地检测到旧版本的 SDK，则 `dfx upgrade` 命令会自动从 CDN 获取最新版本。
 
 它的基本用法如下：
 
@@ -836,7 +836,7 @@ dfx upgrade [flag] [option]
 
 常用的参数有：
 - `--current-version <version>`  
-  用来指定当前版本，此选项使您可以使用命令行传递的版本覆盖当前标识为最新的版本。
+  用来指定当前版本。如果设置了该选项，您指定的版本将会作为本地当前版本与 [manifest.json](https://sdk.dfinity.org/manifest.json) 文件中的最新版本进行比较。
 
 下面是一个示例，用来更新您的 SDK 版本。
 
