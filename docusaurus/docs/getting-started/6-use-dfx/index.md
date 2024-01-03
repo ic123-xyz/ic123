@@ -589,11 +589,11 @@ dfx canister update-settings --add-controller <principal-id> <canister-id> --net
 `dfx canister call` 命令可以调用容器上的方法。它的基本用法如下：
 
 ```
-dfx canister call [option] canister_name method_name [argument] [flag]
+dfx canister call [option] <canister_name> <method_name> [argument] [flag]
 ```
 
 常用的参数和选项有：
-- `<canister_name>`  
+- `canister_name`  
   用来指定所调用的容器名字或 ID。
 - `method_name`  
   用来指定所调用的方法名字。
@@ -612,8 +612,264 @@ dfx canister call qvhir-riaaa-aaaan-qekqa-cai greet --network ic
 
 以上就是 `dfx canister` 命令的基本用法，未列举部分请参考[官方文档](https://internetcomputer.org/docs/current/references/cli-reference/dfx-canister)。
 
+## 开发相关命令 {#development}
+
+### 启动 {#dfx-start}
+
+您可以使用 `dfx start` 命令启动本地容器执行环境和 Web 服务器进程。这样您可以通过 `dfx deploy` 命令将容器代码部署到本地容器执行环境，进而在开发过程中测试您的 dapp。
+
+默认情况下，所有本地 dfx 工程都将共同使用一个本地容器执行环境，您可以从任何目录运行 `dfx start` 和 `dfx stop`。
+
+该命令的基本用法如下：
+
+```
+dfx start [option] [flag]
+```
+
+该命令的参数和选项较多，常用的如下：
+- `--background`  
+  在后台启动本地容器执行环境和 Web 服务器进程，并等待回复后才返回到命令行。
+- `--clean`  
+  在启动本地容器执行环境和 Web 服务器进程时，清除项目缓存中的检查点。您可以使用此选项将项目缓存设置为新状态，进行调试或者故障排除。
+- `--host <host>`  
+  指定主机接口 IP 地址和端口号以绑定前端。
+
+下面是一个示例：
+
+```
+dfx start
+```
+
+该命令会在当前命令行中启动本地容器执行环境和 Web 服务器进程，您需要打开一个新的命令行来运行其他命令。
+
+您可以使用以下命令来在后台运行一个本地容器执行环境：
+
+```
+dfx start --background
+```
+
+### 停止 {#dfx-stop}
+
+您可以使用 `dfx stop` 命令停止当前在计算机上运行的本地容器执行环境。为了模拟与 IC 的连接，本地容器执行环境会在启动它们的终端中或后台持续运行，所以需要手动停止。
+
+该命令的基本用法如下：
+
+```
+dfx stop [flag]
+```
+
+该命令的用法比较简单，除了通用的一些参数，并没有提供特定的参数。运行以下命令就会停止您的本地容器执行环境。
+
+```
+dfx stop
+```
+
+### 创建 {#dfx-new}
+
+您可以使用 `dfx new` 命令创建一个新的 IC 工程。该命令会创建一个默认的项目结构，其中包含了一个 dapp 的模板，您可以用来作为基础进而修改成为您所需要的 dapp。它的基本用法如下：
+
+```
+dfx new <project_name> [flag]
+```
+
+常用的参数和选项有：
+- `project_name`  
+  用来指定所创建的工程名称。
+- `--no-frontend`  
+  用来**跳过**安装前端模板代码，创建仅包括一个 .txt 文件的 [Asset 容器](https://internetcomputer.org/docs/current/references/asset-canister)。如果没有指定该选项，并检测到您的计算机上未安装 node.js，则会以 `--no-frontend` 为默认行为执行。
+- `--frontend`  
+  用来安装前端模板代码。如果没有指定该选项，并检测到您的计算机上已安装 node.js，则会以 `--frontend` 为默认行为执行。如果您的计算机上当前未安装 node.js，而您指定了 `--frontend` 选项，则会在创建项目时尝试安装 node.js。
+
+下面是一个示例：
+
+```
+dfx new my_test_project
+```
+
+该命令将创建一个名为 `my_test_project` 的新工程，该工程包括默认项目目录结构和项目的 Git 存储仓库。
+
+您可以用带有 `--dry-run` 的命令来预览将要创建的文件。
+
+```
+dfx new my_test_project --dry-run
+```
+
+### 构建 {#dfx-build}
+
+您可以使用 `dfx build` 命令将程序编译为可在 IC 上部署的 WebAssembly 模块。该命令会编译工程的 `dfx.json` 配置文件中所定义的程序，并使用该配置文件中 `canisters` 部分所配置的信息查找要编译的源代码。
+
+请注意，您只能在工程目录下运行此命令。例如，如果您的项目名称是 hello_world，则您的当前工作目录必须是 hello_world 目录或其任一子目录。
+
+该命令的基本用法如下：
+
+```
+dfx build [flag] [option] [--all | canister_name]
+```
+
+常用的参数和选项有：
+- `--network <network>`  
+  指定您要连接的网络别名或 URL。您可以使用此选项覆盖 dfx.json 配置文件中指定的网络。
+- `--all`  
+  构建项目 dfx.json 文件中配置的所有容器，它是 `dfx build` 的默认选项。
+- `canister_name`  
+  指定您需要构建的容器名称。如果您仅仅想构建某一个容器，请在不使用 --all 选项的同时提供一个容器名称作为参数。请注意，该容器名称必须与 dfx.json 的 `canisters` 部分中的某一个容器名称匹配。
+
+下面是一个 dfx.json 的示例。
+
+```
+{
+    "canisters": {
+        "hello_world: {
+            "main": "src/hello_world/main.mo",
+            "type": "motoko"
+        },
+        "hello_world_assets": {
+            "dependencies": [
+                "hello_world"
+            ],
+            "frontend": {
+                "entrypoint": "src/hello_world_assets/public/index.js"
+            },
+            "source": [
+                "src/hello_world_assets/assets",
+                "dist/hello_world_assets/"
+            ],
+            "type": "assets"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": ""
+        }
+    },
+    "version": 1
+}
+```
+
+执行以下命令会构建 `hello_world` 和 `hello_world_assets` 这两个容器。
+
+```
+dfx build
+```
+
+如果您只想构建后端容器 `hello_world` ，可以运行如下命令：
+
+```
+dfx build hello_world
+```
+
+### 部署 {#dfx-deploy}
+
+您可以使用 `dfx deploy` 命令注册、构建和部署 dapp。通过提供不同的参数，您可以在本地容器执行环境、IC 主网 或指定的测试网络上执行该命令。默认情况下，该命令将部署工程 dfx.json 配置文件中定义的所有容器。
+
+该命令等价于以下命令集，使得您能够运行一个命令来简化开发流程：
+
+```
+dfx canister create --all
+dfx build
+dfx canister install --all
+```
+
+同 `dfx build` 一样，您只能在工程目录下运行此命令。
+
+该命令的基本用法如下：
+
+```
+dfx deploy [flag] [option] [canister_name]
+```
+
+常用的参数和选项有：
+- `--network <network>`  
+  指定您要连接的网络别名或 URL。默认使用本地容器执行环境。
+- `--ic`  
+  `--network ic` 的别名。
+- `--argument <argument>`  
+  指定使用 Candid 语法在部署期间向容器传递参数。
+- `--with-cycles <number-of-cycles>`  
+  可以指定工程中容器的初始 cycles 数量。
+- `canister_name`  
+  指定您需要部署的容器名称。请注意，该容器名称必须与 dfx.json 的 `canisters` 部分中的某一个容器名称匹配。
+
+下面是一个示例：
+
+```
+dfx deploy --with-cycles 8000000000000 --network ic
+```
+
+该命令会将 dfx.json 中所定义的容器部署到 IC 主网，每个容器都包含初始 8000000000000 cycles 数量。
+
+## 其他 {#miscellaneous}
+
+### 帮助 {#dfx-help}
+
+您可以使用 `dfx help` 命令来查看 dfx 及其子命令的使用方法。它的基本用法如下：
+
+```
+dfx help [subcommand]
+```
+
+常用的参数有：
+- `subcommand`  
+  用来指定您想要查看的子命令。
+
+下面是一个示例，用来查看 dfx 命令的用法。
+
+```
+dfx help
+```
+
+而下面的命令则可以查看子命令 new 的具体用法。
+
+```
+dfx help new
+```
+
+### 升级 {#dfx-upgrade}
+
+您可以使用 `dfx upgrade` 命令升级在本地计算机上运行的 SDK 组件。此命令会检查您当前安装的 SDK 版本与 [manifest.json](https://sdk.dfinity.org/manifest.json) 文件中指定的最新公开版本之间的差异。如果在本地检测到旧版本的 SDK，则 `dfx upgrade` 命令会自动从 CDN 获取最新版本。
+
+它的基本用法如下：
+
+```
+dfx upgrade [flag] [option]
+```
+
+常用的参数有：
+- `--current-version <version>`  
+  用来指定当前版本。如果设置了该选项，您指定的版本将会作为本地当前版本与 [manifest.json](https://sdk.dfinity.org/manifest.json) 文件中的最新版本进行比较。
+
+下面是一个示例，用来更新您的 SDK 版本。
+
+```
+dfx upgrade
+```
+
+### ping {#dfx-ping}
+
+使用 `dfx ping` 命令可以检查与 IC 主网或测试网络的连接。
+
+请注意：
+- 如果要测试与本地服务器的连接，您只能从工程目录下运行此命令。
+- 如果您要测试与 IC 主网的连接，您可以从任何目录运行 `dfx ping ic` 命令。
+
+它的基本用法如下：
+
+```
+dfx ping [provider] [flag]
+```
+
+常用的参数有：
+- `provider`  
+  用来指定需要测试的网络。
+
+下面是一个示例，用来测试与 IC 主网的连接。
+
+```
+dfx ping ic
+```
+
 ## 总结
 
-除了本文列举的关于身份、账本、cycles 钱包、容器相关的命令，`dfx` 命令还有更多的子命令，目前就不在一一列举，后续如果有需要可以根据大家反馈继续增加，也欢迎大家参与贡献。
+除了本文列举的关于身份、账本、cycles 钱包、容器以及开发相关的命令，`dfx` 命令还有更多的子命令，目前就不在一一列举，后续如果有需要可以根据大家反馈继续增加，也欢迎大家参与贡献。
 
 <TeamContact />
