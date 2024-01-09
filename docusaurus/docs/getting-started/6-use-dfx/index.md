@@ -305,7 +305,7 @@ Canister was topped up!
 
 ### 制造 cycles {#fabricate-cycles}
 
-您可使用 `dfx ledger fabricate-cycles` 向指定的容器存入 cycles。这些cycles 都是虚拟的，并不会从任何地方扣除。
+您可使用 `dfx ledger fabricate-cycles` 向指定的容器存入 cycles。这些 cycles 都是虚拟的，并不会从任何地方扣除。
 
 :::info
 
@@ -350,7 +350,7 @@ Fabricated 8000000000000 cycles, updated balance: 11_899_662_119_932 cycles
 
 :::info
 
-`dfx ledger fabricate-cycles` 另外一个常见的用处是像本地开发环境的钱包充值 cycles。请参考如下示例：
+`dfx ledger fabricate-cycles` 另外一个常见的用处是向本地开发环境的钱包充值 cycles。请参考如下示例：
 
 ```bash
 $ dfx identity get-wallet
@@ -378,7 +378,7 @@ Caused by: Failed while trying to deploy canisters.
       The replica returned a replica error: Replica Error: reject code CanisterError, reject message Canister bnz7o-iuaaa-aaaaa-qaaaa-cai is out of cycles: requested 3_100_000_000_000 cycles but the available balance is 797_770_504_197 cycles and the freezing threshold 173_237_730 cycles, error code None
 ```
 
-此时您就需要调用 `dfx ledger fabricate-cycles` 来为您的本地钱包充值 cycles，从而继续进行本地开发。
+此时您就需要调用 `dfx ledger fabricate-cycles` 来为您的本地钱包充值 cycles，从而继续本地开发。
 
 :::
 
