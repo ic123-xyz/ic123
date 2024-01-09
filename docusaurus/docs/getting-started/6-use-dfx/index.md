@@ -303,6 +303,85 @@ Transfer sent at BlockHeight: 59482
 Canister was topped up!
 ```
 
+### 制造 cycles {#fabricate-cycles}
+
+您可使用 `dfx ledger fabricate-cycles` 向指定的容器存入 cycles。这些cycles 都是虚拟的，并不会从任何地方扣除。
+
+:::info
+
+请注意，只有在本地开发环境中，才能使用 `dfx ledger fabricate-cycles` 命令。
+
+:::
+
+它的基本用法如下：
+
+```
+dfx ledger fabricate-cycles [options]
+```
+
+常用的参数和选项有：
+- `--all`  
+  用来向 dfx.json 文件中所配置的所有容器充值 cycles。
+- `--canister <canister name/id>`  
+  指定要接收 cycles 的容器名称或 ID。您必须指定容器名称或 提供 –all 选项。
+- `--amount <amount>`  
+  用来指定要铸造成 cycles 的 ICP 数量，最多可以指定八位小数的数字。可以理解为 `--amount` 是 `--icp` 和 `--e8s` 的结合。
+- `--icp <icp>`  
+  指定 ICP 为整数，可以单独使用或与 `--e8s` 结合使用。
+- `--e8s <e8s>`  
+  指定 e8s 为整数。`e8` 是 ICP 的最小单位，例如 `1.05000000` 是 `1` 个 `ICP` 和 `5000000` 个 `e8s` 的组合。它可以单独使用或与 `--icp` 结合使用。
+- `--cycles <cycles>`  
+  用来指定您要制造的 cycles 数量。
+- `--t <trillion cycles>`  
+  用来指定您要制造的 cycles 数量，以 T 来计算。
+
+下面是一个示例：
+
+```
+dfx ledger fabricate-cycles --all --cycles 8000000000000
+```
+
+该命令会向工程 dfx.json 文件中所配置的容器全部充值 8T 的 cycles，并输入如下所示的信息：
+
+```
+Fabricating 8000000000000 cycles onto hello_backend
+Fabricated 8000000000000 cycles, updated balance: 11_899_662_119_932 cycles
+```
+
+:::info
+
+`dfx ledger fabricate-cycles` 另外一个常见的用处是像本地开发环境的钱包充值 cycles。请参考如下示例：
+
+```bash
+$ dfx identity get-wallet
+bnz7o-iuaaa-aaaaa-qaaaa-cai
+
+$ dfx wallet balance
+90.699 TC (trillion cycles).
+
+$ dfx ledger fabricate-cycles --canister bnz7o-iuaaa-aaaaa-qaaaa-cai --t 100
+Fabricating 100000000000000 cycles onto bnz7o-iuaaa-aaaaa-qaaaa-cai
+Fabricated 100000000000000 cycles, updated balance: 190_699_334_378_341 cycles
+```
+
+我们需要执行该命令的原因是，本地环境部署容器也会消耗本地钱包的 cycles。当本地钱包 cycles 余额不足，您会得到如下类似的返回信息：
+
+```
+$ dfx deploy
+Deploying all canisters.
+Creating canisters...
+Creating canister greet_backend...
+Error: Failed while trying to deploy canisters.
+Caused by: Failed while trying to deploy canisters.
+  Failed while trying to register all canisters.
+    Failed to create canister 'greet_backend'.
+      The replica returned a replica error: Replica Error: reject code CanisterError, reject message Canister bnz7o-iuaaa-aaaaa-qaaaa-cai is out of cycles: requested 3_100_000_000_000 cycles but the available balance is 797_770_504_197 cycles and the freezing threshold 173_237_730 cycles, error code None
+```
+
+此时您就需要调用 `dfx ledger fabricate-cycles` 来为您的本地钱包充值 cycles，从而继续进行本地开发。
+
+:::
+
 ### 创建容器 {#ledger-create-canister}
 
 您可以使用 `dfx ledger create-canister` 命令来在 IC 上创建容器、并充值价值为指定 ICP 的 cycles。 它的基本用法如下：
