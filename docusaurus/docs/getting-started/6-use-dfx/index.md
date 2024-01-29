@@ -754,6 +754,8 @@ dfx new <project_name> [flag]
 常用的参数和选项有：
 - `project_name`  
   用来指定所创建的工程名称。
+- `--type`
+  用来指定所创建工程的类型，可以选择 rust 或 motoko。默认值为 motoko。
 - `--no-frontend`  
   用来**跳过**安装前端模板代码，创建仅包括一个 .txt 文件的 [Asset 容器](https://internetcomputer.org/docs/current/references/asset-canister)。如果没有指定该选项，并检测到您的计算机上未安装 node.js，则会以 `--no-frontend` 为默认行为执行。
 - `--frontend`  
