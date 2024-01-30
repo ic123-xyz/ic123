@@ -3,7 +3,7 @@ slug: icp-dev-forum-ep05
 title: ICP开发者研讨会EP05
 authors: [herbert, vincent, beeling]
 image: "./img/apartment.png"
-tags: [icp monday, ckbtc, canister, icrc, feedback board]
+tags: [icp monday]
 ---
 
 610名 ICP 爱好者参加了第五次开发者研讨会。 DFINITY 亚太团队分享了近期社区活动，和关于 ckBTC, Canister Timers, Exchange Rate Canister, Feedback Board, ICRC 方面的进展。

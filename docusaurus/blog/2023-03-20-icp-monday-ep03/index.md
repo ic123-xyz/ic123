@@ -3,7 +3,7 @@ slug: icp-dev-forum-ep03
 title: ICP开发者研讨会EP03
 authors: [herbert, vincent, beeling]
 image: "./img/ep03.jpg"
-tags: [icp monday, dmail, ic lighthouse, metatribe, rocklabs, eth-icp, sns, dns, decentralization, ai, schnorr, domain, canister, awesome ic, tsinghua]
+tags: [icp monday, dmail, ic lighthouse, metatribe, rocklabs]
 ---
 
 292名 ICP 爱好者参加了第三次开发者研讨会。 DFINITY 亚太团队分享了近期社区活动和 R&D 工作的进展，并邀请基金会工程师 Dieter 和 Rocklabs 的 Yan 来分享 ETH-ICP 集成的动态，MetaTribe 的大鹏分享对3/18北京清华大学活动的感受，IC Lighthouse 的刺猬和 William 分享新上线的 $CHAT 的表现，Dmail 的 Richard 分享Dmail近期的用户增长。

@@ -2,7 +2,7 @@
 slug: origyn-latest-progress-update
 title: ORIGYN（OGY）最新进展更新
 authors: michael
-tags: [origyn, ogy, nft]
+tags: [origyn]
 ---
 
 我们感谢您对 ORIGYN 的持续支持和信任，作为我们向尊贵的投资者通报情况的承诺的一部分，我们很高兴地宣布即将发送三封电子邮件，这些电子邮件将为我们最近的进展和发展提供重要的见解。 

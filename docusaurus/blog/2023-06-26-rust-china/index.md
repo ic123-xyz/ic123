@@ -8,7 +8,7 @@ authors:
         url: https://github.com/Junweif2
         image_url: https://avatars.githubusercontent.com/u/42843075?v=4
 image: "./img/rust-china-booth.jpg"
-tags: [rust, meetup, shanghai, tintin]
+tags: [meetup, shanghai, tintinland]
 ---
 
 DFINITY基金会和IC社区在第三届中国Rust开发者大会期间的活动见闻。
