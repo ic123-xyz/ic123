@@ -5,6 +5,8 @@ image: "./img/pado.jpg"
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, PADO, startup, zk, MPC, FHE, data, Discord, Slack, decentralized]
 ---
 
+import Dapp from '../../dapp.md';
+
 # 去中心化数据证明和计算协议PADO
 
 ![PADO](./img/pado.jpg)
@@ -53,3 +55,5 @@ PADO的长期愿景包括构建一个去中心化的数据证明和计算网络�
 PADO团队正在努力完成PADO插件与ICP的集成开发。在不久的将来，用户可以通过PADO插件方便的获取其在各类平台上的自身数据，并且通过插件实现一站式的数据管理和看板，以及创建各类数据证明。用户可以基于ICP的钱包将PADO插件上的数据证明传递到ICP链上，并在Verax证明服务进行存储和授权访问。
 
 PADO团队将在完成ICP上的部署后同步更新使用手册。
+
+<Dapp />

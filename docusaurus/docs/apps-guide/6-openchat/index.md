@@ -5,6 +5,8 @@ image: "./img/banner.jpg"
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, Openchat, SocialFi, chat, ckBTC, Discord, Slack, decentralized]
 ---
 
+import Dapp from '../../dapp.md';
+
 # 如何使用 Openchat
 
 ![Openchat](./img/banner.jpg)
@@ -95,3 +97,4 @@ keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Com
   + 可以通过在手机里设置打开Openchat的通知来获取系统级消息通知
     + ![开启iOS通知](./img/open-openchat-ios-notification.png)
 
+<Dapp />
