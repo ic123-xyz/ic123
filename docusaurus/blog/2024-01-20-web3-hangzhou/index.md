@@ -5,14 +5,11 @@ authors: [herbert]
 image: "./img/banner.jpg"
 tags: [web3 future lab, hangzhou]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Web3 Future Lab, Hangzhou, 杭州]
-draft: true
 ---
 
 import Community from '../../docs/community.md';
 
-10位Web3行业重嘉磅宾
-6小时高度密分享＋【外部山】会员闭门晚宴
-⌈大潭的小宇宙 · 外部山⌋主办
+大潭的小宇宙 · 外部山邀请了 10 位 Web3 行业重嘉磅宾做 6 小时高度密分享以及会员闭门晚宴
 
 <!--truncate-->
 

@@ -5,12 +5,11 @@ authors: [beeling]
 image: "./img/poster.jpg"
 tags: [pukecast, icp con, dmail, demergent labs]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Rug Radio, Pukecast, Paul Liu, Dmail]
-draft: true
 ---
 
 import Community from '../../docs/community.md';
 
-xx
+东南亚社区 Pukecast 邀请了多家 ICP 生态里的开发者和生态建设者参加 2024 ICP Con
 
 <!--truncate-->
 
