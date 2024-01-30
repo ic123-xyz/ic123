@@ -7,6 +7,8 @@ tags: [AMA, Twitter Spaces, chainfeeds, octopus, astrox]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Twitter, ChainFeeds, Herbert, AstroX, Yuku, Octopus Network]
 ---
 
+import Community from '../../docs/community.md';
+
 潘志雄老师的 ChainFeeds.xyz 邀请了 ICP 生态里的开发者和 DFINITY 基金会的 Herbert 一起来讨论 2024 年里 ICP 公链生态的发展前瞻 
 
 <!--truncate-->
@@ -14120,3 +14122,5 @@ icp的开发有任何兴趣
 
 01:54:45.500 --> 01:54:47.300
 好拜拜
+
+<Community />
