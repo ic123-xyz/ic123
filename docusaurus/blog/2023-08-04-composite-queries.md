@@ -2,7 +2,7 @@
 slug: composite-queries-for-multi-canister-dapps
 title: '多容器 Dapp 的横向扩展'
 authors: michael
-tags: [canister, scaling]
+tags: [roadmap]
 ---
 
 互联网计算机即将推出一项备受期待的功能：复合查询！此功能允许容器在处理查询时调用其他容器。

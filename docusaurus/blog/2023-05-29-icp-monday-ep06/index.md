@@ -3,7 +3,7 @@ slug: icp-dev-forum-ep06
 title: ICP开发者研讨会EP06 - AMA on Community Grants Program
 authors: [herbert, vincent, beeling]
 image: "./img/cyber-city.jpg"
-tags: [icp monday, sns, internet identity, community grants]
+tags: [icp monday]
 ---
 
 176名 ICP 爱好者参加了第六次开发者研讨会。 DFINITY 亚太团队分享了近期社区活动和 R&D 团队的进展，并邀请基金会的 Emilio 和 Shashi 就社区关心的新推出的 [Community Grants Program](https://dfinity.org/community-grants/) 做了个AMA。

@@ -2,7 +2,7 @@
 slug: openchat-explored
 title: OpenChat 探索：重新构想 ICP 区块链上的消息传递
 authors: michael
-tags: [openchat, socialfi, friend.tech]
+tags: [openchat]
 ---
 
 随着数字环境的发展以及用户寻求对其数据和交互的更多控制，OpenChat 提供了一个独特的主张：完全在互联网计算机协议（ICP）区块链上运行的功能齐全的聊天应用程序。
