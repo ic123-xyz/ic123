@@ -1,6 +1,15 @@
+---
+title: BTC-ICP 集成
+image: './img/btc-icp.jpg'
+description: 如何利用 BTC-ICP 集成功能在 IC 网络上发送和接受比特币
+keywords: [DFINITY, ICP, IC, 互联网计算机, 比特币, BTC, BTC-ICP, BTC-ICP 集成, developer]
+---
+
 import TeamContact from '../../../contact.md';
 
 # BTC 集成
+
+![BTC集成](./img/btc-icp.jpg)
 
 ## 概览 {#overview}
 
