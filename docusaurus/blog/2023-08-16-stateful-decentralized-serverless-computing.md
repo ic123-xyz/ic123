@@ -2,7 +2,7 @@
 slug: ic-offers-stateful-decentralized-serverless-computing
 title: '有状态的去中心化无服务器计算'
 authors: michael
-tags: [serverless, decentralization, cloud computing]
+tags: [icp]
 ---
 
 互联网计算机区块链如何提供无服务器计算功能以及两个重要的额外好处：去中心化和有状态

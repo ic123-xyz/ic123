@@ -15,10 +15,10 @@
   https://forum.dfinity.org/ ，可以 cue 我们：[Ben](https://forum.dfinity.org/u/benji/summary)，[Paul](https://forum.dfinity.org/u/PaulLiu/summary)，[Vincent](https://forum.dfinity.org/u/vincentzhang/summary) ，[Herbert](https://forum.dfinity.org/u/zire/summary)。
   :::
 
-3. 深度 ICP 用户可以在 [OpenChat](https://oc.app/?ref=inda5-hyaaa-aaaaf-aaioq-cai) 上的 `ic123.xyz 工作组` 里提问题
+3. 深度 ICP 用户可以在 [OpenChat](https://oc.app/?ref=inda5-hyaaa-aaaaf-aaioq-cai) 上的 `IC123.xyz Community` 里的频道 ` ic123.xyz 工作组` 里提问题
 
   :::info
-  https://oc.app/group/yvpxf-lqaaa-aaaar-asbga-cai/?ref=inda5-hyaaa-aaaaf-aaioq-cai
+  https://oc.app/community/gb3c3-hiaaa-aaaar-a35sa-cai/channel/316363584640902102086769779217159683798/?ref=inda5-hyaaa-aaaaf-aaioq-cai
   :::
 
-  [欢迎您申请 DFINITY 基金会的 Developer Grant 项目](https://ic123.xyz/docs/dev-resources/dev-grants/), ，加入互联网计算机的大家庭！
+  欢迎您申请 DFINITY 基金会的 [Developer Grant 项目](https://ic123.xyz/docs/dev-resources/dev-grants/), ，加入互联网计算机的大家庭！

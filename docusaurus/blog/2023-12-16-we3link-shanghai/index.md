@@ -3,7 +3,7 @@ slug: web3link-shanghai-2023
 title: Web3Link 外滩年度论坛
 authors: [herbert]
 image: "./img/web3link-cover.png"
-tags: [meetup, web3, shanghai, Web3Link, startup]
+tags: [meetup, shanghai, web3link]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, shiku, web3, yumi]
 ---
 
