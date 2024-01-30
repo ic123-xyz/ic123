@@ -1,6 +1,6 @@
 ---
-title: 去中心化数据证明和计算协议 PADO
-description: 如何在ICP上运行 PADO
+title: PADO
+description: 如何在ICP上运行去中心化数据证明和计算协议——PADO
 image: "./img/pado.jpg"
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, PADO, startup, zk, MPC, FHE, data, Discord, Slack, decentralized]
 ---
