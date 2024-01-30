@@ -1,4 +1,9 @@
 ---
+title: HTTPS outcalls
+image: './img/https-outcalls.jpg'
+description: 如何利用 IC 的 HTTPS outcalls 功能从智能合约直接调用区块链外部的 HTTPS 服务
+keywords: [DFINITY, ICP, IC, 互联网计算机, HTTPS outcalls, HTTPS, Motoko, Rust]
+
 # Display h2 to h4 headings
 toc_min_heading_level: 2
 toc_max_heading_level: 4
