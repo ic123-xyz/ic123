@@ -21,4 +21,4 @@
   https://oc.app/community/gb3c3-hiaaa-aaaar-a35sa-cai/channel/316363584640902102086769779217159683798/?ref=inda5-hyaaa-aaaaf-aaioq-cai
   :::
 
-  欢迎您申请 DFINITY 基金会的 [Developer Grant 项目](https://ic123.xyz/docs/dev-resources/dev-grants/), ，加入互联网计算机的大家庭！
+  欢迎您申请 DFINITY 基金会的 [Developer Grant 项目](https://ic123.xyz/docs/dev-resources/dev-grants/)，加入互联网计算机的大家庭！
