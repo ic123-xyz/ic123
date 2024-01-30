@@ -1,7 +1,7 @@
 ---
 slug: defi-on-icp-in-2024
 title: 蓄势待发的 DeFi 生态
-authors: [herbert]
+authors: [vincent]
 image: "./img/poster.jpg"
 tags: [hibit, chainkeyx, icpex, Twitter Spaces]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Hibit, ICPex, ChainKeyx, DeFi, PMM, Orderbook,  Dex, Staking]
