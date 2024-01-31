@@ -2,7 +2,7 @@
 slug: seoul-singapore-shanghai-hongkong
 title: 9 月份 ICP 首尔、新加坡、上海及香港线下活动一览
 authors: michael
-tags: [kbw, token2049]
+tags: [korea, shanghai, singapore, token2049]
 ---
 
 我们期待在这四个城市与您见面！

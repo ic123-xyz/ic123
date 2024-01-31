@@ -2,7 +2,7 @@
 slug: sns-dao-for-seers
 title: Seers 开启 NNS 去中心化销售
 authors: michael
-tags: [sns, nns, seers]
+tags: [seers]
 ---
 
 这是 NNS 创建 SNS DAO 来管理 Seers dApp 的提案。

@@ -3,7 +3,7 @@ slug: icp-dev-forum-ep02
 title: ICP开发者研讨会EP02
 authors: [herbert, vincent, beeling, paul, ben]
 image: "./img/ep02.jpg"
-tags: [icp monday, astrox, itoka, beosin, 8yeargangdao, eth, denver, security, domain, sns, icrc, decentralization, dns, ckbtc, motoko, web sockets, metabox, btc, node, eddsa]
+tags: [icp monday, astrox, itoka, beosin, 8yeargangdao, metabox]
 ---
 
 231名 ICP 爱好者参加了第二次开发者研讨会。 DFINITY 亚太团队分享了近期社区活动和 R&D 工作的进展，并邀请AstroX的Brutoshi，Itoka的Malcolm来分享ETH丹佛大会的感受，Beosin的潘涛来分享代码审计中总结的经验，8年党的Million来分享部署定制化域名的经验。

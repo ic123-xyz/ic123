@@ -2,7 +2,7 @@
 slug: openchat-puts-code-updates-to-the-vote
 title: 由于互联网计算机，OpenChat 将代码更新放入投票
 authors: michael
-tags: [openchat, socialfi, ic]
+tags: [openchat]
 ---
 
 OpenChat 在筹集 ICP 资金方面取得了巨大成功，并得到了互联网计算机社区的认可，现在，开发人员需要满足这些期望，并提供一个去中心化的消息应用程序，以与 WhatsApp 和其他聊天服务领域的知名公司竞争。
