@@ -1,7 +1,7 @@
 ---
 title: AstroX ME
 image: './img/banner.jpg'
-description: 'describe what the app is and does in one sentence'
+description: AstroX ME 是一个多链智能钱包，无需传统私钥管理方式，通过生物识别技术确认身份，支持 ICP 以及多个币种的发送和接收
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, AstroX ME]
 ---
 
@@ -481,6 +481,6 @@ DFINITY 团队开发了一个 NNS 钱包，让 IC 上的用户可以转移他们
 [官方使用教程](https://astroxnetwork.github.io/me_docs/zh-CN/docs/1.4.0/category/tutorials)
 :::
 
-欢迎所有喜爱 dapp-name 的用户提交 PR，一起来补充这个 dapp-name 的攻略！点击 `Edit this page` 即可。
+欢迎所有喜爱 AstroX ME 的用户提交 PR，一起来补充这个 AstroX ME 的攻略！点击 `Edit this page` 即可。
 
 <Dapp />
