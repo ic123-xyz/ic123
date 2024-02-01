@@ -470,7 +470,7 @@ dfx wallet balance --network ic
 
 ### 转账 {#send-cycles}
 
-您可以通过 `dfx wallet send` 将 cycles 从一个 cycles 钱包发送到另一个 cycles 钱包。它的基本用法如下：
+您可以通过 `dfx wallet send` 将 cycles 从 cycles 钱包发送到另一个容器。它的基本用法如下：
 
 ```
 dfx wallet send [flag] <destination> <amount> --network <network>
@@ -478,7 +478,7 @@ dfx wallet send [flag] <destination> <amount> --network <network>
 
 常用的参数和选项有：
 - `<destination>`  
-  用来指定您要转账的 cycle 钱包的容器 ID。
+  用来指定您要转账的容器 ID。
 - `--amount <amount>`  
   用来指定要转账的 cycles 数量。
 
@@ -488,7 +488,7 @@ dfx wallet send [flag] <destination> <amount> --network <network>
 dfx wallet send r7inp-6aaaa-aaaaa-aaabq-cai 2000000000
 ```
 
-它将会从跟当前身份相关联的 cycles 钱包发送 `2000000000` 个 cycles 到指定 cycles 钱包地址。
+它将会从跟当前身份相关联的 cycles 钱包发送 `2000000000` 个 cycles 到指定的容器。
 
 
 以上就是 `dfx wallet` 命令的基本用法，未列举部分请参考[官方文档](https://internetcomputer.org/docs/current/references/cli-reference/dfx-wallet)。
