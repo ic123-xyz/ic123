@@ -1,8 +1,8 @@
 ---
 title: Latest Deck
 image: './img/icp.jpg'
-description: 'the latest public presentation on DFINITY Foundation and Internet Computer'
-keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup]
+description: 'the latest public presentation to introduce DFINITY Foundation and Internet Computer'
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, PPT]
 ---
 
 import TeamContact from '../../contact.md';
@@ -11,27 +11,23 @@ import TeamContact from '../../contact.md';
 
 ![ICP](./img/icp.jpg)
 
-## 最新中文演讲版本
+## 最新中文演讲版本 - Herbert
 
-- 日期：2023年12月16日
+- 日期：2024年2月2日
 - 地点：上海外滩8号
-- 主办单位: Web3Link
-- 活动名称：[外滩年度论坛 - Web3生态加速计划](https://twitter.com/herbertyang/status/1734828977410506869)
+- 主办单位: 518 沙龙
+- 活动名称：[518 沙龙第 276 期](https://twitter.com/herbertyang/status/1753287671290749055)
 - 主讲人: [Herbert Yang，DFINITY 亚太区负责人](https://herbertyang.xyz)
 
-## 中文 PDF 本地下载
+下载中文演讲PDF文件(10.9MB)<a target="\_blank" href={require("@site/static/asset/20240202_518_Salon.pdf").default}>《不破不立厚积薄发的 ICP 生态 - 十大赛道的技术创新和未来展望 》</a>到本地。
 
-下载中文演讲PDF文件(8.2MB)<a target="\_blank" href={require("@site/static/asset/20231216_Web3Go.pdf").default}>《如何打造一个Web3明星项目》</a>到本地。
-
-## 最新英文演讲版本
+## 最新英文演讲版本 - Herbert
 
 - 日期：2023年12月17日
 - 地点：线上，SuperChain-AI Online Summit
 - 主办单位: SuperChain
 - 活动名称：[Superchain-AI 线上峰会](https://twitter.com/herbertyang/status/1735087275405726162)
 - 主讲人: [Herbert Yang，DFINITY 亚太区负责人](https://herbertyang.xyz)
-
-## 英文 PDF 本地下载
 
 下载英文演讲PDF文件(6.6MB)<a target="\_blank" href={require("@site/static/asset/20231217_SuperChain-AI-Intro-to-ICP.pdf").default}>《Rebuid Internet with Web3》</a>到本地。
 
