@@ -1,7 +1,7 @@
 ---
 title: Yuku
 image: './img/banner.jpg'
-description: 'describe what the app is and does in one sentence'
+description: 'Yuku是Dfinity生态最大的NFT交易、元宇宙集成平台'
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dapp-name]
 draft: true
 ---
@@ -9,37 +9,28 @@ draft: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# dapp-name 使用攻略
+# Yuku 使用攻略
 
 ![AstroX](./img/banner.jpg)
 
 ## 概述
 
-- dapp-name 是一个什么样的应用
-- 为什么样的人服务
-- 可以做什么，有哪些主要功能
-- DApp上线历史 (if needed)
+### Yuku是一个什么样的应用？
+- Yuku 是基于Dfinity区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在Yuku进行数字资产交易。同时未来每个人将会在Yuku 拥有属于自己的3D数字人，属于自己的空间
+### Yuku为什么样的人服务？
+- Yuku 向任何人开放。如果你是艺术家，可以在Yuku发布你自己的收藏品，创建属于你的展览馆；如果你是一名收藏家，可以在Yuku购买你喜欢的艺术品，与更多的艺术爱好者在不同的艺术展馆里讨论；如果你是一名Web3爱好者，你可以参加不同的会议，去学习更多的web3知识
+### 可以做什么，有哪些主要功能
+- 并且在元宇宙中进行会议、逛艺术展，
+### DApp上线历史
+没
 
-## 下载
+## 项目链接
 
-- 官方下载地址
-- 如何安装（if needed）
+https://yuku.app/
 
-<Tabs>
-  <TabItem value="iOS" label="iOS" default>
-    iOS下载地址
-  </TabItem>
-  <TabItem value="Android" label="Android">
-    Android下载地址
-  </TabItem>
-  <TabItem value="Web" label="Web">
-    Web下载地址
-  </TabItem>
-</Tabs>
+## 登录注册
 
-## 注册
-
-- 如何注册
+- Yuku目前支持 Plug \ Intrenet Identity \ AstroX ME \ Bitfinitu \ NFID \ Stoic 众多钱包登录
 
 ## 功能1
 
@@ -72,18 +63,16 @@ import TabItem from '@theme/TabItem';
 
 ## 代币
 
-- 在哪里购买 dapp-name 的 token (统一用 ICPSwap上的链接)
-- if already on SNS, provide URL from https://dashboard.internetcomputer.org/sns/ 
+- 暂无代币
 
 ## 联系
 
-- 官方网址
-- 社交账号 (通常是 Twitter)
-- linktree
-- Github
-- Telegram
-- OpenChat Group
-- Discord
+- 官方网址：https://yuku.app/
+- 推特：https://twitter.com/yukuapp
+- Telegram：https://t.me/YukuApp
+- Medium：https://medium.com/@yukuApp
+- Youtube：https://www.youtube.com/@YukuApp
+- 邮箱：Contact@yuku.app
 
 ## 问题
 
