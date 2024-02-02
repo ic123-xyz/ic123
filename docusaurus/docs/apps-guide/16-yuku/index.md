@@ -77,25 +77,3 @@ https://yuku.app/
 ## 问题
 
 如果暂时没有得到 dapp-name 团队的回应，您也可以在 [ICP China 的 Twitter Community](https://twitter.com/i/communities/1679302895571988481) 上提问，DFINITY 亚太团队会尽快把您的问题反馈给 dapp-name 团队，或者邀请社区里的深度用户来一起解答。
-
-:::info
-有用信息
-:::
-
-:::note
-注意事项
-:::
-
-:::tip
-使用贴士
-:::
-
-:::caution
-需要小心的地方
-:::
-
-:::danger
-危险区域！
-:::
-
-欢迎所有喜爱 dapp-name 的用户提交 PR，一起来补充这个 dapp-name 的攻略！点击 `Edit this page` 即可。
