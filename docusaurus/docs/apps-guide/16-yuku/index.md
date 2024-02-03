@@ -16,54 +16,46 @@ import TabItem from '@theme/TabItem';
 ## 概述
 
 ### Yuku是一个什么样的应用？
-- Yuku 是基于Dfinity区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在Yuku进行数字资产交易。同时未来每个人将会在Yuku 拥有属于自己的3D数字人，属于自己的空间
+- Yuku 是基于 Dfinity 区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在Yuku进行数字资产交易。同时未来每个人将会在Yuku 拥有属于自己的3D数字人，属于自己的空间
+- 
 ### Yuku为什么样的人服务？
 - Yuku 向任何人开放。如果你是艺术家，可以在Yuku发布你自己的收藏品，创建属于你的展览馆；如果你是一名收藏家，可以在Yuku购买你喜欢的艺术品，与更多的艺术爱好者在不同的艺术展馆里讨论；如果你是一名Web3爱好者，你可以参加不同的会议，去学习更多的web3知识
-### 可以做什么，有哪些主要功能
-- 并且在元宇宙中进行会议、逛艺术展，
-### DApp上线历史
-没
 
-## 项目链接
+## DAPP链接
 
 https://yuku.app/
 
-## 登录注册
+## 登录Dapp
 
 - Yuku目前支持 Plug \ Intrenet Identity \ AstroX ME \ Bitfinitu \ NFID \ Stoic 众多钱包登录
 
-## 功能1
+## Yuku的主要功能
 
-- xx (use either `jpg` or `png` for pictures)
-- xx (place all pictures in the `img` folder)
-- xx (use small caps for picture names)
-- xx (use [Docusaurus admonitions](https://docusaurus.io/docs/markdown-features/admonitions) when possible)
-
-## 功能2
-
-- xx
-- xx
-- xx
-
-## 功能3
-
-- xx
-- xx
-- xx
-
-## 功能4
-
-- xx
-- xx
-- xx
+- 元宇宙空间：创建多个不同类型的元宇宙空间，可邀请好友参观
+- 元宇宙会议：在元宇宙中与好友开启一场属于web3的会议
+- 数字人：你拥有属于自己的区块链数字人，在元宇宙中尽情享受
+- NFT类型：Yuku支持交易PFP、艺术品、数字人等多种数字资产形式
+- NFT交易：Yuku支持一键扫地板、批量列出、购物车、批量转账等功能，极高的提升了用户的NFT交易操作体验
+- 支持法币直接购买ICP\NFT，降低用户成本
 
 ## 独特优势
 
-- 解释为什么在同类竞品里，用户会选择使用 dapp-name
+- Dfinity NFT交易功能体验最佳，支持多种交易方式
+- 支持多种图片形式（JPG、PNG 和 JPEG，视频格式包括 MP4，3D 文件格式包括 GLB、OBJ 和 FBX）
+- 支持多NFT标准（EXT NFT标准、 ORIGYN NFT 标准、ICRC-7 标准）
+- 0成本进入元宇宙
+- 多人实时在线体验元宇宙会议
+- 多种数字人形象体验
 
-## 代币
+## 产品展示
+![image](https://github.com/leihe501/ic123/assets/76461995/4279dd9c-af13-42d6-b6d3-64504e4f7fe3)
+![image](https://github.com/leihe501/ic123/assets/76461995/476c1e76-da9c-4feb-8623-1002003426f5)
+![image](https://github.com/leihe501/ic123/assets/76461995/2cb620d2-1f6e-4201-b962-a07326db3a6a)
+![image](https://github.com/leihe501/ic123/assets/76461995/98ec3c1f-31a9-4d9c-a8f7-d37949df0b28)
+![image](https://github.com/leihe501/ic123/assets/76461995/0272bf9c-641c-46fb-bd16-07d09197a51f)
 
-- 暂无代币
+
+
 
 ## 联系
 
@@ -76,4 +68,4 @@ https://yuku.app/
 
 ## 问题
 
-如果暂时没有得到 dapp-name 团队的回应，您也可以在 [ICP China 的 Twitter Community](https://twitter.com/i/communities/1679302895571988481) 上提问，DFINITY 亚太团队会尽快把您的问题反馈给 dapp-name 团队，或者邀请社区里的深度用户来一起解答。
+如果暂时没有得到 Yuku 团队的回应，您也可以在 [ICP China 的 Twitter Community](https://twitter.com/i/communities/1679302895571988481) 上提问，DFINITY 亚太团队会尽快把您的问题反馈给 YUku 团队，或者邀请社区里的深度用户来一起解答。
