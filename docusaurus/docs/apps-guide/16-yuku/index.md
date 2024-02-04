@@ -1,7 +1,7 @@
 ---
 title: Yuku
 image: './img/banner.jpg'
-description: 'Yuku是Dfinity生态最大的NFT交易、元宇宙集成平台'
+description: 'Yuku是ICP生态最大的NFT交易、元宇宙集成平台'
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dapp-name]
 draft: true
 ---
@@ -16,8 +16,8 @@ import TabItem from '@theme/TabItem';
 ## 概述
 
 ### Yuku是一个什么样的应用？
-- Yuku 是基于 Dfinity 区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在Yuku进行数字资产交易。同时未来每个人将会在Yuku 拥有属于自己的3D数字人，属于自己的空间
-- 
+- Yuku 是基于 ICP 区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在Yuku进行数字资产交易。同时未来每个人将会在Yuku 拥有属于自己的3D数字人，属于自己的空间
+
 ### Yuku为什么样的人服务？
 - Yuku 向任何人开放。如果你是艺术家，可以在Yuku发布你自己的收藏品，创建属于你的展览馆；如果你是一名收藏家，可以在Yuku购买你喜欢的艺术品，与更多的艺术爱好者在不同的艺术展馆里讨论；如果你是一名Web3爱好者，你可以参加不同的会议，去学习更多的web3知识
 
@@ -40,7 +40,7 @@ https://yuku.app/
 
 ## 独特优势
 
-- Dfinity NFT交易功能体验最佳，支持多种交易方式
+- ICP生态 NFT交易功能体验最佳，支持多种交易方式
 - 支持多种图片形式（JPG、PNG 和 JPEG，视频格式包括 MP4，3D 文件格式包括 GLB、OBJ 和 FBX）
 - 支持多NFT标准（EXT NFT标准、 ORIGYN NFT 标准、ICRC-7 标准）
 - 0成本进入元宇宙
