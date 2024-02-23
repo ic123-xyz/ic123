@@ -98,17 +98,17 @@ const config = {
             position: 'left',
             label: '新手上路',
           },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'veteranSidebar',
+          //   position: 'left',
+          //   label: '高手进阶',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'devSidebar',
             position: 'left',
             label: '开发者教程',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'supportSidebar',
-            position: 'left',
-            label: '开发者资源',
           },
           {
             type: 'docSidebar',
