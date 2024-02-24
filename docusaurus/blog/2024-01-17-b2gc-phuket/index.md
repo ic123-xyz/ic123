@@ -2,7 +2,7 @@
 slug: b2gc-on-phuket-thailand
 title: 普吉岛 B2GC 大会
 authors: [herbert]
-image: "./img/banner.jpg"
+image: "./img/bond_island.png"
 tags: [phuket, thailand, b2gc]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Phuket Island, Thailand, B2GC]
 ---
@@ -15,16 +15,32 @@ import Community from '../../docs/community.md';
 
 ## B2GC 大会
 
-![poster](./img/banner.jpg)
+![poster](./img/bond_island.png)
 
 https://twitter.com/FinstableCo/status/1744630089353199827
 
 ## Phuket DAO 成立大会
 
-![Phuket DAO](./img/phuket-dao.jpg)
+![Phuket DAO](./img/phuket_dao_agenda.jpg)
+
+![Phuket DAO](./img/phuket_dao_01.jpg)
+
+![Phuket DAO](./img/phuket_dao_02.jpg)
+
+![Phuket DAO](./img/phuket_dao_03.jpg)
+
+![Phuket DAO](./img/phuket_dao_04.jpg)
+
+![Phuket DAO](./img/phuket_dao_05.jpg)
+
+![Phuket DAO](./img/phuket_dao_06.jpg)
 
 ## Web3 Asia-Pacific Night
 
-![Web3 Apac](./img/web3-apac.jpg)
+![Web3 Apac](./img/web3_night_01.jpg)
+
+![Web3 Apac](./img/web3_night_02.jpg)
+
+![Web3 Apac](./img/web3_night_03.jpg)
 
 <Community />
