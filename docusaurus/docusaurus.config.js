@@ -98,6 +98,12 @@ const config = {
             position: 'left',
             label: '新手上路',
           },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'veteranSidebar',
+          //   position: 'left',
+          //   label: '高手进阶',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'devSidebar',
@@ -106,21 +112,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'supportSidebar',
-            position: 'left',
-            label: '开发者资源',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'web3Sidebar',
             position: 'left',
-            label: '解锁Web3',
+            label: '解锁 Web3',
           },
           {
             type: 'docSidebar',
             sidebarId: 'introSidebar',
             position: 'left',
-            label: 'ICP介绍',
+            label: 'ICP 介绍',
           },
           {
             type: 'docSidebar',
@@ -138,7 +138,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'aboutSidebar',
             position: 'left',
-            label: '关于ic123',
+            label: '关于 ic123',
           },
           {to: '/blog', label: '新闻', position: 'left'},
           {
