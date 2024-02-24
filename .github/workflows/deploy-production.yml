@@ -13,9 +13,13 @@ jobs:
         fetch-depth: 0
     - name: Prepare
       run: |
+        # Install dfx.
         wget --output-document install-dfx.sh "https://raw.githubusercontent.com/dfinity/sdk/dfxvm-install-script/install.sh"
         DFX_VERSION=${DFX_VERSION:=0.14.3} DFXVM_INIT_YES=true bash install-dfx.sh
         rm install-dfx.sh
+        source "$HOME/.local/share/dfx/env"
+
+        # Prepare identity.
         echo "${{secrets.WEIHAILU}}" > identity.pem
         chmod 400 identity.pem
         mkdir -p ~/.config/dfx/identity/default
