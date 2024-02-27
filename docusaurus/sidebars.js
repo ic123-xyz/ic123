@@ -18,6 +18,7 @@ const sidebars = {
 
   newbieSidebar: [
     "getting-started/hello-world/index",
+    "getting-started/icp-overview/index",
     "getting-started/install-dfx/index",
     "getting-started/get-cycles/index",
     "getting-started/ic-glossary/index",
