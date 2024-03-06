@@ -2,7 +2,7 @@
 title: ICP 节点供应商 FAQ
 image: './img/nodes.jpg'
 description: ''
-keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, node operator]
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, node operator, node provider, 节点供应商]
 draft: false
 ---
 
@@ -15,7 +15,7 @@ draft: false
 
 :::info
 
-上手教程  
+入门指南  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding 
 
 报酬模型  
@@ -23,6 +23,9 @@ https://wiki.internetcomputer.org/wiki/Node_Provider_Remuneration
 
 硬件配置  
 https://wiki.internetcomputer.org/wiki/Node_Machine_Hardware 
+
+系统部署  
+https://wiki.internetcomputer.org/wiki/Node_Deployment_Guide
 
 自我声明  
 https://wiki.internetcomputer.org/wiki/Node_Provider_Self-declaration  
@@ -58,7 +61,8 @@ IC 会在 [Internet Computer Dashboard](https://dashboard.internetcomputer.org/c
 7. 发起 NNS 提案以[提交节点操作员记录](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#9._Create_a_node_operator_record)  
 
 8. 上线节点  
-请根据链接所示步骤[上线节点](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#10._Onboard_nodes)，在上线过程当中碰到任何问题可以[加入 Matrix 群](https://wiki.internetcomputer.org/wiki/Node_Provider_Matrix/Element_channel)发起讨论。
+请根据链接所示步骤[发起各类提案](https://wiki.internetcomputer.org/wiki/Node_Provider_Onboarding#10._Onboard_nodes)，并根据链接所示步骤[安装系统](https://wiki.internetcomputer.org/wiki/Node_Deployment_Guide)。
+在上线过程当中碰到任何问题可以[加入 Matrix 群](https://wiki.internetcomputer.org/wiki/Node_Provider_Matrix/Element_channel)发起讨论。
 
 ## Q&A
 
