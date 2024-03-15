@@ -19,8 +19,8 @@ import TeamContact from '../../contact.md';
 ### address: 地址 {#address}
 在谈论账本[交易](#transaction)的时候，**地址**跟[账号](#account)是同一个意思。
 
-### actor: 参与者 {#actor}
-**参与者**是参与者模式 ([Actor Model](https://en.wikipedia.org/wiki/Actor_model)) 中的原语。它是一个封装了状态的进程，通过顺序接收异步消息，并与其他并发运行的参与者进行通信。参与者模式与 IC 的关联之处在于 IC 中的[容器](#canister)遵循参与者模式进行并发与异步计算。
+### actor
+**Actor** 是 Actor 模式 ([Actor Model](https://en.wikipedia.org/wiki/Actor_model)) 中的原语。它是一个封装了状态的进程，通过顺序接收异步消息，并与其他并发运行的 Actor 进行通信。Actor 模式与 IC 的关联之处在于 IC 中的[容器](#canister)遵循 Actor 模式进行并发与异步计算。
 
 ### API canister call: 容器调用接口 {#api-canister-call}
 定义在 [IC 接口规范](https://internetcomputer.org/docs/current/references/ic-interface-spec/#http-interface)中的 API，用来和 IC 上的容器进行交互。
@@ -195,7 +195,7 @@ IC 是首批实现了与其他区块链的**直接集成**的区块链网络之�
 **铸造交易**是“铸造” ICP 的过程，从而产生一定数量的 ICP。铸造 ICP 是为了奖励[神经元](#neuron)的[投票](#voting)，也用来奖励那些通过运行[节点](#node)为 IC 提供计算能力的[节点供应商](#node-provider)。铸造交易表现为从 [ICP 供应账户](#icp-supply-account)到目标账户的交易。
 
 ### Motoko
-**Motoko** 是一种编程语言，旨在直接支持 IC 的编程模型，从而更容易的、更高效的利用 IC 的一些独有功能（包括智能合约的参与者模型和 WebAssembly 的编译）构建应用程序。
+**Motoko** 是一种编程语言，旨在直接支持 IC 的编程模型，从而更容易的、更高效的利用 IC 的一些独有功能（包括智能合约的 Actor 模型和 WebAssembly 的编译）构建应用程序。
 
 ## N
 
