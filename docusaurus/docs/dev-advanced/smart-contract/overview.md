@@ -122,9 +122,48 @@ Wasm 内存和稳定内存在某种意义上都是持久的，即系统在消息
 
 ### 设置
 
-容器还具有其他多种可以由控制者修改的设置和标志。例如，控制者可以设置容器的冻结阈值，使其在 cycles 不足时变为冻结状态（在冻结状态下，容器不会执行消息、以减少 cycles 的消耗）。
+容器还拥有其他多种可以由控制者修改的设置和标志。例如，控制者可以设置容器的冻结阈值，使其在 cycles 不足时变为冻结状态（在冻结状态下，容器不会执行消息、以减少 cycles 的消耗）。
 
 了解更多设置，可以查看完整的[容器设置列表](https://internetcomputer.org/docs/current/references/ic-interface-spec#ic-create_canister)。
 
+## 容器的生命周期
+
+### 编写
+
+IC 接受并执行 WebAssembly (Wasm) 二进制格式的容器代码。通常开发者会使用高级语言编写代码，然后将其编译为 Wasm 二进制代码，进而部署到容器中。
+
+### 部署
+
+#### 创建
+
+开发者可以通过调用系统容器来在 IC 上创建一个空的容器。您可以在浏览器中通过的 [NNS 前端 DApp](https://nns.ic0.app/)、或者通过 [dfx](https://ic123.xyz/docs/getting-started/use-dfx/) 命令行工具来完成容器创建。
+
+在创建容器时，开发者可以指定容器的初始设置、并选择目标[子网](https://ic123.xyz/docs/getting-started/ic-glossary/#subnet)。当容器创建成功，开发者将获得该容器的 ID、并成为该容器的控制器。
+
+![create_canister](./img/create-canister.png)
+
+#### 安装
+
+在完成代码编写和容器创建之后，接下来可以将 Wasm 代码安装到容器中。您可以通过调用系统容器的 [install_code](https://internetcomputer.org/docs/current/references/ic-interface-spec#ic-install_code) 方法，将 Wasm 二进制代码安装到指定容器中。同样 dfx 命令行工具也提供了[相应的命令](https://ic123.xyz/docs/getting-started/use-dfx/#canister-install)。
+
+![install_canister](./img/install-canister.png)
+
+### 调用容器
+
+当安装完成后，容器就可以接受并处理来自用户和其他容器的消息（调用）。只有容器的公开方法才能够被调用，这些公开方法对应于导出的 Wasm 函数、并且名称中带有 `canister_update` 或 `canister_query` 注解。
+
+![call_canister](./img/call-canister.png)
+
+### 维护容器
+
+某些更改容器状态的系统操作只能由容器的控制者执行，其中最重要的操作是安装容器的 Wasm 二进制代码。
+
+在开发的初始阶段，容器通常由开发者控制，开发人员可以进行快速的迭代开发。随着容器逐渐成熟、并准备正式上线，容器的控制权可能转移到某个 DAO、以确保容器安全可靠。有关不同类型控制器的更多信息请访问[这里](https://internetcomputer.org/docs/current/developer-docs/smart-contracts/maintain/control)。
+
+![manage_canister](./img/manage-canister.png)
+
+由于 IC 使用反向 gas 模型，容器需要使用 cycles 来支付执行、存储和其他操作的费用。这意味着容器的控制者或用户必须确保容器不会耗尽 cycles。如果容器耗尽了所有的 cycles，它的 Wasm 二进制代码和存储数据都会被删除。
+
+如果某个容器不再使用，容器的控制器可以[删除](https://ic123.xyz/docs/getting-started/use-dfx/#delete-canister)该容器。IC 会确保该容器 ID 不会被重新分配给其他容器。
 
 <TeamContact />
