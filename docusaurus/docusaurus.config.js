@@ -98,12 +98,12 @@ const config = {
             position: 'left',
             label: '新手上路',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'veteranSidebar',
-          //   position: 'left',
-          //   label: '高手进阶',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'veteranSidebar',
+            position: 'left',
+            label: '开发达人',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'devSidebar',
