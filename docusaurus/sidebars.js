@@ -47,6 +47,7 @@ const sidebars = {
       label: "智能合约",
       items: [
         "dev-advanced/smart-contract/overview",
+        "dev-advanced/smart-contract/write",
       ]
     },
   ],
