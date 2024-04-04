@@ -63,9 +63,9 @@ import TabItem from '@theme/TabItem';
 
 ## Bitcoin 生态板块
 
-![btc_eco](./img/btc_eco.png)
+![btc-eco](./img/btc_eco.png)
 
-推出[Bitcoin 生态指数](https://sim.cbindex.finance/btceco/list)，目前支持 BRC20 和 BRC100 协议。指数产品包括：
+推出 [Bitcoin 生态指数](https://sim.cbindex.finance/btceco/list)，目前支持 BRC20 和 BRC100 协议。指数产品包括：
 - BRC20-TopMC-CWI：以市值排名靠前的 BRC20 加密资产作为指数成分，采用市值加权计算方法构建的指数；
 - BRC20-TopMC-EWI：以市值排名靠前的 BRC20 加密资产作为指数成分，采用等权重计算方法构建的指数；
 - BRC20-TopHolders-CWI：以持币者数量排名靠前的 BRC20 加密资产作为指数成分，采用市值加权计算方法构建的指数；
