@@ -1,112 +1,74 @@
 ---
 title: Yuku
 image: './img/banner.jpg'
-description: 'describe what the app is and does in one sentence'
-keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dapp-name]
-draft: true
+description: 'Yuku是 ICP 生态最大的 NFT 交易、元宇宙集成平台'
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dapp-name, yuku, NFT, Metaverse, 3D]
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# dapp-name 使用攻略
+# Yuku 使用攻略
 
-![AstroX](./img/banner.jpg)
+![yuku_banner](./img/banner.jpg)
 
 ## 概述
 
-- dapp-name 是一个什么样的应用
-- 为什么样的人服务
-- 可以做什么，有哪些主要功能
-- DApp上线历史 (if needed)
+### Yuku 是一个什么样的应用
 
-## 下载
+Yuku 是基于 ICP 区块链技术的最大去中心化数字资产管理平台，其中包含了NFT、数字人、数字元宇宙资产。艺术家和收藏者可以在 Yuku 进行数字资产交易。同时未来每个人将会在 Yuku 拥有属于自己的 3D 数字人，属于自己的空间。
 
-- 官方下载地址
-- 如何安装（if needed）
+### Yuku 为什么样的人服务
 
-<Tabs>
-  <TabItem value="iOS" label="iOS" default>
-    iOS下载地址
-  </TabItem>
-  <TabItem value="Android" label="Android">
-    Android下载地址
-  </TabItem>
-  <TabItem value="Web" label="Web">
-    Web下载地址
-  </TabItem>
-</Tabs>
+Yuku 向任何人开放。
 
-## 注册
+- 如果你是艺术家，可以在 Yuku 发布你自己的收藏品，创建属于你的展览馆
+- 如果你是一名收藏家，可以在 Yuku 购买你喜欢的艺术品，与更多的艺术爱好者在不同的艺术展馆里讨论
+- 如果你是一名 Web3 爱好者，你可以参加不同的会议，去学习更多的 Web3 知识
 
-- 如何注册
+## DApp 链接
 
-## 功能1
+https://yuku.app/
 
-- xx (use either `jpg` or `png` for pictures)
-- xx (place all pictures in the `img` folder)
-- xx (use small caps for picture names)
-- xx (use [Docusaurus admonitions](https://docusaurus.io/docs/markdown-features/admonitions) when possible)
+## 登录 DApp
 
-## 功能2
+- Yuku 目前支持 Plug, Internet Identity, AstroX ME, Bitfinity, NFID, Stoic 众多钱包登录。
 
-- xx
-- xx
-- xx
+## Yuku 的主要功能
 
-## 功能3
-
-- xx
-- xx
-- xx
-
-## 功能4
-
-- xx
-- xx
-- xx
+- 元宇宙空间：创建多个不同类型的元宇宙空间，可邀请好友参观
+- 元宇宙会议：在元宇宙中与好友开启一场属于 Web3 的会议
+- 数字人：你拥有属于自己的区块链数字人，在元宇宙中尽情享受
+- NFT 类型：Yuku 支持交易 PFP、艺术品、数字人等多种数字资产形式
+- NFT 交易：Yuku 支持一键扫地板、批量列出、购物车、批量转账等功能，极高的提升了用户的NFT交易操作体验
+- 支持法币直接购买 ICP\NFT ，降低用户成本
 
 ## 独特优势
 
-- 解释为什么在同类竞品里，用户会选择使用 dapp-name
+- ICP 生态 NFT 交易功能体验最佳，支持多种交易方式
+- 支持多种图片形式 (JPG、PNG 和 JPEG)，视频格式包括 MP4，3D 文件格式包括 GLB、OBJ 和 FBX
+- 支持多 NFT 标准 (EXT NFT 标准、 ORIGYN NFT 标准、ICRC-7 标准)
+- 0 成本进入元宇宙
+- 多人实时在线体验元宇宙会议
+- 多种数字人形象体验
 
-## 代币
+## 产品展示
 
-- 在哪里购买 dapp-name 的 token (统一用 ICPSwap上的链接)
-- if already on SNS, provide URL from https://dashboard.internetcomputer.org/sns/ 
+![image](https://github.com/leihe501/ic123/assets/76461995/4279dd9c-af13-42d6-b6d3-64504e4f7fe3)
+![image](https://github.com/leihe501/ic123/assets/76461995/476c1e76-da9c-4feb-8623-1002003426f5)
+![image](https://github.com/leihe501/ic123/assets/76461995/2cb620d2-1f6e-4201-b962-a07326db3a6a)
+![image](https://github.com/leihe501/ic123/assets/76461995/98ec3c1f-31a9-4d9c-a8f7-d37949df0b28)
+![image](https://github.com/leihe501/ic123/assets/76461995/0272bf9c-641c-46fb-bd16-07d09197a51f)
 
 ## 联系
 
-- 官方网址
-- 社交账号 (通常是 Twitter)
-- linktree
-- Github
-- Telegram
-- OpenChat Group
-- Discord
+- 官方网址：https://yuku.app/
+- 推特：https://twitter.com/yukuapp
+- Telegram：https://t.me/YukuApp
+- Medium：https://medium.com/@yukuApp
+- Youtube：https://www.youtube.com/@YukuApp
+- 邮箱：Contact@yuku.app
 
 ## 问题
 
-如果暂时没有得到 dapp-name 团队的回应，您也可以在 [ICP China 的 Twitter Community](https://twitter.com/i/communities/1679302895571988481) 上提问，DFINITY 亚太团队会尽快把您的问题反馈给 dapp-name 团队，或者邀请社区里的深度用户来一起解答。
-
-:::info
-有用信息
-:::
-
-:::note
-注意事项
-:::
-
-:::tip
-使用贴士
-:::
-
-:::caution
-需要小心的地方
-:::
-
-:::danger
-危险区域！
-:::
-
-欢迎所有喜爱 dapp-name 的用户提交 PR，一起来补充这个 dapp-name 的攻略！点击 `Edit this page` 即可。
+如果暂时没有得到 Yuku 团队的回应，您也可以在 [ICP China 的 Twitter Community](https://twitter.com/i/communities/1679302895571988481) 上提问，DFINITY 亚太团队会尽快把您的问题反馈给 Yuku 团队，或者邀请社区里的深度用户来一起解答。
