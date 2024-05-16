@@ -17,12 +17,6 @@ import TeamContact from '../../contact.md';
 
 为了使互联网计算机可持续发展，开发人员需要支付其容器所消耗的资源费用（例如存储、算力等），而 cycles 则用于支付这些资源费用。每一万亿个 cycles 等于1个 [XDR](https://en.wikipedia.org/wiki/Special_drawing_rights)，这意味着容器的运行成本与 ICP 代币的价格波动无关。关于更多 cycles 的信息，请参考[这里](https://internetcomputer.org/docs/current/concepts/tokens-cycles#cycles)。
 
-### 什么是 cycles 钱包 {#what-is-cycles-wallet}
-
-容器需要 cycles 来执行操作、并为所使用的资源付费，用户和开发人员通过一种称为 cycles 钱包的特殊容器来管理 cycles 的分配和所有权。关于 cycles 钱包的更多信息，请参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#cycles-wallet)。
-
-目前 cycles 钱包是一种复杂的解决方案，它本质上是一个容器、自身也会消耗 cycles。目前 DFINITY 基金会正在开发的一个新功能就是 [cycles 账本](https://internetcomputer.org/blog/2023/09/06/news-and-updates/update#upcoming-feature-cycles-ledger)，用来简化 cycles 的管理。
-
 ## 要求 {#prerequisites}
 
 请按照[此指南](https://ic123.xyz/docs/getting-started/install-dfx)安装 IC SDK。
@@ -130,6 +124,61 @@ dfx wallet balance --network ic
 ![cycle_faucet_verify](./img/cycle_faucet_verify.png)
 
 
+## 使用 cycles 钱包 {#using-cycles-wallet}
+
+### 什么是 cycles 钱包 {#what-is-cycles-wallet}
+
+容器需要 cycles 来执行操作、并为所使用的资源付费，用户和开发人员通过一种称为 cycles 钱包的特殊容器来管理 cycles 的分配和所有权。关于 cycles 钱包的更多信息，请参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#cycles-wallet)。
+
+目前 cycles 钱包是一种复杂的解决方案，它本质上是一个容器、自身也会消耗 cycles。
+
+### 如何创建 cycles 钱包 {#create-cycles-wallet}
+
+前面我们在介绍如何通过[领取优惠券](#claim-cycles)的方式获得 cycles 的时候，提到了 `dfx wallet redeem-faucet-coupon` 会自动帮您创建 cycles 钱包。
+
+接下来我们介绍如何自己手动创建钱包，如果您已经拥有 cycles 钱包（您可以通过 [dfx identity get-wallet](https://ic123.xyz/docs/getting-started/use-dfx/#get-wallet) 来查看您的钱包配置），则可以跳过此步骤。
+
+:::info
+
+您可以查看[该文档](https://ic123.xyz/docs/getting-started/use-dfx/#cycles-wallet)了解更多关于 cycles 钱包的信息。
+
+:::
+
+#### 创建一个新的容器 {#create-canister}
+
+Cycles 钱包本质上是一个特殊的容器，所以第一步我们需要创建一个新的容器，您可以参考 [dfx ledger create-canister](https://ic123.xyz/docs/getting-started/use-dfx/#ledger-create-canister) 来创建容器。下面是一个示例：
+
+```bash
+dfx ledger create-canister tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe --amount 1.25 --network ic
+```
+
+该命令将在 IC 主网上创建一个容器，将指定的主体设置为容器的控制者，并向充值价值为 `1.25 ICP` 的 cycles。
+
+如果创建成功会返回类似如下所示信息：
+
+```
+Transfer sent at BlockHeight: 20
+Canister created with id: "53zcu-tiaaa-aaaaa-qaaba-cai"
+```
+
+#### 安装 cycles 钱包代码 {#install-cycles-wallet}
+
+创建容器完成后，我们将运行如下命令将 cycles 钱包代码安装到所创建的容器之中：
+
+```bash
+dfx identity --network ic deploy-wallet <canister-identifier>
+```
+
+关于 `dfx identity deploy-wallet` 的详细信息可以参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#deploy-wallet)。
+
+下面是一个示例：
+
+```bash
+dfx identity deploy-wallet 53zcu-tiaaa-aaaaa-qaaba-cai --network ic
+```
+
+它会在 IC 主网上在指定容器 (53zcu-tiaaa-aaaaa-qaaba-cai) 安装 cycles 钱包 Wasm 代码。
+
 ## 将 ICP 转换为 cycles {#convert-icp-to-cycles}
 
 将 ICP 代币转换为 cycles，您首先需要获取一些 ICP 并将其转移到您的账户。您可以在交易所上获取 ICP 代币，或者向您认识的人请求一些。
@@ -183,53 +232,6 @@ dfx ledger balance --network ic
 ```
 12.49840000 ICP
 ```
-
-### 如何创建 cycles 钱包 {#create-cycles-wallet}
-
-前面我们在介绍如何通过[领取优惠券](#claim-cycles)的方式获得 cycles 的时候，提到了 `dfx wallet redeem-faucet-coupon` 会自动帮您创建 cycles 钱包。
-
-接下来我们介绍如何自己手动创建钱包，如果您已经拥有 cycles 钱包（您可以通过 [dfx identity get-wallet](https://ic123.xyz/docs/getting-started/use-dfx/#get-wallet) 来查看您的钱包配置），则可以跳过此步骤。
-
-:::info
-
-您可以查看[该文档](https://ic123.xyz/docs/getting-started/use-dfx/#cycles-wallet)了解更多关于 cycles 钱包的信息。
-
-:::
-
-#### 创建一个新的容器 {#create-canister}
-
-Cycles 钱包本质上是一个特殊的容器，所以第一步我们需要创建一个新的容器，您可以参考 [dfx ledger create-canister](https://ic123.xyz/docs/getting-started/use-dfx/#ledger-create-canister) 来创建容器。下面是一个示例：
-
-```bash
-dfx ledger create-canister tsqwz-udeik-5migd-ehrev-pvoqv-szx2g-akh5s-fkyqc-zy6q7-snav6-uqe --amount 1.25 --network ic
-```
-
-该命令将在 IC 主网上创建一个容器，将指定的主体设置为容器的控制者，并向充值价值为 `1.25 ICP` 的 cycles。
-
-如果创建成功会返回类似如下所示信息：
-
-```
-Transfer sent at BlockHeight: 20
-Canister created with id: "53zcu-tiaaa-aaaaa-qaaba-cai"
-```
-
-#### 安装 cycles 钱包代码 {#install-cycles-wallet}
-
-创建容器完成后，我们将运行如下命令将 cycles 钱包代码安装到所创建的容器之中：
-
-```bash
-dfx identity --network ic deploy-wallet <canister-identifier>
-```
-
-关于 `dfx identity deploy-wallet` 的详细信息可以参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#deploy-wallet)。
-
-下面是一个示例：
-
-```bash
-dfx identity deploy-wallet 53zcu-tiaaa-aaaaa-qaaba-cai --network ic
-```
-
-它会在 IC 主网上在指定容器 (53zcu-tiaaa-aaaaa-qaaba-cai) 安装 cycles 钱包 Wasm 代码。
 
 ### 如何从 ICP 充值 cycles 钱包  {#topup-cycles-wallet}
 
