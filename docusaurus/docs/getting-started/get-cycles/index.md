@@ -124,6 +124,60 @@ dfx wallet balance --network ic
 ![cycle_faucet_verify](./img/cycle_faucet_verify.png)
 
 
+## 获取 ICP 代币 {#acquire-icp-tokens}
+
+不管是使用 cycles ledger 还是 cycles 钱包，您都需要先获得一些 ICP 代币。您可以在交易所上获取 ICP 代币，或者向您认识的人请求一些。
+
+### 如何获取账户 {#get-account-id}
+
+当您创建[身份](https://ic123.xyz/docs/getting-started/ic-glossary/#identity)之后，您就会自动获得一个账本[账户](https://ic123.xyz/docs/getting-started/ic-glossary/#account)。
+
+您可以在命令行运行以下命令获取您的账户 ID：
+
+```
+dfx ledger account-id
+```
+
+您将会在命令行看到类似的输出：
+
+```
+e213184a548871a47fb526f3cba24e2ee2fbbc8129c4ab497ef2ce535130a0a4
+```
+
+:::info
+
+关于如何创建身份，您可以参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#create-identity)。关于身份的更多命令，请参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#identity)。
+
+:::
+
+### 如何获取 ICP 代币 {#get-icp-tokens}
+
+获取 ICP 代币有几种不同的方式，包括但不限于：
+
+- 通过支持 ICP 代币的交易所直接购买。请查看[该页面](https://coinmarketcap.com/currencies/internet-computer/markets/)以了解可以购买 ICP 代币的交易所。
+
+- 通过参与 [IC 治理](https://ic123.xyz/docs/ic-web3/stake-icp/)的奖励获得代币。
+
+- 通过参与 DFINITY 基金会的[开发者计划](https://ic123.xyz/docs/dev-resources/dev-grants/)获得 ICP 代币。
+
+- 作为[节点提供者](https://ic123.xyz/docs/ecosystem-guide/node-provider-faq/)获得 ICP 代币，以作为提供算力的报酬。
+
+通常来说，价值 5 到 10 美元的 ICP 代币足以开始您的开发工作。后续您可以根据您的工作流程和实际用例来决定是否获取更多的 ICP 代币。
+
+#### 查询 ICP 代币余额 {#get-icp-balance}
+
+当您获得了ICP 并转入[您的账户](#get-account-id)之后，你可以通过以下命令查询余额：
+
+```bash
+dfx ledger balance --network ic
+```
+
+您将会看到类似如下的输出：
+
+```
+12.49840000 ICP
+```
+
 ## 使用 cycles 钱包 {#using-cycles-wallet}
 
 ### 什么是 cycles 钱包 {#what-is-cycles-wallet}
@@ -181,57 +235,7 @@ dfx identity deploy-wallet 53zcu-tiaaa-aaaaa-qaaba-cai --network ic
 
 ## 将 ICP 转换为 cycles {#convert-icp-to-cycles}
 
-将 ICP 代币转换为 cycles，您首先需要获取一些 ICP 并将其转移到您的账户。您可以在交易所上获取 ICP 代币，或者向您认识的人请求一些。
-
-### 如何获取账户 {#get-account-id}
-
-当您创建[身份](https://ic123.xyz/docs/getting-started/ic-glossary/#identity)之后，您就会自动获得一个账本[账户](https://ic123.xyz/docs/getting-started/ic-glossary/#account)。
-
-您可以在命令行运行以下命令获取您的账户 ID：
-
-```
-dfx ledger account-id
-```
-
-您将会在命令行看到类似的输出：
-
-```
-e213184a548871a47fb526f3cba24e2ee2fbbc8129c4ab497ef2ce535130a0a4
-```
-
-:::info
-
-关于如何创建身份，您可以参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#create-identity)。关于身份的更多命令，请参考[这里](https://ic123.xyz/docs/getting-started/use-dfx/#identity)。
-
-:::
-
-### 如何获取 ICP 代币 {#get-icp-tokens}
-
-获取 ICP 代币有几种不同的方式，包括但不限于：
-
-- 通过支持 ICP 代币的交易所直接购买。请查看[该页面](https://coinmarketcap.com/currencies/internet-computer/markets/)以了解可以购买 ICP 代币的交易所。
-
-- 通过参与 [IC 治理](https://ic123.xyz/docs/ic-web3/stake-icp/)的奖励获得代币。
-
-- 通过参与 DFINITY 基金会的[开发者计划](https://ic123.xyz/docs/dev-resources/dev-grants/)获得 ICP 代币。
-
-- 作为[节点提供者](https://ic123.xyz/docs/ecosystem-guide/node-provider-faq/)获得 ICP 代币，以作为提供算力的报酬。
-
-通常来说，价值 5 到 10 美元的 ICP 代币足以开始您的开发工作。后续您可以根据您的工作流程和实际用例来决定是否获取更多的 ICP 代币。
-
-#### 查询 ICP 代币余额 {#get-icp-balance}
-
-当您获得了ICP 并转入[您的账户](#get-account-id)之后，你可以通过以下命令查询余额：
-
-```bash
-dfx ledger balance --network ic
-```
-
-您将会看到类似如下的输出：
-
-```
-12.49840000 ICP
-```
+在您已经获取了 ICP 代币之后，您可以将 ICP 代币转换为 cycles。
 
 ### 如何从 ICP 充值 cycles 钱包  {#topup-cycles-wallet}
 
