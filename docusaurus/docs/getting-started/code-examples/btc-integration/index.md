@@ -15,7 +15,7 @@ import TeamContact from '../../../contact.md';
 
 本教程将指导您如何部署一个容器智能合约示例，该合约可以在 IC 上发送和接收比特币。本教程使用[示例仓库](https://github.com/dfinity/examples)中的 `Basic Bitcoin` 示例，该示例内部调用了 IC 的 [门限 ECDSA 接口](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-ecdsa_public_key) 和 [比特币接口](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-bitcoin-api)。
 
-如果您想要深入了解 IC 和比特币的集成，请参阅 IC 维基百科上的[比特币集成](https://wiki.internetcomputer.org/wiki/Bitcoin_Integration)和 IC 开发者文档的[比特币集成](https://internetcomputer.org/docs/current/developer-docs/integrations/bitcoin/)。 关于门限 ECDSA 接口的使用，可以参考[门限 ECDSA 签名示例](http://localhost:3000/docs/getting-started/code-examples/threshold-ecdsa/)。
+如果您想要深入了解 IC 和比特币的集成，请参阅 IC 维基百科上的[比特币集成](https://wiki.internetcomputer.org/wiki/Bitcoin_Integration)和 IC 开发者文档的[比特币集成](https://internetcomputer.org/docs/current/developer-docs/integrations/bitcoin/)。 关于门限 ECDSA 接口的使用，可以参考[门限 ECDSA 签名示例](https://ic123.xyz/docs/getting-started/code-examples/threshold-ecdsa/)。
 
 ## 要求 {#prerequisites}
 

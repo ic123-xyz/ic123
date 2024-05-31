@@ -263,7 +263,7 @@ DFINITY 基金会衡量一个 Dev Grant 申请的标准跟投资人投资初创�
 ![CBIndex](./img/cbindex.jpg)
 
 :::tip
-可以向 DFINITY 的市场团队[申请推特上的联合推广](http://localhost:3000/docs/ecosystem-guide/co-marketing/)
+可以向 DFINITY 的市场团队[申请推特上的联合推广](https://ic123.xyz/docs/ecosystem-guide/co-marketing/)
 :::
 
 一方面您的团队应该已经开始开发DApp了，另一方面，还有两个动作需要完成：
