@@ -47,6 +47,6 @@ Host
 
 `4.6 million` tune-ins
 
-## 视频回放
+## 视频+字幕回放
 
 <Community />
