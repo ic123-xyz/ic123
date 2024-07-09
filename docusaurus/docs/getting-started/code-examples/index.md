@@ -33,4 +33,8 @@ IC 提供了很多范例供开发者参考。以下所有的示例都开源，�
 
 [HTTPS outcalls](./https-outcalls/index.md) 示例介绍如何利用 IC 的 HTTPS outcalls 功能从智能合约直接调用区块链外部的 HTTPS 服务。
 
+## 可认证变量 {#certified-variables}
+
+[可认证变量](./certified-variables/index.md) 示例介绍了如何使用互联网计算机 (IC) 的可认证变量功能。
+
 ## To be continued
