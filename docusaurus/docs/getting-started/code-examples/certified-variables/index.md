@@ -1,8 +1,8 @@
 ---
-title: Certified variables
+title: 可认证变量
 image: './img/certified-variables.jpg'
-description: 如何利用 IC 的 HTTPS outcalls 功能从智能合约直接调用区块链外部的 HTTPS 服务
-keywords: [DFINITY, ICP, IC, 互联网计算机, HTTPS outcalls, HTTPS, Motoko, Rust]
+description: 如何使用互联网计算机 (IC) 的可认证变量
+keywords: [DFINITY, ICP, IC, 互联网计算机, Certified Variables, Certified Data, 可认证变量]
 ---
 
 import TeamContact from '../../../contact.md';
