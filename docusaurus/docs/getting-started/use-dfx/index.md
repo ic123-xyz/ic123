@@ -3,6 +3,10 @@ title: dfx 常用指令
 image: './img/dfx.png'
 description: ''
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dfx, sdk]
+
+# Display h2 to h4 headings
+toc_min_heading_level: 2
+toc_max_heading_level: 4
 ---
 
 import TeamContact from '../../contact.md';
@@ -424,11 +428,11 @@ Canister created with id: "53zcu-tiaaa-aaaaa-qaaba-cai"
 
 ### 创建钱包 {#create-wallet}
 
-常用的创建钱包的方式有两种：一种是通过兑换 cycles 优惠券；一种是通过创建容器、并安装钱包的 Wasm 代码。
+常用的创建钱包的方式有两种：一种是通过兑换 cycles 优惠券来自动创建；一种是通过创建容器、并安装钱包的 Wasm 代码。
 
-#### 兑换 cycles 优惠券
+#### 自动创建
 
-请参考[如何获得免费 cycles](https://ic123.xyz/docs/getting-started/get-cycles/#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E5%85%8D%E8%B4%B9-cycles) 文档。
+请参考[如何获得免费 cycles](http://localhost:3000/docs/getting-started/get-cycles/#cycles-faucet) 文档。
 
 其中如下的命令行会帮助您创建一个 cycles 钱包。
 
