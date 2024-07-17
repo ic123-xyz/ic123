@@ -3,6 +3,10 @@ title: dfx 常用指令
 image: './img/dfx.png'
 description: ''
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, startup, dfx, sdk]
+
+# Display h2 to h4 headings
+toc_min_heading_level: 2
+toc_max_heading_level: 4
 ---
 
 import TeamContact from '../../contact.md';
@@ -424,11 +428,11 @@ Canister created with id: "53zcu-tiaaa-aaaaa-qaaba-cai"
 
 ### 创建钱包 {#create-wallet}
 
-常用的创建钱包的方式有两种：一种是通过兑换 cycles 优惠券；一种是通过创建容器、并安装钱包的 Wasm 代码。
+常用的创建钱包的方式有两种：一种是通过兑换 cycles 优惠券来自动创建；一种是通过创建容器、并安装钱包的 Wasm 代码。
 
-#### 兑换 cycles 优惠券
+#### 自动创建
 
-请参考[如何获得免费 cycles](https://ic123.xyz/docs/getting-started/get-cycles/#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E5%85%8D%E8%B4%B9-cycles) 文档。
+请参考[如何获得免费 cycles](http://localhost:3000/docs/getting-started/get-cycles/#cycles-faucet) 文档。
 
 其中如下的命令行会帮助您创建一个 cycles 钱包。
 
@@ -878,6 +882,107 @@ dfx deploy --with-cycles 8000000000000 --network ic
 ```
 
 该命令会将 dfx.json 中所定义的容器部署到 IC 主网，每个容器都包含初始 8000000000000 cycles 数量。
+
+### 依赖 {#dfx-deps}
+
+您可以使用 `dfx deps` 命令从 IC 主网获取所依赖的[容器](https://ic123.xyz/docs/getting-started/ic-glossary/#canister)、并在本地部署。您只能在工程目录下运行此命令。
+
+该命令的基本用法如下：
+
+```bash
+dfx deps [subcommand] [options]
+```
+
+该命令有三个子命令：
+
+1. `pull`: 拉取项目所依赖的容器；
+2. `init`：为依赖容器设置初始化参数；
+3. `deploy`：部署依赖容器。
+
+分别介绍如下。
+
+#### 拉取 {#dfx-deps-pull}
+
+您可以使用 `dfx deps pull` 子命令来拉取在 `dfx.json` 中定义的依赖容器，该命令会自动拉取所有的间接依赖。
+
+该命令的基本用法如下：
+
+```bash
+dfx deps pull [options]
+```
+
+常用的参数和选项有：
+- `--network <network>`  
+  指定您要连接的网络别名，默认使用 IC 主网。
+
+下面是一个示例：
+
+```bash
+dfx deps pull
+```
+
+当执行成功后，您可以到项目的 `deps/pulled.json` 文件查看具体依赖信息。
+
+#### 初始化 {#dfx-deps-init}
+
+您可以使用 `dfx deps init` 命令为依赖容器设置初始化参数。
+
+该命令的基本用法如下：
+
+```bash
+dfx deps init [options] [canister]
+```
+
+当执行成功后，您可以到项目的 `deps/init.json` 文件查看具体初始化信息。
+
+默认情况下，该命令会从 `deps/pulled.json` 读取 `init_arg` 参数并保存至 `deps/init.json` 文件。
+
+如果有任何依赖容器缺少初始化参数，上述命令会提示它们的 canister ID。然后，您可以指定 canister ID 单个依赖容器设置初始化参数。
+
+```bash
+dfx deps init <CANISTER> --argument <ARGUMENT> [--argument-type <TYPE>]
+```
+
+以下是一些示例。
+
+1. 下面的命令将数字 `1` 作为容器 `dep_a` 的初始化参数，参数类型是默认的 Candid 类型。
+    ```bash
+    dfx deps init dep_a --argument 1
+    ```
+
+2. 下面的命令将十六进制编码的原始字节作为容器 `dep_b` 的初始化参数。
+    ```bash
+    dfx deps init dep_b --argument "4449444c00017103616263" --argument-type raw
+    ```
+
+3. 下面的命令将文件 `init_c.txt` 的内容作为容器 `dep_c` 的初始化参数。
+    ```bash
+    dfx deps init dep_c --argument-file init_c.txt
+    ```
+
+:::info
+
+请注意，即使您依赖的容器不需要初始化参数，您仍需要执行 `dfx deps init` 以生成 `deps/init.json` 文件。`dfx deps deploy` 命令会检查该文件。
+
+:::
+
+#### 部署 {#dfx-deps-deploy}
+
+您可以使用 `dfx deps deploy` 命令为部署所有依赖容器。
+
+该命令的基本用法如下：
+
+```bash
+dfx deps deploy [options] [canister]
+```
+
+下面是一个示例：
+
+```bash
+dfx deps deploy
+```
+
+该命令会在本地副本上部署所有依赖容器，如果某些依赖容器尚未被拉取、或未设置初始化参数，该命令将失败。您可以根据错误信息来进行修复。
 
 ## 其他 {#miscellaneous}
 
