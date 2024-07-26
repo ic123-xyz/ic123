@@ -38,6 +38,7 @@ const sidebars = {
         "getting-started/code-examples/ii-integration/index",
         "getting-started/code-examples/https-outcalls/index",
         "getting-started/code-examples/certified-variables/index",
+        "getting-started/code-examples/dfx-dependencies/index",
       ]
     },
   ],
