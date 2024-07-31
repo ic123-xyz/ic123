@@ -1,5 +1,5 @@
 ---
-slug: this-is-the-url-link
+slug: this-is-the-url-link-02
 title: 这是文章的 title
 authors: [herbert]
 image: "./img/poster-holder.jpg"

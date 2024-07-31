@@ -5,7 +5,7 @@ authors: [herbert]
 image: "./img/poster-bitget.jpg"
 tags: [bitget, node lab]
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, depin, bitget, node lab]
-draft: true
+draft: false
 ---
 
 import Community from '../../docs/community.md';
