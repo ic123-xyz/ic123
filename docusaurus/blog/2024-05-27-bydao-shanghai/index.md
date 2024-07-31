@@ -1,51 +1,61 @@
 ---
-slug: this-is-the-url-link-03
-title: 这是文章的 title
+slug: bydao-shanghai-icp-meetup
+title: ICP 开发技术分享会-上海站-DePIN之夏
 authors: [herbert]
-image: "./img/poster-holder.jpg"
-tags: [xx, xx, xx]
-keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, xx, xx, xx]
-draft: true
+image: "./img/poster-bydao-shanghai.jpg"
+tags: [by dao,ic1101, yuku, dmc, sama, cococat, vfans, partyboard]
+keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, Web3, Crypto, Blockchain, 区块链, 加密货币, DApp, 去中心化, 去中心化应用, developer, Shanghai, 上海, Herbert Yang]
+draft: false
 ---
 
 import Community from '../../docs/community.md';
 
-xxx
+在这场专注于DePIN技术的夏季盛会中，我们将展示如何利用区块链技术增强个人隐私保护和安全性
 
 <!--truncate-->
 
 ## 宣发
 
-![poster](./img/poster-holder.jpg)
+![poster](./img/poster-bydao-shanghai.jpg)
 
-日期：6月11日
+日期：5月27日
 
-时间：20:00 UTC+8
+地点：上海杨浦区大学路
 
-嘉宾
+议程
 
-- Host: Vivi Lin, [Octopus Network](https://twitter.com/oct_network)
-- 嘉宾：Louis Liu, [Octopus Network](https://twitter.com/oct_network)
-- 嘉宾：Paul Liu, [DFINITY](https://twitter.com/dfinity)
-- 嘉宾：Jeffrey Hu, [Hashkey Capital](https://twitter.com/HashKey_Capital)
-- 嘉宾：Ning Ning
+![agenda](./img/bydao-shanghai-agenda.jpg)
 
-推广链接
+宣发：https://x.com/bydao_cn/status/1794276131614724342
 
-- 宣发：https://twitter.com/oct_network/status/1752238946073874792
-- Twitter Spaces: https://twitter.com/i/spaces/1ZkKzjlkrpLKv
+## 现场
 
-## Q1
+在复旦的大本营，开放式的空间，效果不错，松弛而自由，
 
-## Q2
+![by dao 0527 shanghai 01](./img/bydao_shanghai_01.jpg)
 
+互联网计算机在 2024 里充满了机遇
 
-## Q3
+![by dao 0527 shanghai 03](./img/bydao_shanghai_03.jpg)
 
-## Q4
+IC 可以在智能合约里运行网络应用前端的秘密
 
-## Q5
+![by dao 0527 shanghai 04](./img/bydao_shanghai_04.jpg)
 
-## 视频回放
+大家都听得很专注
+
+![by dao 0527 shanghai 05](./img/bydao_shanghai_05.jpg)
+
+每次的 ICP 活动，都会引起同场出席的其他生态的嘉宾对 ICP 的兴趣，譬如 DMC 和 CocoCat
+
+![by dao 0527 shanghai 06](./img/bydao_shanghai_06.jpg)
+
+Herbert 主持的圆桌讨论
+
+![by dao 0527 shanghai 07](./img/bydao_shanghai_07.jpg)
+
+Sama Network 利用 ICP 领先业界的高并发特性提供隐私服务
+
+![by dao 0527 shanghai 08](./img/bydao_shanghai_08.jpg)
 
 <Community />
