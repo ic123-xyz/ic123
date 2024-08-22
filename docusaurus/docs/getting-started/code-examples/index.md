@@ -35,6 +35,10 @@ IC 提供了很多范例供开发者参考。以下所有的示例都开源，�
 
 ## 可认证变量 {#certified-variables}
 
-[可认证变量](./certified-variables/index.md) 示例介绍了如何使用互联网计算机 (IC) 的可认证变量功能。
+[可认证变量](./certified-variables/index.md)示例介绍了如何使用互联网计算机 (IC) 的可认证变量功能。
+
+## 容器日志 {#canister-logs}
+
+[容器日志](./canister-logs/index.md)示例演示了如何使用互联网计算机 (IC) 的容器日志功能。
 
 ## To be continued
