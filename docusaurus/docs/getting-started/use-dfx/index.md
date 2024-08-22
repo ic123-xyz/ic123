@@ -621,6 +621,27 @@ Controllers: r7inp-6aaaa-aaaaa-aaabq-cai
 Module hash: 0x3eadce8399b6bc9450bfb8bb54adefc1e27b2564146684d4c6d41a62c4110b73
 ```
 
+### 查看容器日志 {#canister-logs}
+
+`dfx canister logs` 命令可以显示容器的日志。它的基本用法如下：
+
+```
+dfx canister logs <canister-name>
+```
+
+下面是一个示例，显示来自 `hello_world` 容器的日志。
+
+```
+dfx canister logs hello_world
+```
+
+该命令将显示类似于以下内容的输出：
+
+```
+[0. 2024-06-04T21:14:25.882276Z]: Some text message
+[1. 2024-06-04T21:18:18.094003Z]: (bytes) 0xc0ffee
+```
+
 ### 安装容器代码 {#canister-install}
 
 `dfx canister install` 命令可以用来安装容器代码。它的基本用法如下：
