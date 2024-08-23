@@ -39,6 +39,7 @@ const sidebars = {
         "getting-started/code-examples/https-outcalls/index",
         "getting-started/code-examples/certified-variables/index",
         "getting-started/code-examples/dfx-dependencies/index",
+        "getting-started/code-examples/canister-logs/index",
       ]
     },
   ],
