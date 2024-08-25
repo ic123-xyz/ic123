@@ -86,7 +86,7 @@ export_candid!();
 
 - 执行如下脚本安装 `candid-extractor` 工具。
   ```bash
-  cargo install candid-extractor`
+  cargo install candid-extractor
   ```
 - 执行如下脚本编译容器。
   ```bash

@@ -55,7 +55,7 @@ import TeamContact from '../../../contact.md';
 
 ## 进入示例 {#navigate-into-example}
 
-按照如下命令进入包含项目文件的文件夹，并使用启动 IC 的本地开发环境。
+按照如下命令进入包含项目文件的文件夹，并启动 IC 的本地开发环境。
 
 ```bash
 cd examples/motoko/cert-var
