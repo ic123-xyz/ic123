@@ -34,6 +34,7 @@ const sidebars = {
       },
       items: [
         "getting-started/code-examples/threshold-ecdsa/index",
+        "getting-started/code-examples/threshold-schnorr/index",
         "getting-started/code-examples/btc-integration/index",
         "getting-started/code-examples/ii-integration/index",
         "getting-started/code-examples/https-outcalls/index",
