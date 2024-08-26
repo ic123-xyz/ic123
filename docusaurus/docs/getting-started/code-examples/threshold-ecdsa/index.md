@@ -1,10 +1,19 @@
+---
+title: 门限 ECDSA 签名
+image: './img/threshold-signature.png'
+description: 如何使用互联网计算机 (IC) 的 门限 ECDSA 签名功能
+keywords: [DFINITY, ICP, IC, 互联网计算机, canister, threshold, ECDSA, signature]
+---
+
 import TeamContact from '../../../contact.md';
 
 # 门限 ECDSA 签名
 
+![threshold-signature](./img/threshold-signature.png)
+
 ## 概览 {#overview}
 
-本教程提供了一个最小的容器智能合约、用于展示[门限 ECDSA](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa/) 的相关接口。本教程主要关注如何使用派生密钥创建 ECDSA 签名。具体步骤包括：
+本教程提供了一个最小的容器智能合约、用于展示[门限 ECDSA](https://internetcomputer.org/docs/current/developer-docs/smart-contracts/signatures/t-ecdsa) 的相关接口。本教程主要关注如何使用派生密钥创建 ECDSA 签名。具体步骤包括：
 
 - 容器接收到包含消息的请求；  
 - 容器对消息进行哈希，并使用派生字符串作为派生路径；  
@@ -26,10 +35,9 @@ import TeamContact from '../../../contact.md';
 
 本教程使用 [Motoko](https://github.com/dfinity/examples/tree/master/motoko/threshold-ecdsa) 版本的进行演示。在完成 Clone [示例仓库](https://github.com/dfinity/examples)之后，执行如下命令：
 
-```
+```bash
 cd examples/motoko/threshold-ecdsa
 dfx start --background
-npm install
 dfx deploy
 ```
 
@@ -39,7 +47,7 @@ dfx deploy
 
 如果成功，您会在命令行看到类似如下的输入：
 
-```
+```bash
 Installing code for canister ecdsa_example_motoko, with canister ID gm7ld-quaaa-aaaaa-qaaqa-cai
 Deployed canisters.
 URLs:
@@ -59,17 +67,17 @@ URLs:
   您可以参考[如何获取 cycles](https://ic123.xyz/docs/getting-started/get-cycles/) 来从 cycles 水龙头获取免费 cycles。
 - 更新示例代码中的 key ID。
 
-### 修改代码 {#modify-code}
+### 修改代码 {#update-code}
 
-在部署到 IC 主网之前，您需要修改 [src/ecdsa_example_motoko/main.mo](https://github.com/dfinity/examples/blob/master/motoko/threshold-ecdsa/src/ecdsa_example_motoko/main.mo#L24) 中的 `key_id` 的 `name` 属性。
+在部署到 IC 主网之前，您需要修改 `src/ecdsa_example_motoko/main.mo` 文件中的 `key_id` 的 `name` 属性。
 
 关于 `key_id` 的 `name` 属性，有三个选项：
 
-- dfx_test_key: 默认值，用来在本地 IC 的运行实例部署容器。
-- test_key_1: 主测试秘钥，用于主网。
-- key_1: 主生产秘钥，用于主网。
+- `dfx_test_key`: 默认值，用来在本地 IC 的运行实例部署容器。
+- `test_key_1`: 主测试秘钥，用于主网。
+- `key_1`: 主生产秘钥，用于主网。
 
-关于 `test_key_1` 和 `key_1` 的详细信息，请参考 [ECDSA 秘钥](https://internetcomputer.org/docs/current/developer-docs/integrations/t-ecdsa/t-ecdsa-how-it-works#ecdsa-keys)。
+关于 `test_key_1` 和 `key_1` 的详细信息，请参考 [ECDSA 秘钥](https://internetcomputer.org/docs/current/references/t-sigs-how-it-works#threshold-keys)。
 
 示例中 `src/ecdsa_example_motoko/main.mo` 的代码可直接部署到本地，它包含了如下两段代码：
 
@@ -87,10 +95,9 @@ let { signature } = await ic.sign_with_ecdsa({
   derivation_path = [ caller ];
   key_id = { curve = #secp256k1; name = "dfx_test_key" };
 });
-
 ```
 
-如果您需要部署到 IC 主网，则需要将 `key_id` 的 `dfx_test_key` 值根据您的意图替换为 `test_key_1` 或 `key_1`。
+如果您需要部署到 IC 主网，则需要将以上两处 `key_id` 的 `dfx_test_key` 值根据您的意图替换为 `test_key_1` 或 `key_1`，而且它们必须一致。
 
 ### 部署到 IC 主网 {#deploy-to-ic-mainnet}
 
@@ -98,23 +105,22 @@ let { signature } = await ic.sign_with_ecdsa({
 
 部署到 IC 主网很简单，您只需在命令行执行：
 
-```
-npm install
+```bash
 dfx deploy --network ic
 ```
 
 如果成功，您会在命令行看到类似如下的输入：
 
-```
+```bash
 Deployed canisters.
 URLs:
   Backend canister via Candid interface:
-    ecdsa_example_motoko: https://a3gq9-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=736w4-cyaaa-aaaal-qb3wq-cai
+    ecdsa_example_motoko: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=736w4-cyaaa-aaaal-qb3wq-cai
 ```
 
 ## 获取公钥 {#obtain-public-key}
 
-当您部署了容器之后会获得一个指向 Candid UI 的 URL，在这个页面您可以访问容器提供的公开方法。下图所示就是调用 `public-key` 方法：
+当您部署了容器之后会获得一个指向 Candid UI 的 URL，在这个页面您可以访问容器提供的公开方法。下图所示就是调用 `public_key` 方法：
 
 ![public_key](./img/candid_ui_public-key.png)
 
@@ -144,7 +150,9 @@ URLs:
 
 可以看到容器代码调用了 [IC 管理容器](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-management-canister)的 `ecdsa_public_key` 方法。
 
+:::note
 [IC 管理容器](https://internetcomputer.org/docs/current/references/ic-interface-spec/#ic-management-canister)遵循了[外观设计模式](https://en.wikipedia.org/wiki/Facade_pattern)，也就是说并没有一个真正意义上的容器存在，这种设计让其他容器能以人性化的方式调用 IC 系统 API（就好像存在一个真实的容器）。上面的代码示例使用了 IC 管理容器创建了一个 ECDSA 公钥。而 `let ic: IC = actor("aaaaa-aa")` 则声明了 IC 管理容器。
+:::
 
 ### 容器根公钥 {#canister-root-public-key}
 
