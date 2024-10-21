@@ -41,6 +41,7 @@ const sidebars = {
         "getting-started/code-examples/certified-variables/index",
         "getting-started/code-examples/dfx-dependencies/index",
         "getting-started/code-examples/canister-logs/index",
+        "getting-started/code-examples/canister-snapshot/index",
         "getting-started/code-examples/wasm-simd/index",
       ]
     },

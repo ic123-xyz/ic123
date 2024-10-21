@@ -642,6 +642,93 @@ dfx canister logs hello_world
 [1. 2024-06-04T21:18:18.094003Z]: (bytes) 0xc0ffee
 ```
 
+### 容器快照 {#canister-snapshot}
+
+当容器因未按预期工作、陷入陷阱等原因需要回滚到之前的版本，开发人员可以使用容器快照。一个容器包含编译后的 Wasm 代码和数据（例如容器 ID、配置和 Wasm 内存等），开发人员可以对已停止的容器进行快照，以保存当前的稳定内存、堆内存、数据和 Wasm 模块等信息。该快照可以在后期进行加载、以将容器回滚到快照中所保存的状态。
+
+#### 创建快照 {#canister-snapshot-create}
+
+`dfx canister snapshot create` 命令可以用来为已停止状态的容器创建快照。它的基本用法如下：
+
+```bash
+dfx canister snapshot create <canister> [--replace <replace>]
+```
+
+常用的参数和选项有：
+- `<canister>`  
+  用来指定容器名字或 ID。
+- `--replace <replace>`  
+  如果提供了快照 ID，当前快照将替换它并重用该 ID。
+
+以下是一个示例：
+
+```bash
+dfx canister stop hello
+dfx canister snapshot create hello
+dfx canister start hello
+```
+
+#### 加载快照 {#canister-snapshot-load}
+
+`dfx canister snapshot load` 命令可以用来加载之前通过 `dfx canister snapshot create` 命令创建的容器快照。它的基本用法如下：
+
+```bash
+dfx canister snapshot load <canister> <snapshot>
+```
+
+常用的参数和选项有：
+- `<canister>`  
+  用来指定容器名字或 ID。
+- `<snapshot>`  
+  用来指定需要加载的快照 ID。
+
+以下是一个示例：
+
+```bash
+dfx canister stop hello
+dfx canister snapshot load hello 1a2b3c4d
+dfx canister start hello
+```
+
+#### 删除快照 {#canister-snapshot-delete}
+
+`dfx canister snapshot delete` 命令可以用来删除之前通过 `dfx canister snapshot create` 命令创建的容器快照。它的基本用法如下：
+
+```bash
+dfx canister snapshot delete <canister> <snapshot>
+```
+
+常用的参数和选项有：
+- `<canister>`  
+  用来指定容器名字或 ID。
+- `<snapshot>`  
+  用来指定需要加载的快照 ID。
+
+以下是一个示例：
+
+```bash
+dfx canister snapshot load hello 1a2b3c4d
+```
+
+#### 列举快照 {#canister-snapshot-list}
+
+`dfx canister snapshot list` 命令可以用来列举之前通过 `dfx canister snapshot create` 命令创建的容器快照。它的基本用法如下：
+
+```bash
+dfx canister snapshot list <canister>
+```
+
+常用的参数和选项有：
+- `<canister>`  
+  用来指定容器名字或 ID。
+
+
+以下是一个示例：
+
+```bash
+dfx canister snapshot list hello
+```
+
 ### 安装容器代码 {#canister-install}
 
 `dfx canister install` 命令可以用来安装容器代码。它的基本用法如下：
