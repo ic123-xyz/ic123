@@ -432,7 +432,7 @@ Canister created with id: "53zcu-tiaaa-aaaaa-qaaba-cai"
 
 #### 自动创建
 
-请参考[如何获得免费 cycles](http://localhost:3000/docs/getting-started/get-cycles/#cycles-faucet) 文档。
+请参考[如何获得免费 cycles](https://ic123.xyz/docs/getting-started/get-cycles/#cycles-faucet) 文档。
 
 其中如下的命令行会帮助您创建一个 cycles 钱包。
 
