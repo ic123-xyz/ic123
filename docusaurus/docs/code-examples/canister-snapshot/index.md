@@ -5,7 +5,7 @@ description: 如何使用互联网计算机 (IC) 的容器日志
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, snapshot, 容器, 快照, recovery, 恢复, 回滚]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # 容器快照
 

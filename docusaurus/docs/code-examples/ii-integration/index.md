@@ -1,4 +1,4 @@
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # Internet Identity 集成
 
@@ -6,7 +6,7 @@ import TeamContact from '../../../contact.md';
 
 这个教程展示了如何将 `Internet Identity` 集成到 dapp 前端，并在后端容器中使用用户身份。
 
-本教程将详述将使用 `dfx new` 生成默认的模板与 `Internet Identity` 集成所需的所有步骤。有关 `dfx new` 的文档，请参考[这里](../../use-dfx/index.md#dfx-new)。 完成本教程后，您的`dapp` 将具备以下功能：
+本教程将详述将使用 `dfx new` 生成默认的模板与 `Internet Identity` 集成所需的所有步骤。有关 `dfx new` 的文档，请参考[这里](../../getting-started/use-dfx/index.md#dfx-new)。 完成本教程后，您的`dapp` 将具备以下功能：
 
 - 提供 `Internet Identity` 登录按钮。
 - 对 `Internet Identity` 提供的[主体](https://ic123.xyz/docs/getting-started/ic-glossary/#principal)进行问候。

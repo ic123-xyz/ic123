@@ -13,7 +13,7 @@ IC 提供了很多范例供开发者参考。以下所有的示例都开源，�
 
 ## Hello World {#hello-world}
 
-[Hello World](../hello-world/index.md) 示例由两个容器组成：
+[Hello World](../getting-started/hello-world/index.md) 示例由两个容器组成：
 - 前端容器提供了一个页面；
 - 后端容器提供方法供前端容器调用。
 

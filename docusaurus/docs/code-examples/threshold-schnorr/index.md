@@ -5,7 +5,7 @@ description: 如何使用互联网计算机 (IC) 的 门限 Schnorr 签名功能
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, threshold, schnorr, signature]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # 门限 Schnorr 签名
 

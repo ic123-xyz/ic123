@@ -5,7 +5,7 @@ description: 如何使用 dfx deps 功能
 keywords: [DFINITY, ICP, IC, 互联网计算机, dfx, deps, dependency, dependencies, 依赖]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # dfx deps
 

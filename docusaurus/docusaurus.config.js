@@ -112,6 +112,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'sampleSidebar',
+            position: 'left',
+            label: '代码示例',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'introSidebar',
             position: 'left',
             label: 'ICP 介绍',

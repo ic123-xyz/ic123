@@ -5,7 +5,7 @@ description: 如何利用 BTC-ICP 集成功能在 IC 网络上发送和接受比
 keywords: [DFINITY, ICP, IC, 互联网计算机, 比特币, BTC, BTC-ICP, BTC-ICP 集成, developer]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # BTC 集成
 

@@ -5,7 +5,7 @@ description: 如何使用互联网计算机 (IC) 的可认证变量
 keywords: [DFINITY, ICP, IC, 互联网计算机, Certified Variables, Certified Data, 可认证变量]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # 可认证变量
 

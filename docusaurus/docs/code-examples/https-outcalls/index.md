@@ -9,7 +9,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 4
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # HTTPS outcalls
 

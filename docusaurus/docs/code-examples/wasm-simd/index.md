@@ -5,7 +5,7 @@ description: 如何使用互联网计算机 (IC) 的 SIMD 功能
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, WebAssembly, Wasm，SIMD]
 ---
 
-import TeamContact from '../../../contact.md';
+import TeamContact from '../../contact.md';
 
 # WebAssembly SIMD
 
