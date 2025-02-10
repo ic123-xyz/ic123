@@ -112,12 +112,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'web3Sidebar',
-            position: 'left',
-            label: '解锁 Web3',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'introSidebar',
             position: 'left',
             label: 'ICP 介绍',
