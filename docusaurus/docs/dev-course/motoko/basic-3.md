@@ -1,12 +1,12 @@
 ---
-sidebar_position: 4
+title: 第三讲
 ---
 
-import TeamContact from '../contact.md';
+import TeamContact from '../../contact.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Motoko基础教程第三讲
+# Motoko 基础教程第三讲
 
 <Tabs>
   <TabItem value="B站" label="B站" default>

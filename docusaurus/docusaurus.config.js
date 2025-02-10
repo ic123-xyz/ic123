@@ -154,10 +154,10 @@ const config = {
               },
               {
                 label: '教程',
-                to: 'docs/dev-course/motoko-basic-1',
+                to: 'docs/dev-course/motoko/basic-0',
               },
               {
-                label: '五分钟体验Hello World',
+                label: '五分钟体验 Hello World',
                 to: 'docs/getting-started/hello-world',
               },
               {
@@ -170,11 +170,11 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'DFINITY开发者论坛',
+                label: 'DFINITY 开发者论坛',
                 href: 'https://forum.dfinity.org/',
               },
               {
-                label: 'NNS社区投票',
+                label: 'NNS 社区投票',
                 href: 'https://dashboard.internetcomputer.org/governance',
               },
               {
@@ -182,7 +182,7 @@ const config = {
                 href: 'https://dx.internetcomputer.org/',
               },
               {
-                label: '社区Live',
+                label: '社区 Live',
                 href: 'https://internetcomputer.org/live-sessions?source=nav',
               },
             ],

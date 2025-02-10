@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+title: 第一讲
 ---
 
-import TeamContact from '../contact.md';
+import TeamContact from '../../contact.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Motoko基础教程第一讲
+# Motoko 基础教程第一讲
 
 <Tabs>
   <TabItem value="B站" label="B站" default>
