@@ -2,8 +2,6 @@
 
 为什么我们要做 ic123.xyz 这样一个网站？她的愿景和规划是什么？ICP社区如何参与一起共建？
 
-![what is ic123](./img/dfinity-shanghai.jpg)
-
 ## 欢迎来到 ic123 ! 
 
 如果你是一位开发者，在这里可以找到学习[ICP](https://internetcomputer.org/) - `互联网计算机协议`的技术文档，实例演示，工具列表和开发教程。

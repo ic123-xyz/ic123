@@ -1,8 +1,0 @@
-{
-  "label": "开发者教程",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "跟随Paul老师学习用Motoko语言在ICP上开发新一代的DApp"
-  }
-}
