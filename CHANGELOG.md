@@ -2,6 +2,10 @@
 
 # Untweeted
 
+## Update the `hello world` sample
+
+Update the `hello world` sample to use Motoko Playground instead of deploying locally, which simplifies the workflow a lot.
+
 ## Reorg the top level bar
 
 Reorg the top level bar as:
