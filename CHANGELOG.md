@@ -2,6 +2,10 @@
 
 # Untweeted
 
+## Update the `get cycles` page
+
+Update the `get cycles` page by removing getting free cycles from the cycle faucet.
+
 ## Update the `hello world` sample
 
 Update the `hello world` sample to use Motoko Playground instead of deploying locally, which simplifies the workflow a lot.
