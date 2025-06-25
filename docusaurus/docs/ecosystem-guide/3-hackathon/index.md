@@ -3,7 +3,6 @@ title: 2025 世界计算机黑客松联盟大赛
 image: './img/poster.png'
 description: '全球最大规模的 ICP 黑客松联盟赛事 - World Computer Hacker League 2025（WCHL25）正式开启报名！'
 keywords: [DFINITY, ICP, IC, 互联网计算机, Internet Computer, Internet Computer Protocol, developer, 开发者, hackathon, 黑客松]
-draft: false
 ---
 
 ## 黑客松
