@@ -40,7 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: `G-W64Y138P08`,
+          trackingID: 'G-W64Y138P08',
           anonymizeIP: true,
         },
         docs: {
@@ -230,6 +230,12 @@ const config = {
         isCloseable: false, 
       },
     }),
+  scripts: [
+    {
+      src: '/js/gtag-fix.js',
+      defer: true,
+    },
+  ],
 };
 
 module.exports = config;
