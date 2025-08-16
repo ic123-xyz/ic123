@@ -126,7 +126,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'ecoSidebar',
             position: 'left',
-            label: '生态资源',
+            label: 'ICP 生态',
           },
           {
             type: 'docSidebar',
@@ -134,7 +134,7 @@ const config = {
             position: 'left',
             label: '关于 ic123',
           },
-          {to: '/blog', label: '新闻', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/ic123-xyz/ic123',
             label: 'GitHub',
