@@ -52,13 +52,39 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [math],
-          rehypePlugins: [katex],
+          rehypePlugins: [[katex, {
+            strict: false,
+            throwOnError: false,
+            errorColor: '#cc0000',
+            macros: {},
+            minRuleThickness: 0.06,
+            colorIsTextColor: false,
+            maxSize: Infinity,
+            maxExpand: 1000,
+            enableBbox: false,
+            enableSizing: false,
+            trust: true
+          }]],
         },
         blog: {
           showReadingTime: true,
           blogTitle: '互联网计算机ICP中文社区新闻', 
           blogDescription: '来自ICP生态的社区新闻，产品进展，开发者动态',
           blogSidebarCount: 'ALL',
+          remarkPlugins: [math],
+          rehypePlugins: [[katex, {
+            strict: false,
+            throwOnError: false,
+            errorColor: '#cc0000',
+            macros: {},
+            minRuleThickness: 0.06,
+            colorIsTextColor: false,
+            maxSize: Infinity,
+            maxExpand: 1000,
+            enableBbox: false,
+            enableSizing: false,
+            trust: true
+          }]],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
