@@ -11,6 +11,16 @@ on:
       - 'cmd-change-domain'
       - 'dns-setup'
       - '.github/workflows/deploy-production.yml'
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - 'canister_ids.json'
+      - 'cmd-change-domain'
+      - 'dns-setup'
+      - '.github/workflows/deploy-production.yml'
   workflow_dispatch:
 
 jobs:
