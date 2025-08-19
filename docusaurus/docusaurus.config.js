@@ -154,17 +154,17 @@ const config = {
             position: 'left',
             label: 'ICP 生态',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'aboutSidebar',
-            position: 'left',
-            label: '关于 ic123',
-          },
           {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/ic123-xyz/ic123',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'aboutSidebar',
+            position: 'left',
+            label: '关于 ic123',
           },
         ],
       },
