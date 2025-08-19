@@ -1,5 +1,3 @@
-import TeamContact from '../../contact.md';
-
 # Internet Identity 集成
 
 ## 概览 {#overview}
@@ -421,5 +419,3 @@ dfx deploy
 - 如果您使用 `Internet Identity` 登录，则会向您登录的主体进行问候。
 - 多次使用相同的 `Internet Identity` 登录应始终返回相同的主体。
 - 使用不同的 `Internet Identity` 将返回不同的主体。
-
-<TeamContact />

@@ -138,12 +138,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'sampleSidebar',
-            position: 'left',
-            label: '代码示例',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'ecoSidebar',
             position: 'left',
             label: 'ICP 生态',
@@ -178,7 +172,7 @@ const config = {
               },
               {
                 label: '白皮书',
-                to: 'docs/intro-ic/white-paper',
+                to: 'docs/ecosystem-guide/white-paper',
               },
             ],
           },

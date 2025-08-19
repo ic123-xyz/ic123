@@ -5,8 +5,6 @@ description: 如何使用互联网计算机 (IC) 的可认证变量
 keywords: [DFINITY, ICP, IC, 互联网计算机, Certified Variables, Certified Data, 可认证变量]
 ---
 
-import TeamContact from '../../contact.md';
-
 # 可认证变量
 
 ![可认证变量](./img/certified-variables.jpg)
@@ -102,5 +100,3 @@ URLs:
 当运行完成，您会看到如下所示界面：
 
 ![frontend-certified](./img/frontend-certified.png)
-
-<TeamContact />

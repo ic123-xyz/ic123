@@ -9,8 +9,6 @@ toc_min_heading_level: 2
 toc_max_heading_level: 4
 ---
 
-import TeamContact from '../../contact.md';
-
 # HTTPS outcalls
 
 ## 概览 {#overview}
@@ -1522,5 +1520,3 @@ async fn foo() {
   ```
 
   同样您可以打开 Candid Web UI 并调用 `send_http_post_request()` 方法。
-
-<TeamContact />

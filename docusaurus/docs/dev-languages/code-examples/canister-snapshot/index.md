@@ -5,8 +5,6 @@ description: 如何使用互联网计算机 (IC) 的容器日志
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, snapshot, 容器, 快照, recovery, 恢复, 回滚]
 ---
 
-import TeamContact from '../../contact.md';
-
 # 容器快照
 
 ![容器快照](./img/canister-snapshot.png)
@@ -199,5 +197,3 @@ dfx canister call chat dump
 这里您可以看到我们成功的从容器快照中恢复了丢失的数据。
 
 以上教程展示了最基本的容器快照用法。容器快照是为开发者提供的一个强大的新工具。在发生意外数据丢失、漏洞或配置错误时，容器可以快速恢复到之前的正常状态。它有助于确保关键数据和服务在面对意外事件时仍然可访问，为开发者提供了安心保障。
-
-<TeamContact />

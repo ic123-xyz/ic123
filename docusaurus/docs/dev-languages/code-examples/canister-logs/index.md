@@ -5,8 +5,6 @@ description: 如何使用互联网计算机 (IC) 的容器日志
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, logs, 容器，日志]
 ---
 
-import TeamContact from '../../contact.md';
-
 # 容器日志
 
 ![容器日志](./img/canister-logs.jpg)
@@ -145,4 +143,3 @@ dfx canister logs canister_logs_backend
 
 以上教程展示了 Rust 中最基本的容器日志用法。您也可以参考 DFINITY 基金会的官方示例、分别查看 [Rust](https://github.com/dfinity/examples/tree/master/rust/canister_logs) 和 [Motoko](https://github.com/dfinity/examples/tree/master/motoko/canister_logs) 版本。
 
-<TeamContact />

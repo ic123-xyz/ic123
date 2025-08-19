@@ -5,8 +5,6 @@ description: 如何使用 dfx deps 功能
 keywords: [DFINITY, ICP, IC, 互联网计算机, dfx, deps, dependency, dependencies, 依赖]
 ---
 
-import TeamContact from '../../contact.md';
-
 # dfx deps
 
 ![dfx_deps](./img/dependencies.jpg)
@@ -261,5 +259,3 @@ URLs:
   ![app](./img/app.png)
 
   点击 `Call` 按钮，将返回 `2`。
-
-<TeamContact />

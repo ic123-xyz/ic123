@@ -5,8 +5,6 @@ description: 如何利用 BTC-ICP 集成功能在 IC 网络上发送和接受比
 keywords: [DFINITY, ICP, IC, 互联网计算机, 比特币, BTC, BTC-ICP, BTC-ICP 集成, developer]
 ---
 
-import TeamContact from '../../contact.md';
-
 # BTC 集成
 
 ![BTC集成](./img/btc-icp.jpg)
@@ -174,5 +172,3 @@ dfx canister --network=ic call basic_bitcoin send '(record { destination_address
 - 使用比特币水龙头获取一些测试网比特币； 
 - 检查容器比特币地址的测试网比特币余额；
 - 使用容器将测试网比特币发送到另一个比特币地址。
-
-<TeamContact />

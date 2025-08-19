@@ -5,8 +5,6 @@ description: 如何使用互联网计算机 (IC) 的 门限 ECDSA 签名功能
 keywords: [DFINITY, ICP, IC, 互联网计算机, canister, threshold, ECDSA, signature]
 ---
 
-import TeamContact from '../../contact.md';
-
 # 门限 ECDSA 签名
 
 ![threshold-signature](./img/threshold-signature.png)
@@ -222,5 +220,3 @@ URLs:
 - 使用私有 ECDSA 密钥签名，而容器本身不持有 ECDSA 密钥。
 - 请求公钥。
 - 验证签名。
-
-<TeamContact />
