@@ -144,12 +144,6 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'introSidebar',
-            position: 'left',
-            label: 'ICP 介绍',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'ecoSidebar',
             position: 'left',
             label: 'ICP 生态',
