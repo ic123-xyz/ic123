@@ -46,6 +46,16 @@ const sidebars = {
         "dev-languages/overview/index",
         "dev-languages/motoko/intro/index",
         "dev-languages/rust/intro/index",
+        "dev-languages/code-examples/overview/index",
+        "dev-languages/code-examples/ii-integration/index",
+        "dev-languages/code-examples/threshold-ecdsa/index",
+        "dev-languages/code-examples/threshold-schnorr/index",
+        "dev-languages/code-examples/btc-integration/index",
+        "dev-languages/code-examples/https-outcalls/index",
+        "dev-languages/code-examples/certified-variables/index",
+        "dev-languages/code-examples/canister-logs/index",
+        "dev-languages/code-examples/canister-snapshot/index",
+        "dev-languages/code-examples/wasm-simd/index",
       ]
     }
   ],
