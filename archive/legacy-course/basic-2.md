@@ -2,7 +2,6 @@
 title: 第二讲
 ---
 
-import TeamContact from '../../contact.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -24,5 +23,3 @@ import TabItem from '@theme/TabItem';
 ## 讲义
 
 下载讲义PDF文件(0.8MB)<a target="\_blank" href={require("@site/static/asset/icp_course_02.pdf").default}>《ICP开发者入门课程第二讲·讲义》</a>到本地。
-
-<TeamContact />

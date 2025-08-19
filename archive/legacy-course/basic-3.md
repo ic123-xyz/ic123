@@ -2,7 +2,6 @@
 title: 第三讲
 ---
 
-import TeamContact from '../../contact.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -24,5 +23,3 @@ import TabItem from '@theme/TabItem';
 ## 讲义
 
 下载讲义PDF文件(0.7MB)<a target="\_blank" href={require("@site/static/asset/icp_course_03.pdf").default}>《ICP开发者入门课程第三讲·讲义》</a>到本地。
-
-<TeamContact />

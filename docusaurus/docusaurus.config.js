@@ -132,9 +132,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'devSidebar',
+            sidebarId: 'languageSidebar',
             position: 'left',
-            label: '开发者教程',
+            label: '开发语言',
           },
           {
             type: 'docSidebar',
@@ -177,10 +177,6 @@ const config = {
               {
                 label: '核心词汇',
                 to: 'docs/getting-started/ic-glossary',
-              },
-              {
-                label: '教程',
-                to: 'docs/dev-course/motoko/basic-0',
               },
               {
                 label: '五分钟体验 Hello World',

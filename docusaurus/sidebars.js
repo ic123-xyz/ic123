@@ -38,17 +38,14 @@ const sidebars = {
     },
   ],
 
-  devSidebar: [
+  languageSidebar  : [
     {
       type: 'category',
-      label: "Motoko 基础教程",
+      label: "开发语言",
       items: [
-        "dev-course/motoko/basic-0",
-        "dev-course/motoko/basic-1",
-        "dev-course/motoko/basic-2",
-        "dev-course/motoko/basic-3",
-        "dev-course/motoko/basic-4",
-        "dev-course/motoko/basic-5",
+        "dev-languages/overview/index",
+        "dev-languages/motoko/intro/index",
+        "dev-languages/rust/intro/index",
       ]
     }
   ],

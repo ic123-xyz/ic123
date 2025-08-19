@@ -2,7 +2,6 @@
 title: 导读
 ---
 
-import TeamContact from '../../contact.md';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -30,5 +29,3 @@ Paul 录制了一个 6 分钟的介绍，来阐述这个课程的体制的结构
     </div>
   </TabItem>
 </Tabs>
-
-<TeamContact />
