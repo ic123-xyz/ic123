@@ -59,11 +59,11 @@ e213184a548871a47fb526f3cba24e2ee2fbbc8129c4ab497ef2ce535130a0a4
 
 - 通过支持 ICP 代币的交易所直接购买。请查看[该页面](https://coinmarketcap.com/currencies/internet-computer/markets/)以了解可以购买 ICP 代币的交易所。
 
-- 通过参与 [IC 治理](/docs/intro-ic/stake-icp/)的奖励获得代币。
+- 通过参与 [IC 治理](../../ecosystem-guide/stake-icp/)的奖励获得代币。
 
-- 通过参与 DFINITY 基金会的[开发者计划](/docs/ecosystem-guide/dev-grants/)获得 ICP 代币。
+- 通过参与 DFINITY 基金会的[开发者计划](../../ecosystem-guide/dev-grants/)获得 ICP 代币。
 
-- 作为[节点提供者](/docs/ecosystem-guide/node-provider-faq/)获得 ICP 代币，以作为提供算力的报酬。
+- 作为[节点提供者](../../ecosystem-guide/node-provider-faq/)获得 ICP 代币，以作为提供算力的报酬。
 
 通常来说，价值 5 到 10 美元的 ICP 代币足以开始您的开发工作。后续您可以根据您的工作流程和实际用例来决定是否获取更多的 ICP 代币。
 
@@ -301,6 +301,6 @@ dfx ledger top-up --icp 1 b5wdk-xiaaa-aaaan-qlsqq-cai --network ic
 
 ## 总结 {#conclusion}
 
-至此您已经准备好在 IC 上托管网站或按照我们的 [dApps 教程](/docs/code-examples/)进行操作，您可以在[这里](https://internetcomputer.org/docs/current/tutorials/)找到相关教程。
+至此您已经准备好在 IC 上托管网站或按照我们的 [dApps 教程](../../dev-languages/code-examples/overview/)进行操作，您可以在[这里](https://internetcomputer.org/docs/current/tutorials/)找到相关教程。
 
 <TeamContact />

@@ -40,7 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: `G-W64Y138P08`,
+          trackingID: 'G-W64Y138P08',
           anonymizeIP: true,
         },
         docs: {
@@ -52,13 +52,39 @@ const config = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           remarkPlugins: [math],
-          rehypePlugins: [katex],
+          rehypePlugins: [[katex, {
+            strict: false,
+            throwOnError: false,
+            errorColor: '#cc0000',
+            macros: {},
+            minRuleThickness: 0.06,
+            colorIsTextColor: false,
+            maxSize: Infinity,
+            maxExpand: 1000,
+            enableBbox: false,
+            enableSizing: false,
+            trust: true
+          }]],
         },
         blog: {
           showReadingTime: true,
           blogTitle: '互联网计算机ICP中文社区新闻', 
           blogDescription: '来自ICP生态的社区新闻，产品进展，开发者动态',
           blogSidebarCount: 'ALL',
+          remarkPlugins: [math],
+          rehypePlugins: [[katex, {
+            strict: false,
+            throwOnError: false,
+            errorColor: '#cc0000',
+            macros: {},
+            minRuleThickness: 0.06,
+            colorIsTextColor: false,
+            maxSize: Infinity,
+            maxExpand: 1000,
+            enableBbox: false,
+            enableSizing: false,
+            trust: true
+          }]],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -106,39 +132,27 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'devSidebar',
+            sidebarId: 'languageSidebar',
             position: 'left',
-            label: '开发者教程',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sampleSidebar',
-            position: 'left',
-            label: '代码示例',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'introSidebar',
-            position: 'left',
-            label: 'ICP 介绍',
+            label: '开发语言',
           },
           {
             type: 'docSidebar',
             sidebarId: 'ecoSidebar',
             position: 'left',
-            label: '生态资源',
+            label: 'ICP 生态',
+          },
+          {to: '/blog', label: '博客', position: 'left'},
+          {
+            href: 'https://github.com/ic123-xyz/ic123',
+            label: 'GitHub',
+            position: 'right',
           },
           {
             type: 'docSidebar',
             sidebarId: 'aboutSidebar',
             position: 'left',
             label: '关于 ic123',
-          },
-          {to: '/blog', label: '新闻', position: 'left'},
-          {
-            href: 'https://github.com/ic123-xyz/ic123',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -153,16 +167,12 @@ const config = {
                 to: 'docs/getting-started/ic-glossary',
               },
               {
-                label: '教程',
-                to: 'docs/dev-course/motoko/basic-0',
-              },
-              {
                 label: '五分钟体验 Hello World',
                 to: 'docs/getting-started/hello-world',
               },
               {
                 label: '白皮书',
-                to: 'docs/intro-ic/white-paper',
+                to: 'docs/ecosystem-guide/white-paper',
               },
             ],
           },
@@ -230,6 +240,12 @@ const config = {
         isCloseable: false, 
       },
     }),
+  scripts: [
+    {
+      src: '/js/gtag-fix.js',
+      defer: true,
+    },
+  ],
 };
 
 module.exports = config;
